@@ -1,0 +1,161 @@
+[gd_scene format=3 uid="uid://mbvsxewhcu6s"]
+
+[ext_resource type="Texture2D" uid="uid://u7dunenjiuqk" path="res://Floor.png" id="1_ig7tw"]
+[ext_resource type="Script" uid="uid://b4avvweholn7c" path="res://player.gd" id="2_0xm2m"]
+[ext_resource type="Script" uid="uid://cxcvmibdxuaw2" path="res://spot_light_3d.gd" id="3_h2yge"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_0xm2m"]
+sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+ground_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
+
+[sub_resource type="Sky" id="Sky_h2yge"]
+sky_material = SubResource("ProceduralSkyMaterial_0xm2m")
+
+[sub_resource type="Environment" id="Environment_1bvp3"]
+background_mode = 1
+background_color = Color(0.14901961, 0.15294118, 0.14901961, 1)
+sky = SubResource("Sky_h2yge")
+
+[sub_resource type="ORMMaterial3D" id="ORMMaterial3D_atr75"]
+albedo_texture = ExtResource("1_ig7tw")
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_skkxb"]
+radius = 2.2070313
+height = 10.565918
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_h2yge"]
+points = PackedVector3Array(2.075015, 3.579383, 0.5180566, -2.1349797, -3.4349575, -0.41633892, -2.1416926, -3.445895, 0.36456493, 1.7940325, -4.2741833, -0.4217465, -0.41633892, 3.4349575, -2.1349797, -0.72351366, 3.2547948, 2.0657318, 0.6717138, -3.4151452, 2.0693908, -1.987118, 3.9215443, -0.41813162, 0.9728935, -3.3831255, -1.9486932, 1.6073453, 3.7348542, -1.3493482, 0.21475522, 5.1563973, 0.6981202, -1.1811402, -3.5411317, -1.7974311, -0.5910013, -5.16425, 0.37634778, -1.0357398, -3.4163885, 1.9145719, 0.97952026, 3.5597785, 1.9084152, 1.7529732, -3.404095, 1.2887247, -1.9486932, 3.3831255, 0.9728935, 2.0657318, -3.2547948, -0.72351366, -1.6253597, 3.198692, -1.4731845, -0.42569506, 4.956077, -1.0655859, -0.42569512, -4.9560776, -1.0655861, 0.533111, -4.958184, 1.0130216, -1.220511, 4.777431, 0.689732, 0.9728949, 3.3831303, -1.9486958, 0.36456499, -3.4458954, -2.1416929, 1.3285531, 4.782768, -0.42452914, 2.0657752, 3.254862, -0.7235281, -1.6399528, -3.381004, 1.4333661, 2.0749986, -3.5793548, 0.5180523, 0.6932089, -4.9600344, -0.90652645, -2.1349792, 3.434957, -0.41633886, 1.5893334, -3.386039, -1.4885622)
+
+[node name="Main" type="Node3D" unique_id=1117791602]
+metadata/_edit_horizontal_guides_ = [-448.0]
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=319153210]
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 26.400265, 65.505005, 101.54117)
+visible = false
+shadow_enabled = true
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1689961970]
+environment = SubResource("Environment_1bvp3")
+
+[node name="Floor" type="CSGBox3D" parent="." unique_id=936763557]
+material_override = SubResource("ORMMaterial3D_atr75")
+use_collision = true
+size = Vector3(251.08496, 0.5179561, 226.98438)
+
+[node name="Ceiling" type="CSGBox3D" parent="." unique_id=1729456028]
+transform = Transform3D(0.99999994, 0, 0, 0, 0.99999994, 0, 0, 0, 1, -28.111519, 27.513615, 16.693005)
+use_collision = true
+size = Vector3(156.70667, 0.5179561, 211.15224)
+
+[node name="CSGCombiner3D" type="CSGCombiner3D" parent="." unique_id=998485591]
+use_collision = true
+
+[node name="Wall" type="CSGBox3D" parent="CSGCombiner3D" unique_id=798130437]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8481274, 6.9785004, -67.120926)
+size = Vector3(90.708, 40, 3.436)
+
+[node name="Wall12" type="CSGBox3D" parent="CSGCombiner3D" unique_id=1112244607]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.758232, 6.9785004, -67.120926)
+size = Vector3(149.9707, 40, 3.436)
+
+[node name="Wall4" type="CSGBox3D" parent="CSGCombiner3D" unique_id=788491965]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8481274, 6.9785004, 20.07507)
+size = Vector3(90.708, 40, 3.436)
+
+[node name="Wall7" type="CSGBox3D" parent="CSGCombiner3D" unique_id=1970848600]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8481274, 6.9785004, 105.836426)
+size = Vector3(90.708, 40, 3.436)
+
+[node name="Wall10" type="CSGBox3D" parent="CSGCombiner3D" unique_id=1282487095]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -31.560852, 6.9785004, 105.836426)
+size = Vector3(150.134, 40, 3.436)
+
+[node name="Wall2" type="CSGBox3D" parent="CSGCombiner3D" unique_id=1148884111]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 41.702152, 6.9785004, -23.495686)
+size = Vector3(90.708, 40, 3.436)
+
+[node name="Wall9" type="CSGBox3D" parent="CSGCombiner3D" unique_id=434387347]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -104.991104, 6.9785004, 19.476116)
+size = Vector3(176.239, 40, 3.436)
+
+[node name="Wall6" type="CSGBox3D" parent="CSGCombiner3D" unique_id=883104944]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 41.702152, 6.9785004, 61.848232)
+size = Vector3(90.708, 40, 3.436)
+
+[node name="Wall8" type="CSGBox3D" parent="CSGCombiner3D" unique_id=301466561]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -45.790173, 6.9785004, 61.848232)
+size = Vector3(90.708, 40, 3.436)
+
+[node name="Wall5" type="CSGBox3D" parent="CSGCombiner3D" unique_id=1815926677]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 5.035391, 6.9785004, -23.495686)
+size = Vector3(90.708, 40, 3.436)
+
+[node name="Wall3" type="CSGBox3D" parent="CSGCombiner3D" unique_id=799577203]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -45.77841, 6.9785004, -23.495686)
+size = Vector3(90.708, 40, 3.436)
+
+[node name="Door" type="CSGBox3D" parent="CSGCombiner3D" unique_id=1179470698]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -48.5306, 2.8224716, 50.019863)
+operation = 2
+size = Vector3(10.833984, 31.371216, 9.743)
+
+[node name="Door2" type="CSGBox3D" parent="CSGCombiner3D" unique_id=806986800]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 2.3313751, 2.8224716, -36.460766)
+operation = 2
+size = Vector3(10.833984, 31.371216, 9.743)
+
+[node name="Door3" type="CSGBox3D" parent="CSGCombiner3D" unique_id=1913466430]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.531113, 2.8224716, 21.670498)
+operation = 2
+size = Vector3(10.833984, 31.371216, 9.743)
+
+[node name="Door4" type="CSGBox3D" parent="CSGCombiner3D" unique_id=1303057493]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -107.84366, 2.8224716, -19.931313)
+operation = 2
+size = Vector3(10.833984, 31.371216, 9.743)
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="." unique_id=1901592758]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.528598, 5.3966713, 0)
+script = ExtResource("2_0xm2m")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CharacterBody3D" unique_id=1150434806]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.529, 0.62253714, 0)
+mesh = SubResource("CapsuleMesh_skkxb")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D" unique_id=1973181577]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.529, 0.62253714, 0)
+shape = SubResource("ConvexPolygonShape3D_h2yge")
+
+[node name="Head" type="Node3D" parent="CharacterBody3D" unique_id=1942917443]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.529, 3.4860716, 0)
+
+[node name="Camera3D" type="Camera3D" parent="CharacterBody3D/Head" unique_id=650252209]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.8529711, 0)
+cull_mask = 1048573
+
+[node name="SpotLight3D" type="SpotLight3D" parent="CharacterBody3D/Head/Camera3D" unique_id=1351798078]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -1.087, 0)
+light_energy = 7.933
+spot_range = 78.549
+script = ExtResource("3_h2yge")
+
+[node name="CanvasLayer" type="CanvasLayer" parent="CharacterBody3D" unique_id=1635879058]
+
+[node name="Stamina" type="ProgressBar" parent="CharacterBody3D/CanvasLayer" unique_id=756020417]
+offset_left = 187.0
+offset_top = 102.0
+offset_right = 919.0
+offset_bottom = 136.0
+theme_override_colors/font_color = Color(0.95, 0.95, 0.95, 1)
+max_value = 10.0
+value = 5.0
+
+[node name="Battery_life" type="ProgressBar" parent="CharacterBody3D/CanvasLayer" unique_id=1816234649]
+offset_left = 1092.0
+offset_top = 112.0
+offset_right = 1119.0
+offset_bottom = 353.0
+theme_override_colors/font_color = Color(0.95, 0.95, 0.95, 1)
+max_value = 200.0
+value = 5.0
+fill_mode = 3
