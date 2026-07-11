@@ -20,6 +20,7 @@ var resistance = 1
 var checkx = true
 var checky = true
 
+
 @onready var head = $Head
 @onready var camera = $Head/Camera3D
 @onready var progress = $CanvasLayer/Stamina
@@ -56,6 +57,10 @@ func _physics_process(delta: float) -> void:
 				progress.hide()
 			else:
 				progress.show()
+	if Input.is_key_pressed(KEY_ESCAPE):
+		Input.set_mouse_mode(Input.MOUSE_MODE_VISIBLE)
+	if Input.is_key_pressed(KEY_TAB):
+		Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 	if not is_on_floor():
 		velocity += get_gravity() * delta
 		jump = 1
@@ -68,7 +73,7 @@ func _physics_process(delta: float) -> void:
 
 	# Get the input direction and handle the movement/deceleration.
 	# As good practice, you should replace UI actions with custom gameplay actions.
-	var input_dir := Input.get_vector("ui_left", "ui_right", "ui_up", "ui_down")
+	var input_dir = Input.get_vector("move_left", "move_right", "move_up", "move_down")
 	var direction = (head.transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
 	if direction:
 		velocity.x = direction.x * SPEED * resistance

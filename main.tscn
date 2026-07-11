@@ -38,9 +38,10 @@ shadow_enabled = true
 environment = SubResource("Environment_1bvp3")
 
 [node name="Floor" type="CSGBox3D" parent="." unique_id=936763557]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.12414551, 0.35910034, 0.51678467)
 material_override = SubResource("ORMMaterial3D_atr75")
 use_collision = true
-size = Vector3(251.08496, 0.5179561, 226.98438)
+size = Vector3(577.5088, 0.5179561, 530.0498)
 
 [node name="Ceiling" type="CSGBox3D" parent="." unique_id=1729456028]
 transform = Transform3D(0.99999994, 0, 0, 0, 0.99999994, 0, 0, 0, 1, -28.111519, 27.513615, 16.693005)
