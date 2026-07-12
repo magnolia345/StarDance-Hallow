@@ -19,12 +19,13 @@ var t_bob: float = 0.0
 var resistance = 1
 var checkx = true
 var checky = true
+var door = null
 
 
 @onready var head = $Head
 @onready var camera = $Head/Camera3D
 @onready var progress = $CanvasLayer/Stamina
-@onready var flashlight = $Head/Camera3D/SpotLight3D
+@onready var flashlight = $Head/Camera3D/SpotLight
 
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
