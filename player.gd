@@ -25,7 +25,7 @@ var door = null
 @onready var head = $Head
 @onready var camera = $Head/Camera3D
 @onready var progress = $CanvasLayer/Stamina
-@onready var flashlight = $Head/Camera3D/SpotLight
+@onready var flashlight = $Head/Camera3D/SpotLight3D
 
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)

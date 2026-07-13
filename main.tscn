@@ -3,6 +3,7 @@
 [ext_resource type="Texture2D" uid="uid://u7dunenjiuqk" path="res://Floor.png" id="1_ig7tw"]
 [ext_resource type="Script" uid="uid://b4avvweholn7c" path="res://player.gd" id="2_0xm2m"]
 [ext_resource type="Script" uid="uid://cxcvmibdxuaw2" path="res://spot_light_3d.gd" id="3_h2yge"]
+[ext_resource type="PackedScene" uid="uid://cynvwkvgfc3cr" path="res://door.tscn" id="4_1bvp3"]
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_0xm2m"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -30,7 +31,7 @@ points = PackedVector3Array(2.075015, 3.579383, 0.5180566, -2.1349797, -3.434957
 metadata/_edit_horizontal_guides_ = [-448.0]
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=319153210]
-transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 26.400265, 65.505005, 101.54117)
+transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 26.400265, 30.841373, 82.03864)
 visible = false
 shadow_enabled = true
 
@@ -95,25 +96,28 @@ size = Vector3(90.708, 40, 3.436)
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -45.77841, 6.9785004, -23.495686)
 size = Vector3(90.708, 40, 3.436)
 
-[node name="Door" type="CSGBox3D" parent="CSGCombiner3D" unique_id=1179470698]
+[node name="Door Space" type="CSGBox3D" parent="CSGCombiner3D" unique_id=1179470698]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -48.5306, 2.8224716, 50.019863)
 operation = 2
 size = Vector3(10.833984, 31.371216, 9.743)
 
-[node name="Door2" type="CSGBox3D" parent="CSGCombiner3D" unique_id=806986800]
+[node name="Door Space2" type="CSGBox3D" parent="CSGCombiner3D" unique_id=806986800]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 2.3313751, 2.8224716, -36.460766)
 operation = 2
 size = Vector3(10.833984, 31.371216, 9.743)
 
-[node name="Door3" type="CSGBox3D" parent="CSGCombiner3D" unique_id=1913466430]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 24.531113, 2.8224716, 21.670498)
+[node name="Door Space3" type="CSGBox3D" parent="CSGCombiner3D" unique_id=1279848351]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 27.146362, 2.8224716, 18.78505)
 operation = 2
 size = Vector3(10.833984, 31.371216, 9.743)
 
-[node name="Door4" type="CSGBox3D" parent="CSGCombiner3D" unique_id=1303057493]
+[node name="Door Space4" type="CSGBox3D" parent="CSGCombiner3D" unique_id=1303057493]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -107.84366, 2.8224716, -19.931313)
 operation = 2
 size = Vector3(10.833984, 31.371216, 9.743)
+
+[node name="Door" parent="CSGCombiner3D" unique_id=1265483181 instance=ExtResource("4_1bvp3")]
+transform = Transform3D(1.9573863, 0, 0, 0, 3.6610026, 0, 0, 0, 3.269513, 21.463898, 6.4171104, 12.289139)
 
 [node name="CharacterBody3D" type="CharacterBody3D" parent="." unique_id=1901592758]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.528598, 5.3966713, 0)
