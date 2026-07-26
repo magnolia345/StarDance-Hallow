@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://d08agh7cae1rj"
+path="res://.godot/imported/creak2.ogg-21b729f0b186c188ef70b2a4216430b3.oggvorbisstr"
+
+[deps]
+
+source_file="res://Godot_Super-Wakatime-34869da34677c7d2a8a26c6ac69d88a1e64afe6f 10-29-51-772/kenney_rpg-audio 7.26.16 PM/Audio/creak2.ogg"
+dest_files=["res://.godot/imported/creak2.ogg-21b729f0b186c188ef70b2a4216430b3.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

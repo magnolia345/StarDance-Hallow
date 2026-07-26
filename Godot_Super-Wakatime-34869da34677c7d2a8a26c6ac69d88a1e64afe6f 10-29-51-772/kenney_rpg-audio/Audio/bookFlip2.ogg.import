@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://b2nn0ooo4tgea"
+path="res://.godot/imported/bookFlip2.ogg-0339b18cee4414028feca4b59b465fcd.oggvorbisstr"
+
+[deps]
+
+source_file="res://Godot_Super-Wakatime-34869da34677c7d2a8a26c6ac69d88a1e64afe6f 10-29-51-772/kenney_rpg-audio/Audio/bookFlip2.ogg"
+dest_files=["res://.godot/imported/bookFlip2.ogg-0339b18cee4414028feca4b59b465fcd.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
