@@ -3,16 +3,15 @@
 [ext_resource type="Texture2D" uid="uid://u7dunenjiuqk" path="res://Floor.png" id="1_ig7tw"]
 [ext_resource type="Script" uid="uid://b4avvweholn7c" path="res://player.gd" id="2_0xm2m"]
 [ext_resource type="Script" uid="uid://cxcvmibdxuaw2" path="res://spot_light_3d.gd" id="3_h2yge"]
-<<<<<<< HEAD
+
 [ext_resource type="PackedScene" uid="uid://cynvwkvgfc3cr" path="res://door.tscn" id="4_1bvp3"]
-=======
+
 [ext_resource type="PackedScene" uid="uid://20djmtcqmg6d" path="res://kenney_prototype-kit/Models/GLB format/wall-corner.glb" id="4_kek77"]
 [ext_resource type="PackedScene" uid="uid://cm2y1agyu2ydn" path="res://kenney_prototype-kit/Models/GLB format/stairs.glb" id="5_4c57u"]
 [ext_resource type="PackedScene" uid="uid://b20h2egcn5c2y" path="res://kenney_prototype-kit/Models/GLB format/wall-doorway.glb" id="6_efxa6"]
 [ext_resource type="PackedScene" uid="uid://dpygi7k3j86fv" path="res://kenney_prototype-kit/Models/GLB format/wall.glb" id="7_dg77c"]
 [ext_resource type="PackedScene" uid="uid://tkicx47kqcas" path="res://kenney_prototype-kit/Models/GLB format/floor-square.glb" id="8_ycdy4"]
 [ext_resource type="MeshLibrary" uid="uid://ck06enxj7sxef" path="res://tiles.meshlib" id="9_w48qg"]
->>>>>>> 727d7218cd6ab80e76ba532329850c1a107557cb
 
 [sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_0xm2m"]
 sky_horizon_color = Color(0.66224277, 0.6717428, 0.6867428, 1)
@@ -40,12 +39,12 @@ points = PackedVector3Array(2.075015, 3.579383, 0.5180566, -2.1349797, -3.434957
 metadata/_edit_horizontal_guides_ = [-448.0]
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="." unique_id=319153210]
-<<<<<<< HEAD
+
 transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 26.400265, 30.841373, 82.03864)
 visible = false
-=======
+
 transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, 26.400265, 65.505005, 101.54117)
->>>>>>> 727d7218cd6ab80e76ba532329850c1a107557cb
+
 shadow_enabled = true
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="." unique_id=1689961970]
