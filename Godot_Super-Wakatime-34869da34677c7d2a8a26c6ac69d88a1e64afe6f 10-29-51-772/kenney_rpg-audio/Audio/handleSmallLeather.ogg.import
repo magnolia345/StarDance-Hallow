@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://c68sjm7f6b2yw"
+path="res://.godot/imported/handleSmallLeather.ogg-77506a824a48b340ac23e2a882fe7ea1.oggvorbisstr"
+
+[deps]
+
+source_file="res://Godot_Super-Wakatime-34869da34677c7d2a8a26c6ac69d88a1e64afe6f 10-29-51-772/kenney_rpg-audio/Audio/handleSmallLeather.ogg"
+dest_files=["res://.godot/imported/handleSmallLeather.ogg-77506a824a48b340ac23e2a882fe7ea1.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

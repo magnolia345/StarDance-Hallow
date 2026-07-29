@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://df1sy44lr71ly"
+path="res://.godot/imported/doorClose_3.ogg-e2ac23b2918a30de03a0e8651ff90945.oggvorbisstr"
+
+[deps]
+
+source_file="res://Godot_Super-Wakatime-34869da34677c7d2a8a26c6ac69d88a1e64afe6f 10-29-51-772/kenney_rpg-audio/Audio/doorClose_3.ogg"
+dest_files=["res://.godot/imported/doorClose_3.ogg-e2ac23b2918a30de03a0e8651ff90945.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

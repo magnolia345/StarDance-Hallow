@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://cjwxi5l7yypf5"
+path="res://.godot/imported/footstep05.ogg-8f9160385912f128867dafbb073cf96a.oggvorbisstr"
+
+[deps]
+
+source_file="res://Godot_Super-Wakatime-34869da34677c7d2a8a26c6ac69d88a1e64afe6f 10-29-51-772/kenney_rpg-audio 7.26.16 PM/Audio/footstep05.ogg"
+dest_files=["res://.godot/imported/footstep05.ogg-8f9160385912f128867dafbb073cf96a.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://c8c672sb1nfiy"
+path="res://.godot/imported/drawKnife3.ogg-27a19a15a63b3ed7c4877c9ab35a8cf7.oggvorbisstr"
+
+[deps]
+
+source_file="res://Godot_Super-Wakatime-34869da34677c7d2a8a26c6ac69d88a1e64afe6f 10-29-51-772/kenney_rpg-audio 7.26.16 PM/Audio/drawKnife3.ogg"
+dest_files=["res://.godot/imported/drawKnife3.ogg-27a19a15a63b3ed7c4877c9ab35a8cf7.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
