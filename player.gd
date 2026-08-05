@@ -7,7 +7,7 @@ const stamina = 10
 const stop_time = 2
 const BOB_FREQ: float = 3
 const BOB_AMP: float = 0.3
-var SPEED = 10
+var SPEED = 3
 var stamina_level = 10
 var stamina_increment = 1
 var time = 5
@@ -101,7 +101,7 @@ func _physics_process(delta: float) -> void:
 		t_bob = 0
 		camera.transform.origin = camera.transform.origin.lerp(Vector3.ZERO, delta * 10.0)
 func reset():
-	position = Vector3(0, 0.6, 0)
+	position = Vector3(50, 2, 4)
 func crouching():
 	if Input.is_key_pressed(KEY_C) and is_on_floor():
 		camera.position.y = 0
@@ -111,3 +111,5 @@ func crouching():
 	else:
 		crouch = 0
 		resistance = 1
+		
+	
