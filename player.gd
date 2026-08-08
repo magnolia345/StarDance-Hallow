@@ -2,7 +2,7 @@ extends CharacterBody3D
 
 
 const JUMP_VELOCITY = 5
-const sensitivity = 0.002
+const sensitivity = 0.003
 const stamina = 10
 const stop_time = 2
 const BOB_FREQ: float = 3
