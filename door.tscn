@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://cynvwkvgfc3cr"]
 
-[ext_resource type="Material" uid="uid://dyb1bod1x4ugd" path="res://Material/door.tres" id="1_ba8gm"]
+[ext_resource type="Material" uid="uid://dyb1bod1x4ugd" path="res://Textures/door.tres" id="1_ba8gm"]
 [ext_resource type="Script" uid="uid://ct20hg4e5d2tt" path="res://door.gd" id="1_v6xrn"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_rvmf8"]
