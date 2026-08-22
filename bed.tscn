@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://bvj8hjlruua6i"]
+
+[node name="Bed" type="Node3D" unique_id=2076261652]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=640220675]
+size = Vector3(4, 0.2114375, 1.9587402)
+
+[node name="CSGBox3D6" type="CSGBox3D" parent="." unique_id=943769605]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.8033447, 0.88862085, 0)
+size = Vector3(0.39331055, 1.9886794, 1.9587402)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="." unique_id=1905853139]
+transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, -1.8504199, -0.505, 0.829)
+size = Vector3(1, 2.6593018, 1)
+
+[node name="CSGBox3D3" type="CSGBox3D" parent="." unique_id=124048217]
+transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 1.85, -0.505, 0.829)
+size = Vector3(1, 2.6593018, 1)
+
+[node name="CSGBox3D4" type="CSGBox3D" parent="." unique_id=1636538589]
+transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, 1.85, -0.505, -0.829)
+size = Vector3(1, 2.6593018, 1)
+
+[node name="CSGBox3D5" type="CSGBox3D" parent="." unique_id=767904188]
+transform = Transform3D(0.3, 0, 0, 0, 0.3, 0, 0, 0, 0.3, -1.85, -0.505, -0.829)
+size = Vector3(1, 2.6593018, 1)

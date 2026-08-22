@@ -1,0 +1,15 @@
+[gd_scene format=3 uid="uid://dss6arvuw2o1l"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_atr75"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_vkgo8"]
+
+[node name="Monster" type="Node3D" unique_id=2078827096]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=1135709369]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="StaticBody3D" unique_id=319670261]
+mesh = SubResource("CapsuleMesh_atr75")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=980272008]
+shape = SubResource("CapsuleShape3D_vkgo8")
