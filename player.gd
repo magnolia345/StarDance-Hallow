@@ -21,7 +21,7 @@ var checkx = true
 var checky = true
 var door = null
 
-
+@onready var ray = $Head/Camera3D/RayCast3D
 @onready var head = $Head
 @onready var camera = $Head/Camera3D
 @onready var progress = $CanvasLayer/Stamina
@@ -100,6 +100,14 @@ func _physics_process(delta: float) -> void:
 	else:
 		t_bob = 0
 		camera.transform.origin = camera.transform.origin.lerp(Vector3.ZERO, delta * 10.0)
+		
+		
+	#Below is interaction stuff
+	if Input.is_action_just_pressed("interact"):
+		if ray.is_colliding():
+			var target = ray.get_collider()
+			if target.has_method("interact"):
+				target.interact()
 func reset():
 	position = Vector3(50, 2, 4)
 func crouching():
