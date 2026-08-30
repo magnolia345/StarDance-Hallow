@@ -27,12 +27,15 @@ var door = null
 @onready var progress = $CanvasLayer/Stamina
 @onready var flashlight = $Head/Camera3D/SpotLight3D
 
+
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 	show()
 	progress.position = Vector2(250, 0)
 
 func _unhandled_input(event):
+	if event is InputEventKey:
+		print("key pressed: ", event.keycode)
 	if event is InputEventMouseMotion:
 		head.rotate_y(-event.relative.x * sensitivity)
 		camera.rotate_x(-event.relative.y * sensitivity)
@@ -40,6 +43,9 @@ func _unhandled_input(event):
 			deg_to_rad(-30), deg_to_rad(60))
 		
 func _physics_process(delta: float) -> void:
+	if Input.is_key_pressed(KEY_E):
+		print("E IS BEING PRESSED")
+		
 	crouching()
 	if Input.is_key_pressed(KEY_SHIFT) and stamina_level > 0:
 		SPEED = 20
@@ -88,6 +94,10 @@ func _physics_process(delta: float) -> void:
 		reset()
 
 	move_and_slide()
+	
+	if Input.is_action_just_pressed("interact"):
+		print("E pressed, colliding: ", ray.is_colliding())
+		
 	progress.value = stamina_level
 	if is_on_floor and velocity.length() > 0.0 and crouch == 0:
 		t_bob += delta * velocity.length() * BOB_AMP
@@ -104,10 +114,13 @@ func _physics_process(delta: float) -> void:
 		
 	#Below is interaction stuff
 	if Input.is_action_just_pressed("interact"):
+		print("E pressed")
 		if ray.is_colliding():
 			var target = ray.get_collider()
 			if target.has_method("interact"):
 				target.interact()
+		else:
+			print("not hitting anything")
 func reset():
 	position = Vector3(50, 2, 4)
 func crouching():

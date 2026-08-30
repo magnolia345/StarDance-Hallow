@@ -145,6 +145,8 @@ roughness = 0.596
 mesh_list = Array[Terrain3DMeshAsset]([SubResource("Terrain3DMeshAsset_getpj")])
 texture_list = Array[Terrain3DTextureAsset]([SubResource("Terrain3DTextureAsset_yaehf")])
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_y5spk"]
+
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_ryguw"]
 render_priority = 0
 shader = ExtResource("10_ycdy4")
@@ -255,7 +257,7 @@ spot_range = 78.549
 script = ExtResource("3_h2yge")
 
 [node name="RayCast3D" type="RayCast3D" parent="CharacterBody3D/Head/Camera3D" unique_id=1331340144]
-target_position = Vector3(0, 0, -3)
+target_position = Vector3(0, 0, 10)
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="." unique_id=837217684]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -90.74852, 2.2480469, 83.736855)
@@ -644,11 +646,41 @@ transform = Transform3D(1, 0, -7.1054274e-15, 0, 1, 0, 7.1054274e-15, 0, 1, 296.
 [node name="Bedroom_ bed6" parent="NavigationRegion3D/Interior/Bedroom/Beds" unique_id=2102883131 instance=ExtResource("16_ryguw")]
 transform = Transform3D(1, 0, -7.1054274e-15, 0, 1, 0, 7.1054274e-15, 0, 1, 690.695, 0, 488.425)
 
-[node name="bedside drawer" parent="NavigationRegion3D/Interior/Bedroom" unique_id=1069430012 instance=ExtResource("20_getpj")]
-transform = Transform3D(-130, 0, 1.9629457e-05, 0, 130, 0, -1.9629457e-05, 0, -130, 812.6144, 14.012501, 58.7498)
+[node name="cabinet" parent="NavigationRegion3D/Interior/Bedroom" unique_id=1069430012 instance=ExtResource("20_getpj")]
+transform = Transform3D(-200, 0, 3.0199162e-05, 0, 200, 0, -3.0199162e-05, 0, -200, 785.0636, 14, 58.000122)
 
-[node name="RootNode" parent="NavigationRegion3D/Interior/Bedroom/bedside drawer/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx" parent_id_path=PackedInt32Array(1069430012, 86974838) index="0" unique_id=994314487]
+[node name="base_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/base" parent_id_path=PackedInt32Array(1069430012, 2080175084) index="0" unique_id=805265122]
+transform = Transform3D(1.0000001, 2.1316282e-14, 2.5410988e-21, -2.1316282e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.010751724, 0, 0)
+
+[node name="door1_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door1a/Object_11/door1" parent_id_path=PackedInt32Array(1069430012, 227854561) index="0" unique_id=243808609]
+transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.005959511, 0, 0)
+
+[node name="shelf1_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf1a/Object_18/shelf1" parent_id_path=PackedInt32Array(1069430012, 1077085080) index="0" unique_id=26443782]
+transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.009283066, 0, 0)
+
+[node name="shelf2_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf2a/Object_25/shelf2" parent_id_path=PackedInt32Array(1069430012, 1439346740) index="0" unique_id=1288348422]
+transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.0045518875, 0, 0)
+
+[node name="shelf3_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf3a/Object_32/shelf3" parent_id_path=PackedInt32Array(1069430012, 507917688) index="0" unique_id=1729524033]
+transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.015093803, 0, 0)
+
+[node name="door2_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door2a/Object_39/door2" parent_id_path=PackedInt32Array(1069430012, 2073932262) index="0" unique_id=1880472198]
+transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.006136894, 0, 0)
+
+[node name="door3_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door3a/Object_46/door3" parent_id_path=PackedInt32Array(1069430012, 1553849947) index="0" unique_id=323555770]
+transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.0039606094, 0, 0)
+
+[node name="door4_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door4a/Object_53/door4" parent_id_path=PackedInt32Array(1069430012, 1913258739) index="0" unique_id=757153788]
+transform = Transform3D(1.0000001, 3.5527137e-14, 5.0821977e-21, -3.5527137e-14, 1.0000001, 0, -8.4703295e-22, 0, 1.0000001, -0.014930725, 2.670288e-05, -0.0014679432)
+
+[node name="StaticBody3D2" type="StaticBody3D" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode" parent_id_path=PackedInt32Array(1069430012, 1026303870) index="1" unique_id=117068519]
+transform = Transform3D(200, 0, 0, 0, 200, 0, 0, 0, 200, 785.064, 14, 58)
+input_capture_on_drag = true
 script = ExtResource("21_getpj")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/StaticBody3D2" unique_id=330077774]
+transform = Transform3D(200, 0, 0, 0, 200, 0, 0, 0, 200, 785.064, 14, 58)
+shape = SubResource("BoxShape3D_y5spk")
 
 [node name="SimpleGrassTextured" type="MultiMeshInstance3D" parent="." unique_id=1769417006]
 material_override = SubResource("ShaderMaterial_ryguw")
@@ -672,4 +704,4 @@ sgt_tool_shape = {
 metadata/_custom_type_script = "uid://2juaclm8gc1n"
 metadata/SimpleGrassTextured = "2.0.5"
 
-[editable path="NavigationRegion3D/Interior/Bedroom/bedside drawer"]
+[editable path="NavigationRegion3D/Interior/Bedroom/cabinet"]
