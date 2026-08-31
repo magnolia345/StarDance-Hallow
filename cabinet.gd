@@ -19,6 +19,9 @@ func interact():
 		var door2 = root.find_child("door2a", true, false)
 		var door3 = root.find_child("door3a", true, false)
 		var door4 = root.find_child("door4a", true, false)
+		var shelf1 = root.find_child("shelf1a", true, false)
+		var shelf2 = root.find_child("shelf2a", true, false)
+		var shelf3 = root.find_child("shelf3a", true, false)
 		print("found door1: ", door1)
 		var tween = create_tween()
 		if door1 and is_open:
@@ -38,8 +41,18 @@ func interact():
 			tween.parallel().tween_property(door3, "rotation:z", deg_to_rad(0), 0.5)
 		if door4 and is_open:
 			tween.parallel().tween_property(door4, "rotation:z", deg_to_rad(90), 0.5)
-			open1 = true
 			
 		else:
 			tween.parallel().tween_property(door4, "rotation:z", deg_to_rad(0), 0.5)
-			open1 = false
+		if shelf1 and is_open:
+			tween.parallel().tween_property(shelf1, "postiton:x", 0.761, 0.5)
+		else:
+			tween.parallel().tween_property(shelf1, "postiton:x", 0.25, 0.5)
+		if shelf2 and is_open:
+			tween.parallel().tween_property(shelf2, "postiton:x", 0.761, 0.5)
+		else:
+			tween.parallel().tween_property(shelf2, "postiton:x", 0.25, 0.5)
+		if shelf3 and is_open:
+			tween.parallel().tween_property(shelf3, "postiton:x", 0.761, 0.5)
+		else:
+			tween.parallel().tween_property(shelf3, "postiton:x", 0.25, 0.5)

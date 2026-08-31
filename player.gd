@@ -3,12 +3,12 @@ extends CharacterBody3D
 
 const JUMP_VELOCITY = 8
 const sensitivity = 0.003
-const stamina = 10
+const stamina = 6
 const stop_time = 2
 const BOB_FREQ: float = 3
 const BOB_AMP: float = 0.3
 var SPEED = 3
-var stamina_level = 10
+var stamina_level = 6
 var stamina_increment = 1
 var time = 5
 var head_bop = 0
@@ -43,11 +43,12 @@ func _unhandled_input(event):
 			deg_to_rad(-30), deg_to_rad(60))
 		
 func _physics_process(delta: float) -> void:
+	print(camera.position.y)
 	if Input.is_key_pressed(KEY_E):
 		print("E IS BEING PRESSED")
 		
 	crouching()
-	if Input.is_key_pressed(KEY_SHIFT) and stamina_level > 0:
+	if Input.is_key_pressed(KEY_SHIFT) and stamina_level > 0 and crouch == 0:
 		SPEED = 20
 		time = 0
 		if key == 1:
@@ -123,14 +124,16 @@ func _physics_process(delta: float) -> void:
 			print("not hitting anything")
 func reset():
 	position = Vector3(50, 2, 4)
+	print(camera.position.y)
 func crouching():
 	if Input.is_key_pressed(KEY_C) and is_on_floor():
-		camera.position.y = 0
+		camera.position.y = -2
 		crouch = 1
 		#Move slower
 		resistance = 0.5
 	else:
 		crouch = 0
 		resistance = 1
+		camera.position.y = 0.07
 		
 	
