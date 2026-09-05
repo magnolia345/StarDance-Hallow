@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cngxs37efrld8"
-path.s3tc="res://.godot/imported/PaintedPlaster014_2K-PNG_Color.png-352df1a2f1f329768d5db382762d8433.s3tc.ctex"
+path.s3tc="res://.godot/imported/PaintedPlaster014_2K-PNG_Color.png-580d53b86766a3adefdd74d1c3476a62.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://Textures/wall - DO NOT TOUCH/PaintedPlaster014_2K-PNG_Color.png"
-dest_files=["res://.godot/imported/PaintedPlaster014_2K-PNG_Color.png-352df1a2f1f329768d5db382762d8433.s3tc.ctex"]
+source_file="res://textures/wall - DO NOT TOUCH/PaintedPlaster014_2K-PNG_Color.png"
+dest_files=["res://.godot/imported/PaintedPlaster014_2K-PNG_Color.png-580d53b86766a3adefdd74d1c3476a62.s3tc.ctex"]
 
 [params]
 
