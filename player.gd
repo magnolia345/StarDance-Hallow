@@ -129,7 +129,6 @@ func crouching():
 	if Input.is_key_pressed(KEY_C) and is_on_floor():
 		camera.position.y = -2
 		crouch = 1
-		#Move slower
 		resistance = 0.5
 	else:
 		crouch = 0

@@ -1,16 +1,16 @@
 [gd_scene format=3 uid="uid://cw1o37w8177fo"]
 
-[ext_resource type="PackedScene" uid="uid://bcos26tdfxbkm" path="res://bed/hospital_bed.glb" id="1_m0q3j"]
+[ext_resource type="PackedScene" uid="uid://bcos26tdfxbkm" path="res://furniture/bed/hospital_bed.glb" id="1_m0q3j"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_75kfu"]
-size = Vector3(0.915961, 486.4118, 16.852585)
+size = Vector3(0.915961, 402.44135, 16.852585)
 
 [node name="Couch" type="Node3D" unique_id=230525931]
 
 [node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=1891827599]
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=655877261]
-transform = Transform3D(201.96742, 0, 0, 0, 0.2686475, 0, 0, 0, 5.5968623, -1.063263, 74.447266, -1.2870464)
+transform = Transform3D(201.96742, 0, 0, 0, 0.2686475, 0, 0, 0, 5.5968623, -1.063263, 85.726494, -1.2870464)
 shape = SubResource("BoxShape3D_75kfu")
 
 [node name="Sketchfab_Scene" parent="StaticBody3D" unique_id=220178899 instance=ExtResource("1_m0q3j")]

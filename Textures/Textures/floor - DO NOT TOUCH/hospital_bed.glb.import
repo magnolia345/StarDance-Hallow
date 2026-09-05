@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://edwwhub50ecp"
-path="res://.godot/imported/hospital_bed.glb-04b6e43696f07c0d5eb5d62e32304b02.scn"
+path="res://.godot/imported/hospital_bed.glb-7ed04e3cd7aba2d78b2242438578fd8d.scn"
 
 [deps]
 
-source_file="res://textures/Textures/floor - DO NOT TOUCH/hospital_bed.glb"
-dest_files=["res://.godot/imported/hospital_bed.glb-04b6e43696f07c0d5eb5d62e32304b02.scn"]
+source_file="res://Textures/Textures/floor - DO NOT TOUCH/hospital_bed.glb"
+dest_files=["res://.godot/imported/hospital_bed.glb-7ed04e3cd7aba2d78b2242438578fd8d.scn"]
 
 [params]
 
