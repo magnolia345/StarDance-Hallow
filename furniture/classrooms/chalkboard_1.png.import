@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dfhm0ohw0r2m2"
-path.s3tc="res://.godot/imported/student_desk__chair_0.png-0fc037628561e1dcd7f516191dc5daa4.s3tc.ctex"
+uid="uid://be30bd7pnlcnd"
+path.s3tc="res://.godot/imported/chalkboard_1.png-6b8d4416d46676f4f296bd57920d857f.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "3d4550efed60ebb43f5011acbc1b5269"
+"md5": "f1bb88f88d6a7580d984445b4db4595f"
 }
 
 [deps]
 
-source_file="res://furniture/student_desk__chair_0.png"
-dest_files=["res://.godot/imported/student_desk__chair_0.png-0fc037628561e1dcd7f516191dc5daa4.s3tc.ctex"]
+source_file="res://furniture/classrooms/chalkboard_1.png"
+dest_files=["res://.godot/imported/chalkboard_1.png-6b8d4416d46676f4f296bd57920d857f.s3tc.ctex"]
 
 [params]
 

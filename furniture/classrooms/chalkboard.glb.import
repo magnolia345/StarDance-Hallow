@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://ct13baasmm6tl"
-path="res://.godot/imported/stone_bricks_beige_wall-set.glb-6b9054b38187731f908edfda568e6425.scn"
+uid="uid://m4qv3bn8isff"
+path="res://.godot/imported/chalkboard.glb-fe25c3e1a765bbb635bc2cb95f6b6509.scn"
 
 [deps]
 
-source_file="res://furniture/bathroom/wall/stone_bricks_beige_wall-set.glb"
-dest_files=["res://.godot/imported/stone_bricks_beige_wall-set.glb-6b9054b38187731f908edfda568e6425.scn"]
+source_file="res://furniture/classrooms/chalkboard.glb"
+dest_files=["res://.godot/imported/chalkboard.glb-fe25c3e1a765bbb635bc2cb95f6b6509.scn"]
 
 [params]
 
@@ -39,13 +39,7 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={
-"nodes": {
-"PATH:Sketchfab_model/85fc4ba68f2b4ec5aa9a542f442bee91_fbx/RootNode/Cube_1/Cube_1_Mat_0": {
-"generate/physics": true
-}
-}
-}
+_subresources={}
 gltf/naming_version=2
 gltf/embedded_image_handling=1
 gltf/texture_map_mode=1

@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://b1osc3q0588i2"
-path="res://.godot/imported/student_desk__chair.glb-577af85f635b27307e22ced2a97f9155.scn"
+path="res://.godot/imported/student_desk__chair.glb-c4931572298b89f7569ee03d45773cbd.scn"
 
 [deps]
 
-source_file="res://furniture/student_desk__chair.glb"
-dest_files=["res://.godot/imported/student_desk__chair.glb-577af85f635b27307e22ced2a97f9155.scn"]
+source_file="res://furniture/classrooms/desk/student_desk__chair.glb"
+dest_files=["res://.godot/imported/student_desk__chair.glb-c4931572298b89f7569ee03d45773cbd.scn"]
 
 [params]
 

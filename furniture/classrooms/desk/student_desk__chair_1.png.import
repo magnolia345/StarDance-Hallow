@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://c54p108g73lpx"
-path.s3tc="res://.godot/imported/student_desk__chair_1.png-ceee8feaa9edfbbada46aab1f3850fa1.s3tc.ctex"
+path.s3tc="res://.godot/imported/student_desk__chair_1.png-e97a0b3a908c2bd37d38d2d3f453c7ce.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://furniture/student_desk__chair_1.png"
-dest_files=["res://.godot/imported/student_desk__chair_1.png-ceee8feaa9edfbbada46aab1f3850fa1.s3tc.ctex"]
+source_file="res://furniture/classrooms/desk/student_desk__chair_1.png"
+dest_files=["res://.godot/imported/student_desk__chair_1.png-e97a0b3a908c2bd37d38d2d3f453c7ce.s3tc.ctex"]
 
 [params]
 
