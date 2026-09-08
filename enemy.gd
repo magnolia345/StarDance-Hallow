@@ -4,13 +4,17 @@ extends CharacterBody3D
 
 @onready var nav_agent: NavigationAgent3D = $NavigationAgent3D
 @onready var player =  $"../player"# Update to your player's actual path
-
+@onready var back = $"../player/CanvasLayer/ImageForGodot"
+func _ready():
+	back.hide()
 func _physics_process(delta: float) -> void:
 
 	nav_agent.target_position = player.global_position
 	
 	# 2. Check if we've already reached the target
-
+	if nav_agent.is_navigation_finished():
+		back.show()
+		return
 
 	# 3. Get the next immediate vector point along the calculated path
 	var next_path_position: Vector3 = nav_agent.get_next_path_position()
