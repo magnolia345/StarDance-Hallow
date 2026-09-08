@@ -39,7 +39,16 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={}
+_subresources={
+"nodes": {
+"PATH:Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/Cylinder/Cylinder__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/WaterPipe/WaterPipe__0": {
+"generate/physics": true
+}
+}
+}
 gltf/naming_version=2
 gltf/embedded_image_handling=1
 gltf/texture_map_mode=1
