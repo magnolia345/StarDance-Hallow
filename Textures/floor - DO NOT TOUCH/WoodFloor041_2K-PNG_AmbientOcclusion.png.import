@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://472tlmv8scge"
-path="res://.godot/imported/WoodFloor041_2K-PNG_AmbientOcclusion.png-a0262042a64848e75544ff4d48a5a7b6.ctex"
+path="res://.godot/imported/WoodFloor041_2K-PNG_AmbientOcclusion.png-fe60510100904fbc1d1da91184c774a1.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Textures/floor - DO NOT TOUCH/WoodFloor041_2K-PNG_AmbientOcclusion.png"
-dest_files=["res://.godot/imported/WoodFloor041_2K-PNG_AmbientOcclusion.png-a0262042a64848e75544ff4d48a5a7b6.ctex"]
+source_file="res://textures/floor - DO NOT TOUCH/WoodFloor041_2K-PNG_AmbientOcclusion.png"
+dest_files=["res://.godot/imported/WoodFloor041_2K-PNG_AmbientOcclusion.png-fe60510100904fbc1d1da91184c774a1.ctex"]
 
 [params]
 

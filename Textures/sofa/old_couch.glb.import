@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://be5vqpwjs6j3u"
-path="res://.godot/imported/old_couch.glb-f83adc5ee7b44b7a18e69f6709d96fb5.scn"
+path="res://.godot/imported/old_couch.glb-3ee709a5aa674b928428f2725e4bd3a6.scn"
 
 [deps]
 
-source_file="res://Textures/sofa/old_couch.glb"
-dest_files=["res://.godot/imported/old_couch.glb-f83adc5ee7b44b7a18e69f6709d96fb5.scn"]
+source_file="res://textures/sofa/old_couch.glb"
+dest_files=["res://.godot/imported/old_couch.glb-3ee709a5aa674b928428f2725e4bd3a6.scn"]
 
 [params]
 

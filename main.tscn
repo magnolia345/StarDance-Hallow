@@ -10,19 +10,20 @@
 [ext_resource type="PackedScene" uid="uid://dpygi7k3j86fv" path="res://kenney_prototype-kit/Models/GLB format/wall.glb" id="7_dg77c"]
 [ext_resource type="PackedScene" uid="uid://tkicx47kqcas" path="res://kenney_prototype-kit/Models/GLB format/floor-square.glb" id="8_ycdy4"]
 [ext_resource type="MeshLibrary" uid="uid://ck06enxj7sxef" path="res://tiles.meshlib" id="9_w48qg"]
-[ext_resource type="Material" uid="uid://dyb1bod1x4ugd" path="res://Textures/door.tres" id="10_w48qg"]
+[ext_resource type="Material" uid="uid://dyb1bod1x4ugd" path="res://textures/door.tres" id="10_w48qg"]
 [ext_resource type="Shader" uid="uid://bi3o8elbtqoni" path="res://addons/simplegrasstextured/shaders/grass.gdshader" id="10_ycdy4"]
 [ext_resource type="Texture2D" uid="uid://c4ggdp0kg5wjk" path="res://addons/simplegrasstextured/textures/grassbushcc008.png" id="11_w48qg"]
 [ext_resource type="ArrayMesh" uid="uid://sptcpdx6wtm8" path="res://addons/simplegrasstextured/default_mesh.tres" id="12_vivmo"]
 [ext_resource type="Script" uid="uid://2juaclm8gc1n" path="res://addons/simplegrasstextured/grass.gd" id="13_2cqfq"]
 [ext_resource type="PackedScene" uid="uid://b2fl6j24akq75" path="res://furniture/bathroom/jailshower/jailshower_head.glb" id="14_a6jrf"]
 [ext_resource type="PackedScene" uid="uid://c67vwrpp4jdgi" path="res://furniture/bathroom/bathtub/bathtub.glb" id="14_d13ii"]
-[ext_resource type="Texture2D" uid="uid://banenojhhjyyn" path="res://dirt for godot.jpeg" id="15_vivmo"]
+[ext_resource type="PackedScene" uid="uid://dvcv16jto7tw0" path="res://furniture/library/bookshelf.glb" id="15_seu75"]
+[ext_resource type="Texture2D" uid="uid://banenojhhjyyn" path="res://textures/dirt for godot.jpeg" id="15_vivmo"]
 [ext_resource type="PackedScene" uid="uid://c3wl74l1u08w3" path="res://furniture/bathroom/urinal/silent_hill_2_urinal_toilet_dirty.glb" id="15_xuqvo"]
 [ext_resource type="PackedScene" uid="uid://0wre45ox7hnx" path="res://furniture/bathroom/dirty mirror/dirty_mirror_lowpolyvray.glb" id="16_0odxb"]
 [ext_resource type="PackedScene" uid="uid://dd05541x1hd8b" path="res://node_3d.tscn" id="16_2cqfq"]
 [ext_resource type="PackedScene" uid="uid://cw1o37w8177fo" path="res://collision.tscn" id="16_ryguw"]
-[ext_resource type="PackedScene" uid="uid://bj4b62mkdd0tx" path="res://Textures/sofa/trashy_backyard_sofa.glb" id="17_074og"]
+[ext_resource type="PackedScene" uid="uid://bj4b62mkdd0tx" path="res://textures/sofa/trashy_backyard_sofa.glb" id="17_074og"]
 [ext_resource type="PackedScene" uid="uid://bwsf3ka3yl7nx" path="res://old_couch/old_couch.glb" id="18_82xsv"]
 [ext_resource type="PackedScene" uid="uid://w1ho8n4m1wve" path="res://furniture/bedside_table/bedside_table_old.glb" id="20_getpj"]
 [ext_resource type="Script" uid="uid://0ddkeg0t8hlr" path="res://cabinet.gd" id="21_getpj"]
@@ -156,10 +157,10 @@ roughness = 0.596
 mesh_list = Array[Terrain3DMeshAsset]([SubResource("Terrain3DMeshAsset_getpj")])
 texture_list = Array[Terrain3DTextureAsset]([SubResource("Terrain3DTextureAsset_yaehf")])
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_y5spk"]
+
 [sub_resource type="BoxShape3D" id="BoxShape3D_nnw4l"]
 size = Vector3(200.20776, 77.7641, 98.27759)
-
-[sub_resource type="BoxShape3D" id="BoxShape3D_y5spk"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_seu75"]
 render_priority = 0
@@ -205,7 +206,6 @@ metadata/_edit_horizontal_guides_ = [-448.0]
 
 [node name="DirectionalLight3D2" type="DirectionalLight3D" parent="." unique_id=239371573]
 transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545, -0.50000006, 0.75, -0.43301266, -112.59973, 307.505, 444.5412)
-visible = false
 light_energy = 4.094
 shadow_enabled = true
 
@@ -638,6 +638,57 @@ metadata/_edit_lock_ = true
 [node name="Interior" type="Node3D" parent="NavigationRegion3D" unique_id=389819215]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 55.57442, 0.6292279, 100.195816)
 
+[node name="cabinet2" parent="NavigationRegion3D/Interior" unique_id=1988843779 instance=ExtResource("20_getpj")]
+transform = Transform3D(5, 0, -3.1786516e-07, 0, 5, 0, 3.1786516e-07, 0, 5, -47.930622, 0.0007722378, -100.85934)
+
+[node name="base_tumbochka_0" parent="NavigationRegion3D/Interior/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/base" parent_id_path=PackedInt32Array(1988843779, 1941892073) index="0" unique_id=575026137]
+transform = Transform3D(1.0000001, 2.1316282e-14, 2.5410988e-21, -2.1316282e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.010751724, 0, 0)
+
+[node name="door1a" parent="NavigationRegion3D/Interior/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4" parent_id_path=PackedInt32Array(1988843779, 1928375029) index="2" unique_id=676865393]
+transform = Transform3D(1.0000001, 0, 0, 0, 1.0000001, 2.6469783e-23, 0, -2.6469783e-23, 1.0000001, 0.25, -0.55918217, 0.40365213)
+
+[node name="door1_tumbochka_0" parent="NavigationRegion3D/Interior/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door1a/Object_11/door1" parent_id_path=PackedInt32Array(1988843779, 971305551) index="0" unique_id=1518086223]
+transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.005959511, 0, 0)
+
+[node name="shelf1_tumbochka_0" parent="NavigationRegion3D/Interior/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf1a/Object_18/shelf1" parent_id_path=PackedInt32Array(1988843779, 602019427) index="0" unique_id=1336713379]
+transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.009283066, 0, 0)
+
+[node name="shelf2_tumbochka_0" parent="NavigationRegion3D/Interior/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf2a/Object_25/shelf2" parent_id_path=PackedInt32Array(1988843779, 587228432) index="0" unique_id=1970830590]
+transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.0045518875, 0, 0)
+
+[node name="shelf3_tumbochka_0" parent="NavigationRegion3D/Interior/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf3a/Object_32/shelf3" parent_id_path=PackedInt32Array(1988843779, 1299962351) index="0" unique_id=1481982860]
+transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.015093803, 0, 0)
+
+[node name="door2a" parent="NavigationRegion3D/Interior/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4" parent_id_path=PackedInt32Array(1988843779, 1928375029) index="6" unique_id=916000842]
+transform = Transform3D(1, 0, 0, 0, 1, 2.6469783e-23, 0, -2.646978e-23, 1.0000001, 0.27000046, -0.29803085, 0.4036522)
+
+[node name="door2_tumbochka_0" parent="NavigationRegion3D/Interior/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door2a/Object_39/door2" parent_id_path=PackedInt32Array(1988843779, 1928804178) index="0" unique_id=1787016504]
+transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.006136894, 0, 0)
+
+[node name="door3a" parent="NavigationRegion3D/Interior/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4" parent_id_path=PackedInt32Array(1988843779, 1928375029) index="7" unique_id=263524420]
+transform = Transform3D(1, 0, 0, 0, 1, 2.6469783e-23, 0, -2.646978e-23, 1.0000001, 0.27000046, 0.29803038, 0.40365225)
+
+[node name="door3_tumbochka_0" parent="NavigationRegion3D/Interior/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door3a/Object_46/door3" parent_id_path=PackedInt32Array(1988843779, 986760526) index="0" unique_id=305694457]
+transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.0039606094, 0, 0)
+
+[node name="door4_tumbochka_0" parent="NavigationRegion3D/Interior/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door4a/Object_53/door4" parent_id_path=PackedInt32Array(1988843779, 630289933) index="0" unique_id=138189612]
+transform = Transform3D(1.0000001, 3.5527137e-14, 5.0821977e-21, -3.5527137e-14, 1.0000001, 0, -8.4703295e-22, 0, 1.0000001, -0.014930725, 2.670288e-05, -0.0014679432)
+
+[node name="StaticBody3D2" type="StaticBody3D" parent="NavigationRegion3D/Interior/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode" parent_id_path=PackedInt32Array(1988843779, 656104121) index="1" unique_id=1401653443]
+transform = Transform3D(200, 0, 0, 0, 200, 0, 0, 0, 200, 785.064, 14, 58)
+input_capture_on_drag = true
+script = ExtResource("21_getpj")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NavigationRegion3D/Interior/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/StaticBody3D2" unique_id=613663598]
+transform = Transform3D(200, 0, 0, 0, 200, 0, 0, 0, 200, 785.064, 14, 58)
+shape = SubResource("BoxShape3D_y5spk")
+
+[node name="shelf" parent="NavigationRegion3D/Interior" unique_id=284214043 instance=ExtResource("15_seu75")]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, -40.872982, 0, -82.93387)
+
+[node name="shelf2" parent="NavigationRegion3D/Interior" unique_id=316944916 instance=ExtResource("15_seu75")]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, -40.872982, 0, -98.01833)
+
 [node name="bathroom" type="Node3D" parent="NavigationRegion3D/Interior" unique_id=1116185723]
 
 [node name="showerheads" type="Node3D" parent="NavigationRegion3D/Interior/bathroom" unique_id=788867708]
@@ -684,89 +735,89 @@ transform = Transform3D(-6.556708e-08, 0, 1.5, 0, 1.5, 0, -1.5, 0, -6.556708e-08
 
 [node name="sink" parent="NavigationRegion3D/Interior/bathroom/sinks" unique_id=696976486 instance=ExtResource("26_lswn8")]
 
-[node name="RootNode" parent="NavigationRegion3D/Interior/bathroom/sinks/sink/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx" parent_id_path=PackedInt32Array(696976486, 149108331) index="0" unique_id=1416173912]
+[node name="RootNode" parent="NavigationRegion3D/Interior/bathroom/sinks/sink/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx" parent_id_path=PackedInt32Array(696976486, 1866102025) index="0" unique_id=1272494778]
 transform = Transform3D(1.0000002, -7.888609e-31, -3.5527137e-15, 7.888609e-31, 1.0000002, 4.2425745e-31, 3.5527137e-15, 4.2425745e-31, 1.0000002, 0, 12.553558, 0)
 
-[node name="Cylinder__0" parent="NavigationRegion3D/Interior/bathroom/sinks/sink/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/Cylinder" parent_id_path=PackedInt32Array(696976486, 1803590476) index="0" unique_id=774315239]
+[node name="Cylinder__0" parent="NavigationRegion3D/Interior/bathroom/sinks/sink/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/Cylinder" parent_id_path=PackedInt32Array(696976486, 1738133530) index="0" unique_id=1185982814]
 transform = Transform3D(1.3, 0, 0, 0, 1.3, 5.5153447e-31, 0, 5.5153447e-31, 1.3, 12.176758, 26.096375, -11.538574)
 
-[node name="WaterPipe__0" parent="NavigationRegion3D/Interior/bathroom/sinks/sink/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/WaterPipe" parent_id_path=PackedInt32Array(696976486, 1129945737) index="0" unique_id=1910755020]
+[node name="WaterPipe__0" parent="NavigationRegion3D/Interior/bathroom/sinks/sink/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/WaterPipe" parent_id_path=PackedInt32Array(696976486, 302950279) index="0" unique_id=256454064]
 transform = Transform3D(1, -3.5527137e-15, -4.242573e-31, 3.5527137e-15, 1, -7.888609e-31, -4.242573e-31, 7.888609e-31, 1, 0, -0.11584473, 0)
 
-[node name="StaticBody3D" parent="NavigationRegion3D/Interior/bathroom/sinks/sink/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/WaterPipe/WaterPipe__0" index="0" unique_id=926779239]
+[node name="StaticBody3D" parent="NavigationRegion3D/Interior/bathroom/sinks/sink/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/WaterPipe/WaterPipe__0" index="0" unique_id=1973043340]
 physics_interpolation_mode = 1
 transform = Transform3D(1, -3.5527137e-15, -4.242574e-31, 3.5527137e-15, 1, -7.888609e-31, -4.242574e-31, 7.888609e-31, 1, 0, 0, 0)
 
-[node name="CollisionShape3D" parent="NavigationRegion3D/Interior/bathroom/sinks/sink/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/WaterPipe/WaterPipe__0/StaticBody3D" index="0" unique_id=1257077323]
+[node name="CollisionShape3D" parent="NavigationRegion3D/Interior/bathroom/sinks/sink/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/WaterPipe/WaterPipe__0/StaticBody3D" index="0" unique_id=1658122944]
 transform = Transform3D(1, -1.0658141e-14, -4.2425745e-31, 1.0658141e-14, 1, -2.3665827e-30, -4.2425745e-31, 2.3665827e-30, 1, 0, 0.002571106, 0)
 
 [node name="sink2" parent="NavigationRegion3D/Interior/bathroom/sinks" unique_id=384013046 instance=ExtResource("26_lswn8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.9097214, 0, 7.6293945e-06)
 
-[node name="RootNode" parent="NavigationRegion3D/Interior/bathroom/sinks/sink2/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx" parent_id_path=PackedInt32Array(384013046, 149108331) index="0" unique_id=1416173912]
+[node name="RootNode" parent="NavigationRegion3D/Interior/bathroom/sinks/sink2/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx" parent_id_path=PackedInt32Array(384013046, 1866102025) index="0" unique_id=1272494778]
 transform = Transform3D(1.0000002, -7.888609e-31, -3.5527137e-15, 7.888609e-31, 1.0000002, 4.2425745e-31, 3.5527137e-15, 4.2425745e-31, 1.0000002, 0, 12.553558, 0)
 
-[node name="Cylinder__0" parent="NavigationRegion3D/Interior/bathroom/sinks/sink2/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/Cylinder" parent_id_path=PackedInt32Array(384013046, 1803590476) index="0" unique_id=774315239]
+[node name="Cylinder__0" parent="NavigationRegion3D/Interior/bathroom/sinks/sink2/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/Cylinder" parent_id_path=PackedInt32Array(384013046, 1738133530) index="0" unique_id=1185982814]
 transform = Transform3D(1.3, 0, 0, 0, 1.3, 5.5153447e-31, 0, 5.5153447e-31, 1.3, 12.176758, 26.096375, -11.538574)
 
-[node name="WaterPipe__0" parent="NavigationRegion3D/Interior/bathroom/sinks/sink2/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/WaterPipe" parent_id_path=PackedInt32Array(384013046, 1129945737) index="0" unique_id=1910755020]
+[node name="WaterPipe__0" parent="NavigationRegion3D/Interior/bathroom/sinks/sink2/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/WaterPipe" parent_id_path=PackedInt32Array(384013046, 302950279) index="0" unique_id=256454064]
 transform = Transform3D(1, -3.5527137e-15, -4.242573e-31, 3.5527137e-15, 1, -7.888609e-31, -4.242573e-31, 7.888609e-31, 1, 0, -0.11584473, 0)
 
-[node name="CollisionShape3D" parent="NavigationRegion3D/Interior/bathroom/sinks/sink2/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/WaterPipe/WaterPipe__0/StaticBody3D" parent_id_path=PackedInt32Array(384013046, 926779239) index="0" unique_id=1257077323]
+[node name="CollisionShape3D" parent="NavigationRegion3D/Interior/bathroom/sinks/sink2/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/WaterPipe/WaterPipe__0/StaticBody3D" parent_id_path=PackedInt32Array(384013046, 1973043340) index="0" unique_id=1658122944]
 transform = Transform3D(1, -1.0658141e-14, -4.2425745e-31, 1.0658141e-14, 1, -2.3665827e-30, -4.2425745e-31, 2.3665827e-30, 1, 0, 0.002571106, 0)
 
 [node name="sink3" parent="NavigationRegion3D/Interior/bathroom/sinks" unique_id=1200104435 instance=ExtResource("26_lswn8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 5.904503, 0, 7.6293945e-06)
 
-[node name="RootNode" parent="NavigationRegion3D/Interior/bathroom/sinks/sink3/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx" parent_id_path=PackedInt32Array(1200104435, 149108331) index="0" unique_id=1416173912]
+[node name="RootNode" parent="NavigationRegion3D/Interior/bathroom/sinks/sink3/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx" parent_id_path=PackedInt32Array(1200104435, 1866102025) index="0" unique_id=1272494778]
 transform = Transform3D(1.0000002, -7.888609e-31, -3.5527137e-15, 7.888609e-31, 1.0000002, 4.2425745e-31, 3.5527137e-15, 4.2425745e-31, 1.0000002, 0, 12.553558, 0)
 
-[node name="Object_4" parent="NavigationRegion3D/Interior/bathroom/sinks/sink3/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/CINEMA_4D_Editor" parent_id_path=PackedInt32Array(1200104435, 891845802) index="0" unique_id=1199628700]
+[node name="Object_4" parent="NavigationRegion3D/Interior/bathroom/sinks/sink3/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/CINEMA_4D_Editor" parent_id_path=PackedInt32Array(1200104435, 850696733) index="0" unique_id=1311586112]
 transform = Transform3D(0.46476153, -0.8162512, -0.34311885, 0.8422351, 0.28797713, 0.4557511, -0.273197, -0.5008024, 0.8213162, 0, 0, 0)
 
-[node name="Cylinder__0" parent="NavigationRegion3D/Interior/bathroom/sinks/sink3/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/Cylinder" parent_id_path=PackedInt32Array(1200104435, 1803590476) index="0" unique_id=774315239]
+[node name="Cylinder__0" parent="NavigationRegion3D/Interior/bathroom/sinks/sink3/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/Cylinder" parent_id_path=PackedInt32Array(1200104435, 1738133530) index="0" unique_id=1185982814]
 transform = Transform3D(1.3, 0, 0, 0, 1.3, 5.5153447e-31, 0, 5.5153447e-31, 1.3, 12.176758, 26.096375, -11.538574)
 
-[node name="WaterPipe__0" parent="NavigationRegion3D/Interior/bathroom/sinks/sink3/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/WaterPipe" parent_id_path=PackedInt32Array(1200104435, 1129945737) index="0" unique_id=1910755020]
+[node name="WaterPipe__0" parent="NavigationRegion3D/Interior/bathroom/sinks/sink3/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/WaterPipe" parent_id_path=PackedInt32Array(1200104435, 302950279) index="0" unique_id=256454064]
 transform = Transform3D(1, -3.5527137e-15, -4.242573e-31, 3.5527137e-15, 1, -7.888609e-31, -4.242573e-31, 7.888609e-31, 1, 0, -0.11584473, 0)
 
-[node name="CollisionShape3D" parent="NavigationRegion3D/Interior/bathroom/sinks/sink3/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/WaterPipe/WaterPipe__0/StaticBody3D" parent_id_path=PackedInt32Array(1200104435, 926779239) index="0" unique_id=1257077323]
+[node name="CollisionShape3D" parent="NavigationRegion3D/Interior/bathroom/sinks/sink3/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/WaterPipe/WaterPipe__0/StaticBody3D" parent_id_path=PackedInt32Array(1200104435, 1973043340) index="0" unique_id=1658122944]
 transform = Transform3D(1, -1.0658141e-14, -4.2425745e-31, 1.0658141e-14, 1, -2.3665827e-30, -4.2425745e-31, 2.3665827e-30, 1, 0, 0.002571106, 0)
 
 [node name="sink4" parent="NavigationRegion3D/Interior/bathroom/sinks" unique_id=1728681356 instance=ExtResource("26_lswn8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 8.890884, 0, 7.6293945e-06)
 
-[node name="RootNode" parent="NavigationRegion3D/Interior/bathroom/sinks/sink4/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx" parent_id_path=PackedInt32Array(1728681356, 149108331) index="0" unique_id=1416173912]
+[node name="RootNode" parent="NavigationRegion3D/Interior/bathroom/sinks/sink4/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx" parent_id_path=PackedInt32Array(1728681356, 1866102025) index="0" unique_id=1272494778]
 transform = Transform3D(1.0000002, -7.888609e-31, -3.5527137e-15, 7.888609e-31, 1.0000002, 4.2425745e-31, 3.5527137e-15, 4.2425745e-31, 1.0000002, 0, 12.553558, 0)
 
-[node name="Object_4" parent="NavigationRegion3D/Interior/bathroom/sinks/sink4/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/CINEMA_4D_Editor" parent_id_path=PackedInt32Array(1728681356, 891845802) index="0" unique_id=1199628700]
+[node name="Object_4" parent="NavigationRegion3D/Interior/bathroom/sinks/sink4/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/CINEMA_4D_Editor" parent_id_path=PackedInt32Array(1728681356, 850696733) index="0" unique_id=1311586112]
 transform = Transform3D(0.46476153, -0.8162512, -0.34311885, 0.8422351, 0.28797713, 0.4557511, -0.273197, -0.5008024, 0.8213162, 0, 0, 0)
 
-[node name="Cylinder__0" parent="NavigationRegion3D/Interior/bathroom/sinks/sink4/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/Cylinder" parent_id_path=PackedInt32Array(1728681356, 1803590476) index="0" unique_id=774315239]
+[node name="Cylinder__0" parent="NavigationRegion3D/Interior/bathroom/sinks/sink4/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/Cylinder" parent_id_path=PackedInt32Array(1728681356, 1738133530) index="0" unique_id=1185982814]
 transform = Transform3D(1.3, 0, 0, 0, 1.3, 5.5153447e-31, 0, 5.5153447e-31, 1.3, 12.176758, 26.096375, -11.538574)
 
-[node name="WaterPipe__0" parent="NavigationRegion3D/Interior/bathroom/sinks/sink4/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/WaterPipe" parent_id_path=PackedInt32Array(1728681356, 1129945737) index="0" unique_id=1910755020]
+[node name="WaterPipe__0" parent="NavigationRegion3D/Interior/bathroom/sinks/sink4/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/WaterPipe" parent_id_path=PackedInt32Array(1728681356, 302950279) index="0" unique_id=256454064]
 transform = Transform3D(1, -3.5527137e-15, -4.242573e-31, 3.5527137e-15, 1, -7.888609e-31, -4.242573e-31, 7.888609e-31, 1, 0, -0.11584473, 0)
 
-[node name="CollisionShape3D" parent="NavigationRegion3D/Interior/bathroom/sinks/sink4/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/WaterPipe/WaterPipe__0/StaticBody3D" parent_id_path=PackedInt32Array(1728681356, 926779239) index="0" unique_id=1257077323]
+[node name="CollisionShape3D" parent="NavigationRegion3D/Interior/bathroom/sinks/sink4/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/WaterPipe/WaterPipe__0/StaticBody3D" parent_id_path=PackedInt32Array(1728681356, 1973043340) index="0" unique_id=1658122944]
 transform = Transform3D(1, -1.0658141e-14, -4.2425745e-31, 1.0658141e-14, 1, -2.3665827e-30, -4.2425745e-31, 2.3665827e-30, 1, 0, 0.002571106, 0)
 
 [node name="sink5" parent="NavigationRegion3D/Interior/bathroom/sinks" unique_id=970646939 instance=ExtResource("26_lswn8")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 13.082222, 0, 7.6293945e-06)
 
-[node name="RootNode" parent="NavigationRegion3D/Interior/bathroom/sinks/sink5/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx" parent_id_path=PackedInt32Array(970646939, 149108331) index="0" unique_id=1416173912]
+[node name="RootNode" parent="NavigationRegion3D/Interior/bathroom/sinks/sink5/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx" parent_id_path=PackedInt32Array(970646939, 1866102025) index="0" unique_id=1272494778]
 transform = Transform3D(1.0000002, -7.888609e-31, -3.5527137e-15, 7.888609e-31, 1.0000002, 4.2425745e-31, 3.5527137e-15, 4.2425745e-31, 1.0000002, 0, 12.553558, 0)
 
-[node name="Object_4" parent="NavigationRegion3D/Interior/bathroom/sinks/sink5/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/CINEMA_4D_Editor" parent_id_path=PackedInt32Array(970646939, 891845802) index="0" unique_id=1199628700]
+[node name="Object_4" parent="NavigationRegion3D/Interior/bathroom/sinks/sink5/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/CINEMA_4D_Editor" parent_id_path=PackedInt32Array(970646939, 850696733) index="0" unique_id=1311586112]
 transform = Transform3D(0.46476153, -0.8162512, -0.34311885, 0.8422351, 0.28797713, 0.4557511, -0.273197, -0.5008024, 0.8213162, 0, 0, 0)
 
-[node name="Cylinder__0" parent="NavigationRegion3D/Interior/bathroom/sinks/sink5/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/Cylinder" parent_id_path=PackedInt32Array(970646939, 1803590476) index="0" unique_id=774315239]
+[node name="Cylinder__0" parent="NavigationRegion3D/Interior/bathroom/sinks/sink5/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/Cylinder" parent_id_path=PackedInt32Array(970646939, 1738133530) index="0" unique_id=1185982814]
 transform = Transform3D(1.3, 0, 0, 0, 1.3, 5.5153447e-31, 0, 5.5153447e-31, 1.3, 12.176758, 26.096375, -11.538574)
 
-[node name="WaterPipe__0" parent="NavigationRegion3D/Interior/bathroom/sinks/sink5/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/WaterPipe" parent_id_path=PackedInt32Array(970646939, 1129945737) index="0" unique_id=1910755020]
+[node name="WaterPipe__0" parent="NavigationRegion3D/Interior/bathroom/sinks/sink5/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/WaterPipe" parent_id_path=PackedInt32Array(970646939, 302950279) index="0" unique_id=256454064]
 transform = Transform3D(1, -3.5527137e-15, -4.242573e-31, 3.5527137e-15, 1, -7.888609e-31, -4.242573e-31, 7.888609e-31, 1, 0, -0.11584473, 0)
 
-[node name="CollisionShape3D" parent="NavigationRegion3D/Interior/bathroom/sinks/sink5/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/WaterPipe/WaterPipe__0/StaticBody3D" parent_id_path=PackedInt32Array(970646939, 926779239) index="0" unique_id=1257077323]
+[node name="CollisionShape3D" parent="NavigationRegion3D/Interior/bathroom/sinks/sink5/Sketchfab_model/6cdf428e57ae45a397dba7f9dbfeba03_fbx/RootNode/WaterPipe/WaterPipe__0/StaticBody3D" parent_id_path=PackedInt32Array(970646939, 1973043340) index="0" unique_id=1658122944]
 transform = Transform3D(1, -1.0658141e-14, -4.2425745e-31, 1.0658141e-14, 1, -2.3665827e-30, -4.2425745e-31, 2.3665827e-30, 1, 0, 0.002571106, 0)
 
 [node name="walls" type="Node3D" parent="NavigationRegion3D/Interior/bathroom" unique_id=767018275]
@@ -774,63 +825,63 @@ transform = Transform3D(1, -1.0658141e-14, -4.2425745e-31, 1.0658141e-14, 1, -2.
 [node name="wall" parent="NavigationRegion3D/Interior/bathroom/walls" unique_id=1175596626 instance=ExtResource("24_1u8w0")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -44.359562, -0.22913909, -60.283676)
 
-[node name="Cube_2_Mat_0" parent="NavigationRegion3D/Interior/bathroom/walls/wall/Sketchfab_model/85fc4ba68f2b4ec5aa9a542f442bee91_fbx/RootNode/Cube_2" parent_id_path=PackedInt32Array(1175596626, 1945345852) index="0" unique_id=1175906912]
+[node name="Cube_2_Mat_0" parent="NavigationRegion3D/Interior/bathroom/walls/wall/Sketchfab_model/85fc4ba68f2b4ec5aa9a542f442bee91_fbx/RootNode/Cube_2" parent_id_path=PackedInt32Array(1175596626, 1513385104) index="0" unique_id=23746896]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, 1363.6729)
 rotation_order = 0
 visible = false
 
-[node name="Cube_1" parent="NavigationRegion3D/Interior/bathroom/walls/wall/Sketchfab_model/85fc4ba68f2b4ec5aa9a542f442bee91_fbx/RootNode" parent_id_path=PackedInt32Array(1175596626, 893540680) index="1" unique_id=939161196]
+[node name="Cube_1" parent="NavigationRegion3D/Interior/bathroom/walls/wall/Sketchfab_model/85fc4ba68f2b4ec5aa9a542f442bee91_fbx/RootNode" parent_id_path=PackedInt32Array(1175596626, 975702023) index="1" unique_id=1438815104]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -267.7793, 48.303925, 1204.4111)
 
-[node name="Cube_1_Mat_0" parent="NavigationRegion3D/Interior/bathroom/walls/wall/Sketchfab_model/85fc4ba68f2b4ec5aa9a542f442bee91_fbx/RootNode/Cube_1" index="0" unique_id=1434960072]
+[node name="Cube_1_Mat_0" parent="NavigationRegion3D/Interior/bathroom/walls/wall/Sketchfab_model/85fc4ba68f2b4ec5aa9a542f442bee91_fbx/RootNode/Cube_1" index="0" unique_id=1593310310]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1663.5605, 391.17432, 72.262695)
 visible = false
 
-[node name="CollisionShape3D" parent="NavigationRegion3D/Interior/bathroom/walls/wall/Sketchfab_model/85fc4ba68f2b4ec5aa9a542f442bee91_fbx/RootNode/Cube_1/Cube_1_Mat_0/StaticBody3D" parent_id_path=PackedInt32Array(1175596626, 1238197683) index="0" unique_id=444887738]
+[node name="CollisionShape3D" parent="NavigationRegion3D/Interior/bathroom/walls/wall/Sketchfab_model/85fc4ba68f2b4ec5aa9a542f442bee91_fbx/RootNode/Cube_1/Cube_1_Mat_0/StaticBody3D" parent_id_path=PackedInt32Array(1175596626, 1193669099) index="0" unique_id=564564786]
 transform = Transform3D(-4.808253e-07, 0, 3, 0, 11, 0, -11, 0, -1.3113416e-07, 1899.6841, -1.861206, -1240.9395)
 
-[node name="Cube_Mat_0" parent="NavigationRegion3D/Interior/bathroom/walls/wall/Sketchfab_model/85fc4ba68f2b4ec5aa9a542f442bee91_fbx/RootNode/Cube" parent_id_path=PackedInt32Array(1175596626, 1546630954) index="0" unique_id=104458467]
+[node name="Cube_Mat_0" parent="NavigationRegion3D/Interior/bathroom/walls/wall/Sketchfab_model/85fc4ba68f2b4ec5aa9a542f442bee91_fbx/RootNode/Cube" parent_id_path=PackedInt32Array(1175596626, 65998388) index="0" unique_id=847350820]
 transform = Transform3D(-4.808253e-07, 0, 3, 0, 11, 0, -11, 0, -1.3113416e-07, 0, -42.01709, 76.9541)
 
 [node name="wall2" parent="NavigationRegion3D/Interior/bathroom/walls" unique_id=889847441 instance=ExtResource("24_1u8w0")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -64.16931, -0.22913909, -60.283676)
 
-[node name="Cube_2_Mat_0" parent="NavigationRegion3D/Interior/bathroom/walls/wall2/Sketchfab_model/85fc4ba68f2b4ec5aa9a542f442bee91_fbx/RootNode/Cube_2" parent_id_path=PackedInt32Array(889847441, 1945345852) index="0" unique_id=1175906912]
+[node name="Cube_2_Mat_0" parent="NavigationRegion3D/Interior/bathroom/walls/wall2/Sketchfab_model/85fc4ba68f2b4ec5aa9a542f442bee91_fbx/RootNode/Cube_2" parent_id_path=PackedInt32Array(889847441, 1513385104) index="0" unique_id=23746896]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 0, 0, 1363.6729)
 rotation_order = 0
 visible = false
 
-[node name="Cube_1" parent="NavigationRegion3D/Interior/bathroom/walls/wall2/Sketchfab_model/85fc4ba68f2b4ec5aa9a542f442bee91_fbx/RootNode" parent_id_path=PackedInt32Array(889847441, 893540680) index="1" unique_id=939161196]
+[node name="Cube_1" parent="NavigationRegion3D/Interior/bathroom/walls/wall2/Sketchfab_model/85fc4ba68f2b4ec5aa9a542f442bee91_fbx/RootNode" parent_id_path=PackedInt32Array(889847441, 975702023) index="1" unique_id=1438815104]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -267.7793, 48.303925, 1229.4873)
 visible = false
 
-[node name="Cube_1_Mat_0" parent="NavigationRegion3D/Interior/bathroom/walls/wall2/Sketchfab_model/85fc4ba68f2b4ec5aa9a542f442bee91_fbx/RootNode/Cube_1" index="0" unique_id=1434960072]
+[node name="Cube_1_Mat_0" parent="NavigationRegion3D/Interior/bathroom/walls/wall2/Sketchfab_model/85fc4ba68f2b4ec5aa9a542f442bee91_fbx/RootNode/Cube_1" index="0" unique_id=1593310310]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1663.5605, 391.17432, 72.262695)
 
-[node name="CollisionShape3D" parent="NavigationRegion3D/Interior/bathroom/walls/wall2/Sketchfab_model/85fc4ba68f2b4ec5aa9a542f442bee91_fbx/RootNode/Cube_1/Cube_1_Mat_0/StaticBody3D" parent_id_path=PackedInt32Array(889847441, 1238197683) index="0" unique_id=444887738]
+[node name="CollisionShape3D" parent="NavigationRegion3D/Interior/bathroom/walls/wall2/Sketchfab_model/85fc4ba68f2b4ec5aa9a542f442bee91_fbx/RootNode/Cube_1/Cube_1_Mat_0/StaticBody3D" parent_id_path=PackedInt32Array(889847441, 1193669099) index="0" unique_id=564564786]
 transform = Transform3D(-4.808253e-07, 0, 3, 0, 11, 0, -11, 0, -1.3113416e-07, 2928.871, -95.65869, -1240.9395)
 
-[node name="Cube_Mat_0" parent="NavigationRegion3D/Interior/bathroom/walls/wall2/Sketchfab_model/85fc4ba68f2b4ec5aa9a542f442bee91_fbx/RootNode/Cube" parent_id_path=PackedInt32Array(889847441, 1546630954) index="0" unique_id=104458467]
+[node name="Cube_Mat_0" parent="NavigationRegion3D/Interior/bathroom/walls/wall2/Sketchfab_model/85fc4ba68f2b4ec5aa9a542f442bee91_fbx/RootNode/Cube" parent_id_path=PackedInt32Array(889847441, 65998388) index="0" unique_id=847350820]
 transform = Transform3D(-4.808253e-07, 0, 3, 0, 11, 0, -11, 0, -1.3113416e-07, 0, -42.01709, 76.9541)
 
 [node name="wall3" parent="NavigationRegion3D/Interior/bathroom/walls" unique_id=1707873221 instance=ExtResource("24_1u8w0")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -64.76532, 21.66968, -60.283676)
 
-[node name="Cube_2_Mat_0" parent="NavigationRegion3D/Interior/bathroom/walls/wall3/Sketchfab_model/85fc4ba68f2b4ec5aa9a542f442bee91_fbx/RootNode/Cube_2" parent_id_path=PackedInt32Array(1707873221, 1945345852) index="0" unique_id=1175906912]
+[node name="Cube_2_Mat_0" parent="NavigationRegion3D/Interior/bathroom/walls/wall3/Sketchfab_model/85fc4ba68f2b4ec5aa9a542f442bee91_fbx/RootNode/Cube_2" parent_id_path=PackedInt32Array(1707873221, 1513385104) index="0" unique_id=23746896]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 68.18945, -5868.9375, 1175.5625)
 rotation_order = 0
 
-[node name="Cube_1" parent="NavigationRegion3D/Interior/bathroom/walls/wall3/Sketchfab_model/85fc4ba68f2b4ec5aa9a542f442bee91_fbx/RootNode" parent_id_path=PackedInt32Array(1707873221, 893540680) index="1" unique_id=939161196]
+[node name="Cube_1" parent="NavigationRegion3D/Interior/bathroom/walls/wall3/Sketchfab_model/85fc4ba68f2b4ec5aa9a542f442bee91_fbx/RootNode" parent_id_path=PackedInt32Array(1707873221, 975702023) index="1" unique_id=1438815104]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -267.7793, 48.303925, 1229.4873)
 
-[node name="Cube_1_Mat_0" parent="NavigationRegion3D/Interior/bathroom/walls/wall3/Sketchfab_model/85fc4ba68f2b4ec5aa9a542f442bee91_fbx/RootNode/Cube_1" index="0" unique_id=1434960072]
+[node name="Cube_1_Mat_0" parent="NavigationRegion3D/Interior/bathroom/walls/wall3/Sketchfab_model/85fc4ba68f2b4ec5aa9a542f442bee91_fbx/RootNode/Cube_1" index="0" unique_id=1593310310]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1663.5605, 391.17432, 72.262695)
 visible = false
 
-[node name="CollisionShape3D" parent="NavigationRegion3D/Interior/bathroom/walls/wall3/Sketchfab_model/85fc4ba68f2b4ec5aa9a542f442bee91_fbx/RootNode/Cube_1/Cube_1_Mat_0/StaticBody3D" parent_id_path=PackedInt32Array(1707873221, 1238197683) index="0" unique_id=444887738]
+[node name="CollisionShape3D" parent="NavigationRegion3D/Interior/bathroom/walls/wall3/Sketchfab_model/85fc4ba68f2b4ec5aa9a542f442bee91_fbx/RootNode/Cube_1/Cube_1_Mat_0/StaticBody3D" parent_id_path=PackedInt32Array(1707873221, 1193669099) index="0" unique_id=564564786]
 transform = Transform3D(-4.808253e-07, 0, 3, 0, 11, 0, -11, 0, -1.3113416e-07, 1906.293, -2239.94, -1246.8916)
 
-[node name="Cube_Mat_0" parent="NavigationRegion3D/Interior/bathroom/walls/wall3/Sketchfab_model/85fc4ba68f2b4ec5aa9a542f442bee91_fbx/RootNode/Cube" parent_id_path=PackedInt32Array(1707873221, 1546630954) index="0" unique_id=104458467]
+[node name="Cube_Mat_0" parent="NavigationRegion3D/Interior/bathroom/walls/wall3/Sketchfab_model/85fc4ba68f2b4ec5aa9a542f442bee91_fbx/RootNode/Cube" parent_id_path=PackedInt32Array(1707873221, 65998388) index="0" unique_id=847350820]
 transform = Transform3D(-4.808253e-07, 0, 3, 0, 11, 0, -11, 0, -1.3113416e-07, 1096.4854, -2240.7236, 77.075195)
 
 [node name="bathtubs" type="Node3D" parent="NavigationRegion3D/Interior/bathroom" unique_id=278547276]
@@ -898,40 +949,40 @@ transform = Transform3D(1, 0, -7.1054274e-15, 0, 1, 0, 7.1054274e-15, 0, 1, 690.
 [node name="cabinet" parent="NavigationRegion3D/Interior/Bedroom" unique_id=1069430012 instance=ExtResource("20_getpj")]
 transform = Transform3D(-200, 0, 3.0199162e-05, 0, 200, 0, -3.0199162e-05, 0, -200, 785.0636, 14, 58.000122)
 
-[node name="base_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/base" parent_id_path=PackedInt32Array(1069430012, 287417112) index="0" unique_id=1389798934]
+[node name="base_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/base" parent_id_path=PackedInt32Array(1069430012, 1941892073) index="0" unique_id=575026137]
 transform = Transform3D(1.0000001, 2.1316282e-14, 2.5410988e-21, -2.1316282e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.010751724, 0, 0)
 
-[node name="door1a" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4" parent_id_path=PackedInt32Array(1069430012, 39032542) index="2" unique_id=1935221264]
+[node name="door1a" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4" parent_id_path=PackedInt32Array(1069430012, 1928375029) index="2" unique_id=676865393]
 transform = Transform3D(1.0000001, 0, 0, 0, 1.0000001, 2.6469783e-23, 0, -2.6469783e-23, 1.0000001, 0.25, -0.55918217, 0.40365213)
 
-[node name="door1_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door1a/Object_11/door1" parent_id_path=PackedInt32Array(1069430012, 535801700) index="0" unique_id=99994715]
+[node name="door1_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door1a/Object_11/door1" parent_id_path=PackedInt32Array(1069430012, 971305551) index="0" unique_id=1518086223]
 transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.005959511, 0, 0)
 
-[node name="shelf1_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf1a/Object_18/shelf1" parent_id_path=PackedInt32Array(1069430012, 552844362) index="0" unique_id=397119117]
+[node name="shelf1_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf1a/Object_18/shelf1" parent_id_path=PackedInt32Array(1069430012, 602019427) index="0" unique_id=1336713379]
 transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.009283066, 0, 0)
 
-[node name="shelf2_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf2a/Object_25/shelf2" parent_id_path=PackedInt32Array(1069430012, 1226542137) index="0" unique_id=855247484]
+[node name="shelf2_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf2a/Object_25/shelf2" parent_id_path=PackedInt32Array(1069430012, 587228432) index="0" unique_id=1970830590]
 transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.0045518875, 0, 0)
 
-[node name="shelf3_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf3a/Object_32/shelf3" parent_id_path=PackedInt32Array(1069430012, 274780229) index="0" unique_id=242081564]
+[node name="shelf3_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf3a/Object_32/shelf3" parent_id_path=PackedInt32Array(1069430012, 1299962351) index="0" unique_id=1481982860]
 transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.015093803, 0, 0)
 
-[node name="door2a" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4" parent_id_path=PackedInt32Array(1069430012, 39032542) index="6" unique_id=381548443]
+[node name="door2a" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4" parent_id_path=PackedInt32Array(1069430012, 1928375029) index="6" unique_id=916000842]
 transform = Transform3D(1, 0, 0, 0, 1, 2.6469783e-23, 0, -2.646978e-23, 1.0000001, 0.27000046, -0.29803085, 0.4036522)
 
-[node name="door2_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door2a/Object_39/door2" parent_id_path=PackedInt32Array(1069430012, 281041466) index="0" unique_id=1875597460]
+[node name="door2_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door2a/Object_39/door2" parent_id_path=PackedInt32Array(1069430012, 1928804178) index="0" unique_id=1787016504]
 transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.006136894, 0, 0)
 
-[node name="door3a" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4" parent_id_path=PackedInt32Array(1069430012, 39032542) index="7" unique_id=1706246677]
+[node name="door3a" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4" parent_id_path=PackedInt32Array(1069430012, 1928375029) index="7" unique_id=263524420]
 transform = Transform3D(1, 0, 0, 0, 1, 2.6469783e-23, 0, -2.646978e-23, 1.0000001, 0.27000046, 0.29803038, 0.40365225)
 
-[node name="door3_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door3a/Object_46/door3" parent_id_path=PackedInt32Array(1069430012, 2003698984) index="0" unique_id=1543233966]
+[node name="door3_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door3a/Object_46/door3" parent_id_path=PackedInt32Array(1069430012, 986760526) index="0" unique_id=305694457]
 transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.0039606094, 0, 0)
 
-[node name="door4_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door4a/Object_53/door4" parent_id_path=PackedInt32Array(1069430012, 548602849) index="0" unique_id=206359104]
+[node name="door4_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door4a/Object_53/door4" parent_id_path=PackedInt32Array(1069430012, 630289933) index="0" unique_id=138189612]
 transform = Transform3D(1.0000001, 3.5527137e-14, 5.0821977e-21, -3.5527137e-14, 1.0000001, 0, -8.4703295e-22, 0, 1.0000001, -0.014930725, 2.670288e-05, -0.0014679432)
 
-[node name="StaticBody3D2" type="StaticBody3D" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode" parent_id_path=PackedInt32Array(1069430012, 942723060) index="1" unique_id=117068519]
+[node name="StaticBody3D2" type="StaticBody3D" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode" parent_id_path=PackedInt32Array(1069430012, 656104121) index="1" unique_id=117068519]
 transform = Transform3D(200, 0, 0, 0, 200, 0, 0, 0, 200, 785.064, 14, 58)
 input_capture_on_drag = true
 script = ExtResource("21_getpj")
@@ -976,6 +1027,7 @@ mesh = SubResource("CapsuleMesh_75kfu")
 
 [node name="NavigationAgent3D" type="NavigationAgent3D" parent="Enemy" unique_id=484893123]
 
+[editable path="NavigationRegion3D/Interior/cabinet2"]
 [editable path="NavigationRegion3D/Interior/bathroom/sinks/sink"]
 [editable path="NavigationRegion3D/Interior/bathroom/sinks/sink2"]
 [editable path="NavigationRegion3D/Interior/bathroom/sinks/sink3"]
