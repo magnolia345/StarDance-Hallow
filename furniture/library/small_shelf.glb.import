@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://s70b8qgjoyi"
-path="res://.godot/imported/dusty_old_bookshelf_free.glb-a577f75979a6daffd710c4d55c220ebc.scn"
+uid="uid://cwsyujss8qvwq"
+path="res://.godot/imported/small_shelf.glb-3370b1f0635339a02b7cc937785a05cb.scn"
 
 [deps]
 
-source_file="res://furniture/library/dusty_old_bookshelf_free.glb"
-dest_files=["res://.godot/imported/dusty_old_bookshelf_free.glb-a577f75979a6daffd710c4d55c220ebc.scn"]
+source_file="res://furniture/library/small_shelf.glb"
+dest_files=["res://.godot/imported/small_shelf.glb-3370b1f0635339a02b7cc937785a05cb.scn"]
 
 [params]
 
@@ -41,11 +41,9 @@ materials/extract_format=0
 materials/extract_path=""
 _subresources={
 "nodes": {
-"PATH:Sketchfab_model/root/GLTF_SceneRootNode/Old_Dusty_Bookshelf_1/Object_6": {
-"generate/physics": true
-},
-"PATH:Sketchfab_model/root/GLTF_SceneRootNode/Old_Dusty_Bookshelf_Spiderwebs_0/Object_4": {
-"generate/physics": true
+"PATH:Sketchfab_model/SmallShelf_FBX/RootNode/Box003/Box003_Material #4_0": {
+"generate/physics": true,
+"physics/shape_type": 2
 }
 }
 }
