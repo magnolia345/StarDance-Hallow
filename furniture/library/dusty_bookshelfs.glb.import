@@ -39,7 +39,31 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={}
+_subresources={
+"nodes": {
+"PATH:Sketchfab_model/36b46da13bda4da49a0e3c33fe9b8e32_fbx/RootNode/Cube_001_Cube_002/Cube_001_Cube_002_Material_001_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/36b46da13bda4da49a0e3c33fe9b8e32_fbx/RootNode/Cube_003_Cube_004/Cube_003_Cube_004_Material_001_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/36b46da13bda4da49a0e3c33fe9b8e32_fbx/RootNode/Cube_004_Cube_005/Cube_004_Cube_005_Material_001_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/36b46da13bda4da49a0e3c33fe9b8e32_fbx/RootNode/Cube_Cube_001/Cube_Cube_001_Material_001_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/36b46da13bda4da49a0e3c33fe9b8e32_fbx/RootNode/Cylinder_001/Cylinder_001_Material_001_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/36b46da13bda4da49a0e3c33fe9b8e32_fbx/RootNode/bokkshelf'/bokkshelf'_Material_003_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/36b46da13bda4da49a0e3c33fe9b8e32_fbx/RootNode/books/books_Material_004_0": {
+"generate/physics": true
+}
+}
+}
 gltf/naming_version=2
 gltf/embedded_image_handling=1
 gltf/texture_map_mode=1

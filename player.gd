@@ -133,6 +133,6 @@ func crouching():
 	else:
 		crouch = 0
 		resistance = 1
-		camera.position.y = 0.07
+		camera.position.y = 1.6
 		
 	
