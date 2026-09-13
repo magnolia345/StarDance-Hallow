@@ -32,10 +32,12 @@ func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 	show()
 	progress.position = Vector2(250, 0)
-
-func _unhandled_input(event):
+func help(event):
 	if event is InputEventKey:
 		print("key pressed: ", event.keycode)
+
+func _unhandled_input(event):
+
 	if event is InputEventMouseMotion:
 		head.rotate_y(-event.relative.x * sensitivity)
 		camera.rotate_x(-event.relative.y * sensitivity)
@@ -115,13 +117,10 @@ func _physics_process(delta: float) -> void:
 		
 	#Below is interaction stuff
 	if Input.is_action_just_pressed("interact"):
-		print("E pressed")
 		if ray.is_colliding():
 			var target = ray.get_collider()
 			if target.has_method("interact"):
 				target.interact()
-		else:
-			print("not hitting anything")
 func reset():
 	position = Vector3(50, 2, 4)
 	print(camera.position.y)
