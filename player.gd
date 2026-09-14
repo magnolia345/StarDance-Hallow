@@ -42,7 +42,7 @@ func _unhandled_input(event):
 		head.rotate_y(-event.relative.x * sensitivity)
 		camera.rotate_x(-event.relative.y * sensitivity)
 		camera.rotation.x = clamp(camera.rotation.x, 
-			deg_to_rad(-30), deg_to_rad(60))
+			deg_to_rad(-45), deg_to_rad(60))
 		
 func _physics_process(delta: float) -> void:
 	print(camera.position.y)

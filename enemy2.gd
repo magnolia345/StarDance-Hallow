@@ -32,9 +32,10 @@ func _ready():
 	_pick_new_wander_point()
 
 func _physics_process(delta):
-
+	print("tick | state: ", state, " | cooldown: ", cooldown_timer)
 	if cooldown_timer > 0:
 		cooldown_timer -= delta
+
 
 	match state:
 		State.WANDER:
@@ -72,42 +73,44 @@ func _check_vision():
 
 
 func _can_see_player() -> bool:
+	print("=== can_see_player start ===")
+
 	if not player or cooldown_timer > 0:
-		print("blocked by: no player or cooldown (cooldown=", cooldown_timer, ")")
+		print("blocked by cooldown: ", cooldown_timer)
 		return false
 
-	print("eyes pos: ", eyes.global_position, " | player pos: ", player.global_position)
-
-	# --- floor test ---
-	var space_state = get_world_3d().direct_space_state
-	var test_query = PhysicsRayQueryParameters3D.create(eyes.global_position, eyes.global_position + Vector3(0, -20, 0))
-	var test_result = space_state.intersect_ray(test_query)
-	print("floor test: ", test_result)
-	# --- end floor test ---
+	print("passed cooldown check")
 
 	var to_player = player.global_position - eyes.global_position
 	var dist = to_player.length()
-	print("dist: ", dist, " (max: ", view_distance, ")")
+	print("dist: ", dist)
 	if dist > view_distance:
 		print("too far")
 		return false
 
+	print("passed distance check")
+
 	var angle = rad_to_deg(eyes.global_transform.basis.z.signed_angle_to(to_player.normalized(), Vector3.UP))
-	print("angle: ", angle, " (max: ", view_angle, ")")
+	print("angle: ", angle)
 	if abs(angle) > view_angle:
 		print("outside FOV")
 		return false
 
-	var space_state2 = get_world_3d().direct_space_state
-	var query = PhysicsRayQueryParameters3D.create(eyes.global_position, player.global_position)
+	print("passed angle check")
+
+	var space_state = get_world_3d().direct_space_state
+	var query = PhysicsRayQueryParameters3D.create(eyes.global_position, player.global_position + Vector3(0, 1.0, 0))
 	query.exclude = [self]
 	query.collision_mask = 0xFFFFFFFF
-	var result = space_state2.intersect_ray(query)
+	var result = space_state.intersect_ray(query)
 	print("ray result: ", result)
 
-	return result and result.collider.is_in_group("player")
-# ---------------- STATES ----------------
+	if result:
+		print("hit: ", result.collider, " groups: ", result.collider.get_groups())
 
+	var final = result and result.collider.is_in_group("player")
+	print("final result: ", final)
+	return final
 func _wander():
 	nav_agent.max_speed = wander_speed
 	if nav_agent.is_navigation_finished():
