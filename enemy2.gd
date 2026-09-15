@@ -3,15 +3,17 @@ extends CharacterBody3D
 enum State { WANDER, CHASE, SEARCH }
 
 @export var wander_speed := 10.0
-@export var chase_speed := 20
+@export var chase_speed := 20.0
 @export var view_distance := 150.0
 @export var view_angle := 360.0  # degrees, half-angle each side
 @export var wander_radius := 10.0
 @export var search_duration := 5.0
 @export var detection_cooldown := 1.5  # grace period after losing player
+@export var close_range := 2.0  # inside this distance, vision auto-succeeds
+@export var stop_distance := 1.5  # how close chase is allowed to get before holding
 
 @onready var nav_agent: NavigationAgent3D = $NavigationAgent3D
-@onready var eyes: Node3D = $Eyes  # empty node at "head" height
+@onready var eyes: Node3D = $Eyes
 @onready var vision_check_timer: Timer = $VisionCheckTimer
 
 var state: State = State.WANDER
@@ -20,23 +22,31 @@ var last_known_position: Vector3
 var search_timer := 0.0
 var cooldown_timer := 0.0
 var can_see_player := false
-var check = false
+
+const DEBUG := true  # flip to true if you need the old verbose prints back
+
 
 func _ready():
-
 	player = get_tree().get_first_node_in_group("player")
-	print("Player found: ", player)
+
+	# --- IMPORTANT, DO THIS IN THE EDITOR ---
+	# This enemy's collision_layer/collision_mask must NOT include the
+	# player's physics layer. Otherwise move_and_slide() treats the player
+	# like a wall and the enemy will shove/wedge against them instead of
+	# stopping cleanly at stop_distance. Detection still works fine without
+	# this layer overlap because vision uses a manual raycast, not physics
+	# contact.
+
 	nav_agent.velocity_computed.connect(_on_velocity_computed)
 	vision_check_timer.timeout.connect(_check_vision)
 	vision_check_timer.wait_time = 0.15
 	vision_check_timer.start()
 	_pick_new_wander_point()
 
+
 func _physics_process(delta):
-	print("tick | state: ", state, " | cooldown: ", cooldown_timer)
 	if cooldown_timer > 0:
 		cooldown_timer -= delta
-
 
 	match state:
 		State.WANDER:
@@ -48,20 +58,15 @@ func _physics_process(delta):
 
 	_move_along_path()
 
+
 # ---------------- VISION ----------------
 
 func _check_vision():
-	print("enemy body pos: ", global_position, " | eyes pos: ", eyes.global_position, " | player pos: ", player.global_position)
 	if not player or cooldown_timer > 0:
-		print("blocked by: no player or cooldown (cooldown=", cooldown_timer, ")")
-		return false
+		return
 
-	print("eyes pos: ", eyes.global_position, " | player pos: ", player.global_position)  # <-- goes here
-
-	@warning_ignore("unused_variable")
-	var to_player = player.global_position - eyes.global_position
 	can_see_player = _can_see_player()
-	print(can_see_player)
+
 	match state:
 		State.WANDER:
 			if can_see_player:
@@ -75,48 +80,45 @@ func _check_vision():
 
 
 func _can_see_player() -> bool:
-	print("=== can_see_player start ===")
-
 	if not player or cooldown_timer > 0:
-		print("blocked by cooldown: ", cooldown_timer)
 		return false
-
-	print("passed cooldown check")
 
 	var to_player = player.global_position - eyes.global_position
 	var dist = to_player.length()
-	print("dist: ", dist)
 	if dist > view_distance:
-		print("too far")
 		return false
 
-	print("passed distance check")
+	# Point-blank range: skip angle/raycast, the enemy is basically on top
+	# of the player, so line-of-sight checks are unreliable/meaningless here.
+	if dist < close_range:
+		return true
 
 	var angle = rad_to_deg(eyes.global_transform.basis.z.signed_angle_to(to_player.normalized(), Vector3.UP))
-	print("angle: ", angle)
 	if abs(angle) > view_angle:
-		print("outside FOV")
 		return false
 
-	print("passed angle check")
-
 	var space_state = get_world_3d().direct_space_state
-	var query = PhysicsRayQueryParameters3D.create(eyes.global_position, player.global_position + Vector3(0, 1.0, 0))
+	var query = PhysicsRayQueryParameters3D.create(
+		eyes.global_position,
+		player.global_position + Vector3(0, 1.0, 0)
+	)
 	query.exclude = [self]
 	query.collision_mask = 0xFFFFFFFF
 	var result = space_state.intersect_ray(query)
-	print("ray result: ", result)
 
-	if result:
-		print("hit: ", result.collider, " groups: ", result.collider.get_groups())
+	if DEBUG:
+		print("ray result: ", result)
 
-	var final = result and result.collider.is_in_group("player")
-	print("final result: ", final)
-	return final
+	return result and result.collider.is_in_group("player")
+
+
+# ---------------- STATE BEHAVIOR ----------------
+
 func _wander():
 	nav_agent.max_speed = wander_speed
 	if nav_agent.is_navigation_finished():
 		_pick_new_wander_point()
+
 
 func _pick_new_wander_point():
 	var random_point = global_position + Vector3(
@@ -126,34 +128,30 @@ func _pick_new_wander_point():
 	)
 	nav_agent.target_position = random_point
 
-func _chase():
-	if check:
-		nav_agent.target_position = player.global_position
-		if nav_agent.is_navigation_finished():
-		
-			return
 
-	# 3. Get the next immediate vector point along the calculated path
-		var next_path_pos = nav_agent.get_next_path_position()
-	# 4. Calculate the direction and velocity
-		var current_position: Vector3 = global_position
-		var new_velocity: Vector3 = (next_path_pos - current_position).normalized() * 10
-	
-	# 5. Move the CharacterBody3D
-		velocity = new_velocity
-		move_and_slide()
+func _chase():
+	nav_agent.max_speed = chase_speed
+	var to_player = player.global_position - global_position
+	# Don't keep re-targeting the player's exact position once we're
+	# already close — that's what caused the wedge-into-wall bug.
+	if to_player.length() > stop_distance:
+		nav_agent.target_position = player.global_position
+
+
 func _enter_search():
 	last_known_position = player.global_position
 	nav_agent.target_position = last_known_position
 	search_timer = search_duration
 
+
 func _search(delta):
 	nav_agent.max_speed = chase_speed
 	if nav_agent.is_navigation_finished():
 		search_timer -= delta
-		rotate_y(deg_to_rad(60) * delta)  # scan around while standing at last known spot
+		rotate_y(deg_to_rad(60) * delta)
 		if search_timer <= 0:
 			_change_state(State.WANDER)
+
 
 # ---------------- STATE SWITCHING ----------------
 
@@ -169,21 +167,24 @@ func _change_state(new_state: State):
 		State.CHASE:
 			pass
 
+
 # ---------------- MOVEMENT ----------------
 
 func _move_along_path():
 	if nav_agent.is_navigation_finished():
 		if state == State.CHASE:
-			# still close to player but path considered "done" - face and hold or nudge forward
+			# Close enough that the navmesh says "arrived" - hold position,
+			# just face the player. NEVER drive straight-line velocity here;
+			# that ignores walls entirely and is what caused the enemy to
+			# ram geometry and get permanently stuck off the navmesh.
 			var to_player = player.global_position - global_position
 			to_player.y = 0
 			if to_player.length() > 0.1:
-				velocity = to_player.normalized() * nav_agent.max_speed
 				look_at(global_position + to_player.normalized(), Vector3.UP)
-			else:
-				velocity = Vector3.ZERO
+			velocity = Vector3.ZERO
 			move_and_slide()
 			return
+
 		velocity = Vector3.ZERO
 		move_and_slide()
 		return
@@ -198,6 +199,7 @@ func _move_along_path():
 		look_at(global_position + direction, Vector3.UP)
 
 	move_and_slide()
+
 
 func _on_velocity_computed(safe_velocity: Vector3):
 	velocity = safe_velocity

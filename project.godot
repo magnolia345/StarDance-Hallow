@@ -37,7 +37,7 @@ Shortcuts/density_decrement=Object(Shortcut,"resource_local_to_scene":false,"res
 config/name="Hallow"
 run/main_scene="uid://mbvsxewhcu6s"
 config/features=PackedStringArray("4.7", "GL Compatibility")
-config/icon="res://icon.svg"
+config/icon="uid://be3v2nj3v135t"
 
 [autoload]
 

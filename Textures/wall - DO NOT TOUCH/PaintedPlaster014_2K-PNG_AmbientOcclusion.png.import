@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://boicqcaavl2re"
-path="res://.godot/imported/PaintedPlaster014_2K-PNG_AmbientOcclusion.png-4708a66f2c5165f0a21efc8fb602e05c.ctex"
+path="res://.godot/imported/PaintedPlaster014_2K-PNG_AmbientOcclusion.png-9ff87ad7d42d230c69195e7891d83f00.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://textures/wall - DO NOT TOUCH/PaintedPlaster014_2K-PNG_AmbientOcclusion.png"
-dest_files=["res://.godot/imported/PaintedPlaster014_2K-PNG_AmbientOcclusion.png-4708a66f2c5165f0a21efc8fb602e05c.ctex"]
+source_file="res://Textures/wall - DO NOT TOUCH/PaintedPlaster014_2K-PNG_AmbientOcclusion.png"
+dest_files=["res://.godot/imported/PaintedPlaster014_2K-PNG_AmbientOcclusion.png-9ff87ad7d42d230c69195e7891d83f00.ctex"]
 
 [params]
 
