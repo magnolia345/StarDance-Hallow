@@ -99,6 +99,12 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
 	
 	if Input.is_action_just_pressed("interact"):
+		if ray.is_colliding():
+			var target = ray.get_collider()
+			if target.has_method("interact"):
+				target.interact()
+		
+	if Input.is_action_just_pressed("interact"):
 		print("E pressed, colliding: ", ray.is_colliding())
 		
 	progress.value = stamina_level
@@ -114,13 +120,6 @@ func _physics_process(delta: float) -> void:
 		t_bob = 0
 		camera.transform.origin = camera.transform.origin.lerp(Vector3.ZERO, delta * 10.0)
 		
-		
-	#Below is interaction stuff
-	if Input.is_action_just_pressed("interact"):
-		if ray.is_colliding():
-			var target = ray.get_collider()
-			if target.has_method("interact"):
-				target.interact()
 func reset():
 	position = Vector3(50, 2, 4)
 	print(camera.position.y)
