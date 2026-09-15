@@ -20,7 +20,6 @@ var last_known_position: Vector3
 var search_timer := 0.0
 var cooldown_timer := 0.0
 var can_see_player := false
-var check = false
 
 func _ready():
 
@@ -127,21 +126,9 @@ func _pick_new_wander_point():
 	nav_agent.target_position = random_point
 
 func _chase():
-	if check:
-		nav_agent.target_position = player.global_position
-		if nav_agent.is_navigation_finished():
-		
-			return
+	nav_agent.max_speed = chase_speed
+	nav_agent.target_position = player.global_position
 
-	# 3. Get the next immediate vector point along the calculated path
-		var next_path_pos = nav_agent.get_next_path_position()
-	# 4. Calculate the direction and velocity
-		var current_position: Vector3 = global_position
-		var new_velocity: Vector3 = (next_path_pos - current_position).normalized() * 10
-	
-	# 5. Move the CharacterBody3D
-		velocity = new_velocity
-		move_and_slide()
 func _enter_search():
 	last_known_position = player.global_position
 	nav_agent.target_position = last_known_position
