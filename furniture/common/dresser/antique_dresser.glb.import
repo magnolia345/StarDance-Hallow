@@ -39,7 +39,70 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={}
+_subresources={
+"nodes": {
+"PATH:Sketchfab_model/c04dfd43dd584a4da7019eb85cb3ca4c_fbx/RootNode/Base_low_001/Base_low_001__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c04dfd43dd584a4da7019eb85cb3ca4c_fbx/RootNode/Bottom_low_001/Bottom_low_001__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c04dfd43dd584a4da7019eb85cb3ca4c_fbx/RootNode/Cub_low_001/Cub_low_001__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c04dfd43dd584a4da7019eb85cb3ca4c_fbx/RootNode/Drawers_low_001/Drawers_low_001__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c04dfd43dd584a4da7019eb85cb3ca4c_fbx/RootNode/Drawers_low_002/Drawers_low_002__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c04dfd43dd584a4da7019eb85cb3ca4c_fbx/RootNode/Drawers_low_003/Drawers_low_003__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c04dfd43dd584a4da7019eb85cb3ca4c_fbx/RootNode/Drawers_low_004/Drawers_low_004__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c04dfd43dd584a4da7019eb85cb3ca4c_fbx/RootNode/Drawers_low_005/Drawers_low_005__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c04dfd43dd584a4da7019eb85cb3ca4c_fbx/RootNode/Handle02_low_001/Handle02_low_001__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c04dfd43dd584a4da7019eb85cb3ca4c_fbx/RootNode/Handle02_low_002/Handle02_low_002__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c04dfd43dd584a4da7019eb85cb3ca4c_fbx/RootNode/Handle02_low_003/Handle02_low_003__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c04dfd43dd584a4da7019eb85cb3ca4c_fbx/RootNode/Handle02_low_004/Handle02_low_004__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c04dfd43dd584a4da7019eb85cb3ca4c_fbx/RootNode/Handle02_low_005/Handle02_low_005__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c04dfd43dd584a4da7019eb85cb3ca4c_fbx/RootNode/Handle_low_001/Handle_low_001__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c04dfd43dd584a4da7019eb85cb3ca4c_fbx/RootNode/Handle_low_002/Handle_low_002__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c04dfd43dd584a4da7019eb85cb3ca4c_fbx/RootNode/Handle_low_003/Handle_low_003__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c04dfd43dd584a4da7019eb85cb3ca4c_fbx/RootNode/Handle_low_004/Handle_low_004__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c04dfd43dd584a4da7019eb85cb3ca4c_fbx/RootNode/Handle_low_005/Handle_low_005__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c04dfd43dd584a4da7019eb85cb3ca4c_fbx/RootNode/Hind_low_001/Hind_low_001__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c04dfd43dd584a4da7019eb85cb3ca4c_fbx/RootNode/knobs_low_001/knobs_low_001__0": {
+"generate/physics": true
+}
+}
+}
 gltf/naming_version=2
 gltf/embedded_image_handling=1
 gltf/texture_map_mode=1

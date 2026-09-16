@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://bwsf3ka3yl7nx"
-path="res://.godot/imported/old_couch.glb-0893e6880f9d8526da0e5db27f0bae47.scn"
+uid="uid://df51dqjbjy4c0"
+path="res://.godot/imported/sacrifice_table.glb-a6801c2accd3d0cd6244c6f089a5c955.scn"
 
 [deps]
 
-source_file="res://furniture/old_couch/old_couch.glb"
-dest_files=["res://.godot/imported/old_couch.glb-0893e6880f9d8526da0e5db27f0bae47.scn"]
+source_file="res://furniture/sacrifice/sacrifice_table.glb"
+dest_files=["res://.godot/imported/sacrifice_table.glb-a6801c2accd3d0cd6244c6f089a5c955.scn"]
 
 [params]
 

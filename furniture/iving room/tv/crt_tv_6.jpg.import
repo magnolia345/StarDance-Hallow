@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://caevp5olq1j75"
-path.s3tc="res://.godot/imported/old_couch_0.png-acb1f8a7a837995a7f14e7c058649ce8.s3tc.ctex"
+uid="uid://b8lyao6fk7ty8"
+path.s3tc="res://.godot/imported/crt_tv_6.jpg-d193a72a7debe9ba3dd0f2efb7e5e975.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "f92293b777c09859a3ce3e4d66c4e480"
+"md5": "8625a54026590212beb2bb0fb763994b"
 }
 
 [deps]
 
-source_file="res://furniture/old_couch/old_couch_0.png"
-dest_files=["res://.godot/imported/old_couch_0.png-acb1f8a7a837995a7f14e7c058649ce8.s3tc.ctex"]
+source_file="res://furniture/iving room/tv/crt_tv_6.jpg"
+dest_files=["res://.godot/imported/crt_tv_6.jpg-d193a72a7debe9ba3dd0f2efb7e5e975.s3tc.ctex"]
 
 [params]
 
