@@ -23,7 +23,7 @@ var search_timer := 0.0
 var cooldown_timer := 0.0
 var can_see_player := false
 
-const DEBUG := true  # flip to true if you need the old verbose prints back
+const DEBUG := false  # flip to true if you need the old verbose prints back
 
 
 func _ready():

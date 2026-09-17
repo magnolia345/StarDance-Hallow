@@ -22,7 +22,6 @@ func interact():
 		var shelf1 = root.find_child("shelf1a", true, false)
 		var shelf2 = root.find_child("shelf2a", true, false)
 		var shelf3 = root.find_child("shelf3a", true, false)
-		print("found door1: ", door1)
 		var tween = create_tween()
 		if door1 and is_open:
 			tween.parallel().tween_property(door1, "rotation:z", deg_to_rad(-90), 0.5)

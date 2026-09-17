@@ -34,7 +34,8 @@ func _ready():
 	progress.position = Vector2(250, 0)
 func help(event):
 	if event is InputEventKey:
-		print("key pressed: ", event.keycode)
+		if false:
+			print("key pressed: ", event.keycode)
 
 func _unhandled_input(event):
 
@@ -45,10 +46,7 @@ func _unhandled_input(event):
 			deg_to_rad(-45), deg_to_rad(60))
 		
 func _physics_process(delta: float) -> void:
-	print(camera.position.y)
-	if Input.is_key_pressed(KEY_E):
-		print("E IS BEING PRESSED")
-		
+
 	crouching()
 	if Input.is_key_pressed(KEY_SHIFT) and stamina_level > 0 and crouch == 0:
 		SPEED = 20
@@ -122,7 +120,6 @@ func _physics_process(delta: float) -> void:
 		
 func reset():
 	position = Vector3(50, 2, 4)
-	print(camera.position.y)
 func crouching():
 	if Input.is_key_pressed(KEY_C) and is_on_floor():
 		camera.position.y = -2

@@ -74,43 +74,27 @@ func _check_vision():
 
 
 func _can_see_player() -> bool:
-	print("=== can_see_player start ===")
 
 	if not player or cooldown_timer > 0:
-		print("blocked by cooldown: ", cooldown_timer)
 		return false
-
-	print("passed cooldown check")
 
 	var to_player = player.global_position - eyes.global_position
 	var dist = to_player.length()
-	print("dist: ", dist)
 	if dist > view_distance:
-		print("too far")
 		return false
-
-	print("passed distance check")
 
 	var angle = rad_to_deg(eyes.global_transform.basis.z.signed_angle_to(to_player.normalized(), Vector3.UP))
-	print("angle: ", angle)
 	if abs(angle) > view_angle:
-		print("outside FOV")
 		return false
 
-	print("passed angle check")
 
 	var space_state = get_world_3d().direct_space_state
 	var query = PhysicsRayQueryParameters3D.create(eyes.global_position, player.global_position + Vector3(0, 1.0, 0))
 	query.exclude = [self]
 	query.collision_mask = 0xFFFFFFFF
 	var result = space_state.intersect_ray(query)
-	print("ray result: ", result)
-
-	if result:
-		print("hit: ", result.collider, " groups: ", result.collider.get_groups())
 
 	var final = result and result.collider.is_in_group("player")
-	print("final result: ", final)
 	return final
 func _wander():
 	nav_agent.max_speed = wander_speed
