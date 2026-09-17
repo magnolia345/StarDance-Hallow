@@ -1160,6 +1160,54 @@ transform = Transform3D(-1.0927847e-07, 0, 2.5, 0, 2.5, 0, -2.5, 0, -1.0927847e-
 [node name="kitchen!" parent="NavigationRegion3D/Interior/living room" unique_id=1657589923 instance=ExtResource("34_gngh3")]
 transform = Transform3D(-0.2, 0, 1.7484556e-08, 0, 0.2, 0, -1.7484556e-08, 0, -0.2, -8.831142, -2.291508, 44.171616)
 
+[node name="HingeJoint3D" type="HingeJoint3D" parent="NavigationRegion3D/Interior/living room/kitchen!/Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_28/Component_137/Material240" parent_id_path=PackedInt32Array(1657589923, 1614498322) index="0" unique_id=1278993708]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.3868713, 0, 8.977051)
+
+[node name="Material2302" parent="NavigationRegion3D/Interior/living room/kitchen!/Sketchfab_model/Collada visual scene group/SketchUp/group_12/instance_201/Component_174" parent_id_path=PackedInt32Array(1657589923, 1576194029) index="0" unique_id=65435774]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.024414063, 0)
+
+[node name="Material2723" parent="NavigationRegion3D/Interior/living room/kitchen!/Sketchfab_model/Collada visual scene group/SketchUp/instance_271/Component_185" parent_id_path=PackedInt32Array(1657589923, 405924753) index="0" unique_id=630884775]
+visible = false
+
+[node name="Material2725" parent="NavigationRegion3D/Interior/living room/kitchen!/Sketchfab_model/Collada visual scene group/SketchUp/instance_272/Component_1852" parent_id_path=PackedInt32Array(1657589923, 1200759847) index="0" unique_id=328634044]
+visible = false
+
+[node name="Material2731" parent="NavigationRegion3D/Interior/living room/kitchen!/Sketchfab_model/Collada visual scene group/SketchUp/instance_275/Component_1855" parent_id_path=PackedInt32Array(1657589923, 139060565) index="0" unique_id=2105454452]
+visible = false
+
+[node name="Material2733" parent="NavigationRegion3D/Interior/living room/kitchen!/Sketchfab_model/Collada visual scene group/SketchUp/instance_276/Component_1856" parent_id_path=PackedInt32Array(1657589923, 2049089089) index="0" unique_id=671856578]
+visible = false
+
+[node name="Material2735" parent="NavigationRegion3D/Interior/living room/kitchen!/Sketchfab_model/Collada visual scene group/SketchUp/instance_277/Component_1857" parent_id_path=PackedInt32Array(1657589923, 750442590) index="0" unique_id=445088870]
+visible = false
+
+[node name="Material2737" parent="NavigationRegion3D/Interior/living room/kitchen!/Sketchfab_model/Collada visual scene group/SketchUp/instance_278/Component_1858" parent_id_path=PackedInt32Array(1657589923, 1780533025) index="0" unique_id=1997390597]
+visible = false
+
+[node name="Material2739" parent="NavigationRegion3D/Interior/living room/kitchen!/Sketchfab_model/Collada visual scene group/SketchUp/instance_279/Component_1859" parent_id_path=PackedInt32Array(1657589923, 346230160) index="0" unique_id=1411773566]
+visible = false
+
+[node name="Material2741" parent="NavigationRegion3D/Interior/living room/kitchen!/Sketchfab_model/Collada visual scene group/SketchUp/instance_280/Component_18510" parent_id_path=PackedInt32Array(1657589923, 2081150477) index="0" unique_id=1274444507]
+visible = false
+
+[node name="Material2745" parent="NavigationRegion3D/Interior/living room/kitchen!/Sketchfab_model/Collada visual scene group/SketchUp/instance_282/Component_18512" parent_id_path=PackedInt32Array(1657589923, 316510739) index="0" unique_id=1770087031]
+visible = false
+
+[node name="Material2747" parent="NavigationRegion3D/Interior/living room/kitchen!/Sketchfab_model/Collada visual scene group/SketchUp/instance_283/Component_18513" parent_id_path=PackedInt32Array(1657589923, 824037943) index="0" unique_id=373752155]
+visible = false
+
+[node name="Material2749" parent="NavigationRegion3D/Interior/living room/kitchen!/Sketchfab_model/Collada visual scene group/SketchUp/instance_284/Component_18514" parent_id_path=PackedInt32Array(1657589923, 2047649601) index="0" unique_id=1756650062]
+visible = false
+
+[node name="Material2751" parent="NavigationRegion3D/Interior/living room/kitchen!/Sketchfab_model/Collada visual scene group/SketchUp/instance_285/Component_18515" parent_id_path=PackedInt32Array(1657589923, 367852142) index="0" unique_id=920785861]
+visible = false
+
+[node name="Material2753" parent="NavigationRegion3D/Interior/living room/kitchen!/Sketchfab_model/Collada visual scene group/SketchUp/instance_286/Component_18516" parent_id_path=PackedInt32Array(1657589923, 416477781) index="0" unique_id=790579925]
+visible = false
+
+[node name="Material2755" parent="NavigationRegion3D/Interior/living room/kitchen!/Sketchfab_model/Collada visual scene group/SketchUp/instance_287/Component_18517" parent_id_path=PackedInt32Array(1657589923, 1152473670) index="0" unique_id=1508282794]
+visible = false
+
 [node name="tv_base" parent="NavigationRegion3D/Interior/living room" unique_id=914496550 instance=ExtResource("34_0cp0l")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 25.523825, -0.83074975, -20.31868)
 
