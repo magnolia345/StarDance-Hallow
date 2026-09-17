@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bj4b62mkdd0tx"
-path="res://.godot/imported/trashy_backyard_sofa.glb-b95da3534d61e4484c365358a1f90993.scn"
+path="res://.godot/imported/trashy_backyard_sofa.glb-48605e61d83a1dd9c4bb5c78d9bbe800.scn"
 
 [deps]
 
-source_file="res://Textures/sofa/trashy_backyard_sofa.glb"
-dest_files=["res://.godot/imported/trashy_backyard_sofa.glb-b95da3534d61e4484c365358a1f90993.scn"]
+source_file="res://textures/sofa/trashy_backyard_sofa.glb"
+dest_files=["res://.godot/imported/trashy_backyard_sofa.glb-48605e61d83a1dd9c4bb5c78d9bbe800.scn"]
 
 [params]
 
