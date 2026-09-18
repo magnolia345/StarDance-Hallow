@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://dti50ya6i10gc"
-path="res://.godot/imported/closet.glb-5ec94230b9ec374a0d8f60a5f8e29298.scn"
+uid="uid://m4qv3bn8isff"
+path="res://.godot/imported/chalkboard.glb-3cf74e6adfd404d1192199ca01e5c5c3.scn"
 
 [deps]
 
-source_file="res://furniture/common/closet/closet.glb"
-dest_files=["res://.godot/imported/closet.glb-5ec94230b9ec374a0d8f60a5f8e29298.scn"]
+source_file="res://furniture/classrooms/chalkb/chalkboard.glb"
+dest_files=["res://.godot/imported/chalkboard.glb-3cf74e6adfd404d1192199ca01e5c5c3.scn"]
 
 [params]
 

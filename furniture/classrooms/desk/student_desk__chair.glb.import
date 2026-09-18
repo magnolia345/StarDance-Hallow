@@ -39,7 +39,25 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={}
+_subresources={
+"nodes": {
+"PATH:Sketchfab_model/00c5c7226e404cddbc28c41c3b66c624_fbx/RootNode/Back_low/Back_low__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/00c5c7226e404cddbc28c41c3b66c624_fbx/RootNode/Base_low/Base_low__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/00c5c7226e404cddbc28c41c3b66c624_fbx/RootNode/ChairLegs_low/ChairLegs_low__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/00c5c7226e404cddbc28c41c3b66c624_fbx/RootNode/Seat_low/Seat_low__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/00c5c7226e404cddbc28c41c3b66c624_fbx/RootNode/TopDeskTable_low/TopDeskTable_low__0": {
+"generate/physics": true
+}
+}
+}
 gltf/naming_version=2
 gltf/embedded_image_handling=1
 gltf/texture_map_mode=1
