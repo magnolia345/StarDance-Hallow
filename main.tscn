@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://cm2y1agyu2ydn" path="res://kenney_prototype-kit/Models/GLB format/stairs.glb" id="5_4c57u"]
 [ext_resource type="PackedScene" uid="uid://b20h2egcn5c2y" path="res://kenney_prototype-kit/Models/GLB format/wall-doorway.glb" id="6_efxa6"]
 [ext_resource type="Script" uid="uid://brlnkisaicpve" path="res://ray_cast_3d.gd" id="6_wnkbs"]
+[ext_resource type="PackedScene" uid="uid://dk034wn58pkvk" path="res://hammer.tscn" id="7_0cbny"]
 [ext_resource type="PackedScene" uid="uid://dpygi7k3j86fv" path="res://kenney_prototype-kit/Models/GLB format/wall.glb" id="7_dg77c"]
 [ext_resource type="PackedScene" uid="uid://tkicx47kqcas" path="res://kenney_prototype-kit/Models/GLB format/floor-square.glb" id="8_ycdy4"]
 [ext_resource type="MeshLibrary" uid="uid://ck06enxj7sxef" path="res://tiles.meshlib" id="9_w48qg"]
@@ -19,7 +20,6 @@
 [ext_resource type="PackedScene" uid="uid://b2fl6j24akq75" path="res://furniture/bathroom/jailshower/jailshower_head.glb" id="14_a6jrf"]
 [ext_resource type="PackedScene" uid="uid://c67vwrpp4jdgi" path="res://furniture/bathroom/bathtub/bathtub.glb" id="14_d13ii"]
 [ext_resource type="PackedScene" uid="uid://cwsyujss8qvwq" path="res://furniture/library/small_shelf.glb" id="15_ok6jj"]
-[ext_resource type="PackedScene" uid="uid://bvc6ao8h6p02e" path="res://hammer/hammer.glb" id="15_qnost"]
 [ext_resource type="PackedScene" uid="uid://dvcv16jto7tw0" path="res://furniture/library/bookshelf.glb" id="15_seu75"]
 [ext_resource type="Texture2D" uid="uid://banenojhhjyyn" path="res://dirt for godot.jpeg" id="15_vivmo"]
 [ext_resource type="PackedScene" uid="uid://c3wl74l1u08w3" path="res://furniture/bathroom/urinal/silent_hill_2_urinal_toilet_dirty.glb" id="15_xuqvo"]
@@ -188,7 +188,7 @@ size = Vector3(200.20776, 77.7641, 98.27759)
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_75kfu"]
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_hrvbo"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_0cbny"]
 render_priority = 0
 shader = ExtResource("10_ycdy4")
 shader_parameter/albedo = Color(1, 1, 1, 1)
@@ -306,6 +306,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -14.528999, 2.9966383, 0)
 [node name="Camera3D" type="Camera3D" parent="player/Head" unique_id=650252209]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5.038885, 0)
 cull_mask = 1048573
+current = true
 
 [node name="RayCast3D" type="RayCast3D" parent="player/Head/Camera3D" unique_id=889140971]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -5.039, 0)
@@ -329,7 +330,8 @@ navigation_mesh = SubResource("NavigationMesh_vkgo8")
 [node name="tools" type="Node3D" parent="NavigationRegion3D" unique_id=1018398809]
 transform = Transform3D(0.09, 0, 0, 0, 0.09, 0, 0, 0, 0.09, -19.889107, 2.9304237, 3.379181)
 
-[node name="hammer" parent="NavigationRegion3D/tools" unique_id=1744521660 instance=ExtResource("15_qnost")]
+[node name="Hammer" parent="NavigationRegion3D/tools" unique_id=1079840946 instance=ExtResource("7_0cbny")]
+transform = Transform3D(11.1, 0, 0, 0, 11.1, 0, 0, 0, 11.1, -34.565308, -17.793827, -4.213135)
 
 [node name="Gridm" type="Node3D" parent="NavigationRegion3D" unique_id=1654291452]
 
@@ -1535,7 +1537,7 @@ avoidance_enabled = true
 [node name="VisionCheckTimer" type="Timer" parent="Enemy" unique_id=1277709621]
 
 [node name="SimpleGrassTextured" type="MultiMeshInstance3D" parent="." unique_id=1769417006]
-material_override = SubResource("ShaderMaterial_hrvbo")
+material_override = SubResource("ShaderMaterial_0cbny")
 multimesh = SubResource("MultiMesh_0cbny")
 script = ExtResource("13_2cqfq")
 scale_h = 6.0
@@ -1556,7 +1558,6 @@ sgt_tool_shape = {
 metadata/_custom_type_script = "uid://2juaclm8gc1n"
 metadata/SimpleGrassTextured = "2.0.5"
 
-[editable path="NavigationRegion3D/tools/hammer"]
 [editable path="NavigationRegion3D/Interior/classrooms/bathroom/sink7"]
 [editable path="NavigationRegion3D/Interior/classrooms/bio/tables/table"]
 [editable path="NavigationRegion3D/Interior/classrooms/bio/lab/table10"]
