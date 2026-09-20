@@ -20,13 +20,14 @@ var resistance = 1
 var checkx = true
 var checky = true
 var door = null
-
+var debug = false
+var inventory = []
 @onready var ray = $Head/Camera3D/RayCast3D
 @onready var head = $Head
 @onready var camera = $Head/Camera3D
 @onready var progress = $CanvasLayer/Stamina
 @onready var flashlight = $Head/Camera3D/SpotLight3D
-
+@onready var tools = $"../tools"
 
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
@@ -43,10 +44,9 @@ func _unhandled_input(event):
 		head.rotate_y(-event.relative.x * sensitivity)
 		camera.rotate_x(-event.relative.y * sensitivity)
 		camera.rotation.x = clamp(camera.rotation.x, 
-			deg_to_rad(-45), deg_to_rad(60))
+			deg_to_rad(-70), deg_to_rad(60))
 		
 func _physics_process(delta: float) -> void:
-
 	crouching()
 	if Input.is_key_pressed(KEY_SHIFT) and stamina_level > 0 and crouch == 0:
 		SPEED = 20
@@ -103,8 +103,9 @@ func _physics_process(delta: float) -> void:
 				target.interact()
 		
 	if Input.is_action_just_pressed("interact"):
-		print("E pressed, colliding: ", ray.is_colliding())
-		
+		if(ray.is_colliding()):
+			var val = raycast()
+			tools.interact(val)
 	progress.value = stamina_level
 	if is_on_floor and velocity.length() > 0.0 and crouch == 0:
 		t_bob += delta * velocity.length() * BOB_AMP
@@ -129,5 +130,21 @@ func crouching():
 		crouch = 0
 		resistance = 1
 		camera.position.y = 1.6
+func raycast():
+	if ray.is_colliding():
+		var collider = ray.get_collider()
+		var final_name = collider.name # Fallback default
 		
+		# 1. If it hits a generic StaticBody, try to use the parent
+		if collider is StaticBody3D and "StaticBody" in collider.name:
+			var parent = collider.get_parent()
+			# Don't let it print the root scene name "main"
+			if parent != null and parent.name != "main":
+				final_name = parent.name
+			else:
+				# If the parent IS main, use the mesh name or the collider itself
+				final_name = collider.name 
+		
+		print(final_name)
+		return final_name
 	

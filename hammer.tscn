@@ -1,18 +1,18 @@
 [gd_scene format=3 uid="uid://dk034wn58pkvk"]
 
-[ext_resource type="PackedScene" uid="uid://bvc6ao8h6p02e" path="res://hammer/hammer.glb" id="1_qnip4"]
+[ext_resource type="PackedScene" uid="uid://bvc6ao8h6p02e" path="res://tools/hammer/hammer.glb" id="1_qnip4"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_nnw4l"]
-size = Vector3(21.24414, 2.8188477, 10.505127)
+size = Vector3(19.30223, 4.850662, 9.827087)
 
 [node name="Node3D" type="Node3D" unique_id=1079840946]
 
 [node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=1984025108]
-transform = Transform3D(0.08, 0, 0, 0, 0.08, 0, 0, 0, 0.08, 0, 0, 0)
-
-[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=2068847274]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.55078197, 0.9094238, -0.2615964)
-shape = SubResource("BoxShape3D_nnw4l")
+transform = Transform3D(0.08, 0, 0, 0, 0.08, 0, 0, 0, 0.08, 0, -1.4901161e-08, -7.450581e-09)
 
 [node name="Sketchfab_Scene" parent="StaticBody3D" unique_id=304740346 instance=ExtResource("1_qnip4")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.986112, -2.7925923, -1.3758658)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.986112, -2.7925918, -1.3758656)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=2068847274]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.9420393, -1.5441198, -1.6244199)
+shape = SubResource("BoxShape3D_nnw4l")

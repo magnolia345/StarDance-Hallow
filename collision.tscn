@@ -9,8 +9,8 @@ size = Vector3(0.915961, 402.44135, 16.852585)
 
 [node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=1891827599]
 
+[node name="Sketchfab_Scene" parent="StaticBody3D" unique_id=220178899 instance=ExtResource("1_m0q3j")]
+
 [node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=655877261]
 transform = Transform3D(201.96742, 0, 0, 0, 0.2686475, 0, 0, 0, 5.5968623, -1.063263, 85.726494, -1.2870464)
 shape = SubResource("BoxShape3D_75kfu")
-
-[node name="Sketchfab_Scene" parent="StaticBody3D" unique_id=220178899 instance=ExtResource("1_m0q3j")]
