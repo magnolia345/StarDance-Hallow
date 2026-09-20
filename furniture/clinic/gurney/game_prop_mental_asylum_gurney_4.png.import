@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b5mgl8t8heo64"
-path.s3tc="res://.godot/imported/hammer_0.png-b40ce078640355dced95e1b3b10f3def.s3tc.ctex"
+uid="uid://kmlbxvg8dhsf"
+path.s3tc="res://.godot/imported/game_prop_mental_asylum_gurney_4.png-78cecab7374e12af156a95be9e751fbd.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "e44228b4e37ab5fcf1e9659a1f863585"
+"md5": "a2a3f4ea760ba32164d2717e10cc2119"
 }
 
 [deps]
 
-source_file="res://hammer/hammer_0.png"
-dest_files=["res://.godot/imported/hammer_0.png-b40ce078640355dced95e1b3b10f3def.s3tc.ctex"]
+source_file="res://furniture/clinic/gurney/game_prop_mental_asylum_gurney_4.png"
+dest_files=["res://.godot/imported/game_prop_mental_asylum_gurney_4.png-78cecab7374e12af156a95be9e751fbd.s3tc.ctex"]
 
 [params]
 
@@ -25,12 +25,12 @@ compress/lossy_quality=0.7
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
-compress/normal_map=0
+compress/normal_map=1
 compress/channel_pack=0
 mipmaps/generate=true
 mipmaps/limit=-1
-roughness/mode=0
-roughness/src_normal=""
+roughness/mode=1
+roughness/src_normal="res://furniture/clinic/game_prop_mental_asylum_gurney_4.png"
 process/channel_remap/red=0
 process/channel_remap/green=1
 process/channel_remap/blue=2

@@ -39,7 +39,35 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={}
+_subresources={
+"nodes": {
+"PATH:Sketchfab_model/eb28e7b34921491bacb1948dbe12392d_fbx/RootNode/ST_low/Bone_2_low/Bone_2_low_Sacrifice_table_Mat_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/eb28e7b34921491bacb1948dbe12392d_fbx/RootNode/ST_low/Bone_3_low/Bone_3_low_Sacrifice_table_Mat_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/eb28e7b34921491bacb1948dbe12392d_fbx/RootNode/ST_low/Jaw_low/Jaw_low_Sacrifice_table_Mat_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/eb28e7b34921491bacb1948dbe12392d_fbx/RootNode/ST_low/Skull2_low/Skull2_low_Sacrifice_table_Mat_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/eb28e7b34921491bacb1948dbe12392d_fbx/RootNode/ST_low/Skull3_low/Skull3_low_Sacrifice_table_Mat_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/eb28e7b34921491bacb1948dbe12392d_fbx/RootNode/ST_low/Skull4_low/Skull4_low_Sacrifice_table_Mat_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/eb28e7b34921491bacb1948dbe12392d_fbx/RootNode/ST_low/Skull_low/Skull_low_Sacrifice_table_Mat_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/eb28e7b34921491bacb1948dbe12392d_fbx/RootNode/ST_low/Table_low/Table_low_Sacrifice_table_Mat_0": {
+"generate/physics": true,
+"physics/shape_type": 2
+}
+}
+}
 gltf/naming_version=2
 gltf/embedded_image_handling=1
 gltf/texture_map_mode=1

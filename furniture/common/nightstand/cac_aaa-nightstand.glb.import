@@ -1,0 +1,90 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://deoepocfumeux"
+path="res://.godot/imported/cac_aaa-nightstand.glb-723f23c58e862dda0b555892e3dc9722.scn"
+
+[deps]
+
+source_file="res://furniture/common/nightstand/cac_aaa-nightstand.glb"
+dest_files=["res://.godot/imported/cac_aaa-nightstand.glb-723f23c58e862dda0b555892e3dc9722.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/root_script=null
+mesh_library/use_node_names_as_mesh_names=false
+array_mesh/deduplicate_surfaces=true
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+nodes/use_name_suffixes=true
+nodes/use_node_type_suffixes=true
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+materials/extract=0
+materials/extract_format=0
+materials/extract_path=""
+_subresources={
+"nodes": {
+"PATH:Sketchfab_model/CAC_AAA-nightstand_FBX/RootNode/onyx-chevet-1t1p/Box16/Object_38/Box16_bright_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/CAC_AAA-nightstand_FBX/RootNode/onyx-chevet-1t1p/Box17/Object_41/Box17_bright_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/CAC_AAA-nightstand_FBX/RootNode/onyx-chevet-1t1p/Cylinder34/Object_8/Cylinder34_dark_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/CAC_AAA-nightstand_FBX/RootNode/onyx-chevet-1t1p/Cylinder35/Object_26/Cylinder35_dark_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/CAC_AAA-nightstand_FBX/RootNode/onyx-chevet-1t1p/Cylinder36/Object_29/Cylinder36_dark_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/CAC_AAA-nightstand_FBX/RootNode/onyx-chevet-1t1p/Cylinder37/Object_35/Cylinder37_dark_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/CAC_AAA-nightstand_FBX/RootNode/onyx-chevet-1t1p/Line12/Object_32/Line12_dark_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/CAC_AAA-nightstand_FBX/RootNode/onyx-chevet-1t1p/Line13/Object_44/Line13_dark_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/CAC_AAA-nightstand_FBX/RootNode/onyx-chevet-1t1p/Object25/Object_5/Object25_metal_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/CAC_AAA-nightstand_FBX/RootNode/onyx-chevet-1t1p/Object26/Object_14/Object26_dark_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/CAC_AAA-nightstand_FBX/RootNode/onyx-chevet-1t1p/Object27/Object_17/Object27_dark_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/CAC_AAA-nightstand_FBX/RootNode/onyx-chevet-1t1p/Object28/Object_23/Object28_metal_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/CAC_AAA-nightstand_FBX/RootNode/onyx-chevet-1t1p/TiroirCom26/Object_11/TiroirCom26_bright_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/CAC_AAA-nightstand_FBX/RootNode/onyx-chevet-1t1p/TiroirCom27/Object_20/TiroirCom27_bright_0": {
+"generate/physics": true
+}
+}
+}
+gltf/naming_version=2
+gltf/embedded_image_handling=1
+gltf/texture_map_mode=1

@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://bvc6ao8h6p02e"
-path="res://.godot/imported/hammer.glb-6edb782c27f621d7d99dd68e2236e0e6.scn"
+uid="uid://b6n1qb5rglrrv"
+path="res://.godot/imported/sci-fi_plant_rack__pot_free.glb-608d339d750f27af466cb4144941fc25.scn"
 
 [deps]
 
-source_file="res://hammer/hammer.glb"
-dest_files=["res://.godot/imported/hammer.glb-6edb782c27f621d7d99dd68e2236e0e6.scn"]
+source_file="res://furniture/classrooms/lab/plants/sci-fi_plant_rack__pot_free.glb"
+dest_files=["res://.godot/imported/sci-fi_plant_rack__pot_free.glb-608d339d750f27af466cb4144941fc25.scn"]
 
 [params]
 
@@ -39,7 +39,16 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={}
+_subresources={
+"nodes": {
+"PATH:Sketchfab_model/4ac1c85aad37446080942f051e91c3ef_fbx/RootNode/plantpot_base6/plantpot_base6_pot_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/4ac1c85aad37446080942f051e91c3ef_fbx/RootNode/plantpot_base6/plantpot_base6_rack_0": {
+"generate/physics": true
+}
+}
+}
 gltf/naming_version=2
 gltf/embedded_image_handling=1
 gltf/texture_map_mode=1
