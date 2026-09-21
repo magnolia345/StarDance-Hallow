@@ -14,5 +14,5 @@ func _process(delta: float) -> void:
 func interact(node):
 	var root = get_parent()
 	val = root.find_child(String(node), true, false)
-	val.hide()s
+	val.hide()
 	

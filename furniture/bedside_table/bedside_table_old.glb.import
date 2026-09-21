@@ -39,7 +39,34 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={}
+_subresources={
+"nodes": {
+"PATH:Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/base/base_tumbochka_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door1a/Object_11/door1/door1_tumbochka_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door2a/Object_39/door2/door2_tumbochka_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door3a/Object_46/door3/door3_tumbochka_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door4a/Object_53/door4/door4_tumbochka_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf1a/Object_18/shelf1/shelf1_tumbochka_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf2a/Object_25/shelf2/shelf2_tumbochka_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf3a/Object_32/shelf3/shelf3_tumbochka_0": {
+"generate/physics": true
+}
+}
+}
 gltf/naming_version=2
 gltf/embedded_image_handling=1
 gltf/texture_map_mode=1

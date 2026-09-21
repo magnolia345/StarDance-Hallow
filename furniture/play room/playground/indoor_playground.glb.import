@@ -1,0 +1,655 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://dypvvofehaeu6"
+path="res://.godot/imported/indoor_playground.glb-879fb2a0c34ed1acc24e5970852555f5.scn"
+
+[deps]
+
+source_file="res://furniture/play room/playground/indoor_playground.glb"
+dest_files=["res://.godot/imported/indoor_playground.glb-879fb2a0c34ed1acc24e5970852555f5.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/root_script=null
+mesh_library/use_node_names_as_mesh_names=false
+array_mesh/deduplicate_surfaces=true
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+nodes/use_name_suffixes=true
+nodes/use_node_type_suffixes=true
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+materials/extract=0
+materials/extract_format=0
+materials/extract_path=""
+_subresources={
+"nodes": {
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Ballpit10/Ballpit10_Tex_Pit_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Ballpit11/Ballpit11_Tex_Pit_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Ballpit12/Ballpit12_Tex_Pit_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Ballpit8/Ballpit8_Tex_Pit_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Ballpit9/Ballpit9_Tex_Pit_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Floor20/Floor20_Tex_Puzzle_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Floor21/Floor21_Tex_Puzzle_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Floor22/Floor22_Tex_Puzzle_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Floor23/Floor23_Tex_Puzzle_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Floor24/Floor24_Tex_Puzzle_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Floor25/Floor25_Tex_Puzzle_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Floor26/Floor26_Tex_Puzzle_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Floor27/Floor27_Tex_Puzzle_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Floor28/Floor28_Tex_Puzzle_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Floor29/Floor29_Tex_Puzzle_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Floor30/Floor30_Tex_Puzzle_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Floor31/Floor31_Tex_Puzzle_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Floor32/Floor32_Tex_Puzzle_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Floor33/Floor33_Tex_Puzzle_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Floor34/Floor34_Tex_Puzzle_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Floor35/Floor35_Tex_Puzzle_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Floor36/Floor36_Tex_Puzzle_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Frame1/Frame1_Tex_Yellow_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Frame10/Frame10_Tex_Red_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Frame11/Frame11_Tex_Red_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Frame12/Frame12_Tex_Red_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Frame13/Frame13_Tex_Red_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Frame14/Frame14_Tex_Red_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Frame16/Frame16_Tex_Blue_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Frame17/Frame17_Tex_Red_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Frame18/Frame18_Tex_Red_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Frame19/Frame19_Tex_Green_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Frame2/Frame2_Tex_Blue_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Frame20/Frame20_Tex_Red_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Frame21/Frame21_Tex_Green_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Frame22/Frame22_Tex_Red_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Frame23/Frame23_Tex_Yellow_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Frame24/Frame24_Tex_Red_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Frame25/Frame25_Tex_Red_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Frame26/Frame26_Tex_Yellow_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Frame3/Frame3_Tex_Green_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Frame4/Frame4_Tex_Yellow_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Frame5/Frame5_Tex_Blue_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Frame6/Frame6_Tex_Blue_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Frame7/Frame7_Tex_Green_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Frame8/Frame8_Tex_Blue_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Frame9/Frame9_Tex_Blue_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Pole10/Pole10_Tex_Orange_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Pole11/Pole11_Tex_Pole_Blue1_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Pole12/Pole12_Tex_Orange_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Pole13/Pole13_Tex_Pole_Blue1_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Pole14/Pole14_Tex_Orange_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Pole15/Pole15_Tex_Pole_Blue1_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Pole16/Pole16_Tex_Orange_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Pole17/Pole17_Tex_Orange_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Pole18/Pole18_Tex_Pole_Blue1_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Pole8/Pole8_Tex_Orange_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Pole9/Pole9_Tex_Pole_Blue1_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Slide2/Slide2_Tex_Yellow_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Tunnel_C2/Tunnel_C2_Tex_Green_Tunnel1_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Tunnel_S2/Tunnel_S2_Tex_Purp_Tunnel_0": {
+"generate/physics": true,
+"physics/shape_type": 2
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Tunnel_S_entry3/Tunnel_S_entry3_Tex_Purp_Tunnel_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/Tunnel_S_entry4/Tunnel_S_entry4_Tex_Purp_Tunnel_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder10/pCylinder10_Tex_Blue_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder11/pCylinder11_Tex_Yellow_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder12/pCylinder12_Tex_Green_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder13/pCylinder13_Tex_Yellow_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder14/pCylinder14_Tex_Red_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder15/pCylinder15_Tex_Blue_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder16/pCylinder16_Tex_Green_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder17/pCylinder17_Tex_Yellow_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder18/pCylinder18_Tex_Red_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder19/pCylinder19_Tex_Blue_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder20/pCylinder20_Tex_Red_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder21/pCylinder21_Tex_Yellow_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder22/pCylinder22_Tex_Red_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder25/pCylinder25_Tex_Blue_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder26/pCylinder26_Tex_Yellow_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder27/pCylinder27_Tex_Red_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder28/pCylinder28_Tex_Blue_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder29/pCylinder29_Tex_Blue_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder30/pCylinder30_Tex_Green_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder31/pCylinder31_Tex_Yellow_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder32/pCylinder32_Tex_Red_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder33/pCylinder33_Tex_Green_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder34/pCylinder34_Tex_Blue_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder35/pCylinder35_Tex_Yellow_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder36/pCylinder36_Tex_Red_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder38/pCylinder38_Tex_Green_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder39/pCylinder39_Tex_Yellow_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder40/pCylinder40_Tex_Blue_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder41/pCylinder41_Tex_Green_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder42/pCylinder42_Tex_Red_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder43/pCylinder43_Tex_Red_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder44/pCylinder44_Tex_Red_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder45/pCylinder45_Tex_Red_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder46/pCylinder46_Tex_Blue_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder47/pCylinder47_Tex_Red_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder49/pCylinder49_Tex_Red_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder50/pCylinder50_standardSurface2_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder51/pCylinder51_Tex_Yellow_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder52/pCylinder52_Tex_Red_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder53/pCylinder53_Tex_Red_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder54/pCylinder54_Tex_Yellow_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder55/pCylinder55_Tex_Blue_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder56/pCylinder56_Tex_Red_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder57/pCylinder57_Tex_Red_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder58/pCylinder58_Tex_Red_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder59/pCylinder59_Tex_Blue_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder60/pCylinder60_Tex_Blue_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder62/pCylinder62_Tex_Red_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder73/pCylinder73_Tex_Stack1_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder8/pCylinder8_Tex_Green_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pCylinder9/pCylinder9_Tex_Green_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane10/pPlane10_Tex_Balls1_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane11/pPlane11_Tex_Balls1_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane12/pPlane12_Tex_Balls1_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane13/pPlane13_Tex_Balls1_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane14/pPlane14_Tex_Balls1_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane15/pPlane15_Tex_Balls1_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane16/pPlane16_Tex_Balls1_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane17/pPlane17_Tex_Balls1_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane18/pPlane18_Tex_Balls1_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane19/pPlane19_Tex_Balls1_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane20/pPlane20_Tex_Balls1_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane21/pPlane21_Tex_Balls1_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane22/pPlane22_Tex_Balls1_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane23/pPlane23_Tex_Balls1_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane24/pPlane24_Tex_Balls1_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane25/pPlane25_Tex_Balls1_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane26/pPlane26_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane27/pPlane27_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane28/pPlane28_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane29/pPlane29_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane30/pPlane30_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane31/pPlane31_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane32/pPlane32_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane33/pPlane33_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane34/pPlane34_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane36/pPlane36_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane37/pPlane37_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane38/pPlane38_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane39/pPlane39_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane40/pPlane40_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane41/pPlane41_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane42/pPlane42_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane43/pPlane43_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane44/pPlane44_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane45/pPlane45_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane47/pPlane47_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane48/pPlane48_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane52/pPlane52_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane53/pPlane53_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane55/pPlane55_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane56/pPlane56_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane57/pPlane57_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane58/pPlane58_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane59/pPlane59_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane6/pPlane6_Tex_Balls1_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane60/pPlane60_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane61/pPlane61_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane62/pPlane62_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane63/pPlane63_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane64/pPlane64_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane65/pPlane65_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane66/pPlane66_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane67/pPlane67_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane68/pPlane68_Default_Material_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane69/pPlane69_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane7/pPlane7_Tex_Balls1_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane70/pPlane70_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane71/pPlane71_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane72/pPlane72_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane73/pPlane73_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane74/pPlane74_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane75/pPlane75_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane76/pPlane76_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane77/pPlane77_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane78/pPlane78_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane79/pPlane79_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane8/pPlane8_Tex_Balls1_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane80/pPlane80_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane81/pPlane81_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane82/pPlane82_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane83/pPlane83_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane84/pPlane84_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane85/pPlane85_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane86/pPlane86_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane87/pPlane87_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane88/pPlane88_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane89/pPlane89_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane9/pPlane9_Tex_Balls1_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane90/pPlane90_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane91/pPlane91_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane92/pPlane92_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane93/pPlane93_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane94/pPlane94_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane95/pPlane95_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane96/pPlane96_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane97/pPlane97_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane98/pPlane98_Tex_Net_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/0934ef2e194b4c709425de3c9c195ba7_fbx/RootNode/pPlane99/pPlane99_Tex_Net_0": {
+"generate/physics": true
+}
+}
+}
+gltf/naming_version=2
+gltf/embedded_image_handling=1
+gltf/texture_map_mode=1
