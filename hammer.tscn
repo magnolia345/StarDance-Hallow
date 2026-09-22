@@ -8,11 +8,12 @@ size = Vector3(19.30223, 4.850662, 9.827087)
 [node name="Node3D" type="Node3D" unique_id=1079840946]
 
 [node name="RigidBody3D" type="RigidBody3D" parent="." unique_id=882129836]
+can_sleep = false
 continuous_cd = true
 
 [node name="Sketchfab_Scene" parent="RigidBody3D" unique_id=304740346 instance=ExtResource("1_qnip4")]
 transform = Transform3D(0.08, 0, 0, 0, 0.08, 0, 0, 0, 0.08, -0.31888896, -0.22340736, -0.11006925)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D" unique_id=2068847274]
-transform = Transform3D(0.08, 0, 0, 0, 0.08, 0, 0, 0, 0.08, -0.31536314, -0.1235296, -0.1299536)
+transform = Transform3D(0.08, 0, 0, 0, 0.08, 0, 0, 0, 0.08, -0.319, -0.223, -0.11)
 shape = SubResource("BoxShape3D_nnw4l")

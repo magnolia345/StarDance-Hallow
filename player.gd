@@ -102,10 +102,6 @@ func _physics_process(delta: float) -> void:
 			if target.has_method("interact"):
 				target.interact()
 		
-	if Input.is_action_just_pressed("interact"):
-		if(ray.is_colliding()):
-			var val = raycast()
-			tools.interact(val)
 	progress.value = stamina_level
 	if is_on_floor and velocity.length() > 0.0 and crouch == 0:
 		t_bob += delta * velocity.length() * BOB_AMP
@@ -133,6 +129,7 @@ func crouching():
 func raycast():
 	if ray.is_colliding():
 		var collider = ray.get_collider()
+		
 		var final_name = collider.name # Fallback default
 		
 		# 1. If it hits a generic StaticBody, try to use the parent

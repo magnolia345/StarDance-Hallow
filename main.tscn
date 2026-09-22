@@ -33,7 +33,7 @@
 [ext_resource type="PackedScene" uid="uid://gifvbmomaqx6" path="res://furniture/bathroom/toliet/dirty_toilet.glb" id="18_h8e4i"]
 [ext_resource type="PackedScene" uid="uid://djcsq6u7w32xj" path="res://furniture/common/clock/grandfather_clock.glb" id="18_rm4vd"]
 [ext_resource type="PackedScene" uid="uid://nk5x7gv1rrq" path="res://furniture/library/dusty_bookshelfs.glb" id="20_facbu"]
-[ext_resource type="PackedScene" uid="uid://w1ho8n4m1wve" path="res://furniture/bedside_table/bedside_table_old.glb" id="20_getpj"]
+[ext_resource type="PackedScene" uid="uid://w1ho8n4m1wve" path="res://bedside_table/bedside_table_old.glb" id="20_getpj"]
 [ext_resource type="PackedScene" uid="uid://s70b8qgjoyi" path="res://furniture/library/dusty_old_bookshelf_free.glb" id="21_b1qrp"]
 [ext_resource type="Script" uid="uid://0ddkeg0t8hlr" path="res://cabinet.gd" id="21_getpj"]
 [ext_resource type="PackedScene" uid="uid://7sqwdhhwqfd" path="res://furniture/clinic/curtains/bed_curtain_and_vital_signs_monitor.glb" id="21_ruth0"]
@@ -271,7 +271,7 @@ transform = Transform3D(0.09, 0, 0, 0, 0.09, 0, 0, 0, 0.09, -110.59784, 5.194079
 script = ExtResource("3_rm4vd")
 
 [node name="hammer" parent="tools" unique_id=1079840946 instance=ExtResource("7_0cbny")]
-transform = Transform3D(11.1, 0, 0, 0, 11.1, 0, 0, 0, 11.1, 55.872803, 35.66684, 62.892517)
+transform = Transform3D(11.1, 0, 0, 0, 11.1, 0, 0, 0, 11.1, -49.294678, -10.258106, 62.892517)
 
 [node name="player" type="CharacterBody3D" parent="." unique_id=1901592758 groups=["player"]]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -101.9574, 6.1096067, 90.04161)
@@ -523,11 +523,6 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -12.738976, 7.4345665, 23.506
 operation = 2
 size = Vector3(6.1925683, 15.37735, 3.1658936)
 
-[node name="Door Way" type="CSGBox3D" parent="NavigationRegion3D/Walls/Walls90" unique_id=401218489]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -22.612, 7.468933, -18.337029)
-operation = 2
-size = Vector3(6.32532, 15.37735, 3.1658936)
-
 [node name="Door Way2" type="CSGBox3D" parent="NavigationRegion3D/Walls/Walls90" unique_id=638623101]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 81.23652, 7.497513, -28.338299)
 operation = 2
@@ -539,9 +534,14 @@ operation = 2
 size = Vector3(7.0226464, 15.37735, 3.1658936)
 
 [node name="Door Way7" type="CSGBox3D" parent="NavigationRegion3D/Walls/Walls90" unique_id=1709689594]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.7247162, 7.497513, -28.338299)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.7247162, 3.7281265, -28.338299)
 operation = 2
-size = Vector3(7.664248, 15.37735, 3.1658936)
+size = Vector3(7.664248, 7.8385773, 3.1658936)
+
+[node name="Door Way13" type="CSGBox3D" parent="NavigationRegion3D/Walls/Walls90" unique_id=30839103]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.7247162, 3.7281265, -18.10884)
+operation = 2
+size = Vector3(7.664248, 7.8385773, 3.1658936)
 
 [node name="Door Way9" type="CSGBox3D" parent="NavigationRegion3D/Walls/Walls90" unique_id=141832494]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 64.864426, 7.714798, 23.880867)
@@ -840,40 +840,40 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -53.69292, -0.19059086, -5.44
 [node name="cabinet3" parent="NavigationRegion3D/Interior/clinic" unique_id=732009461 instance=ExtResource("20_getpj")]
 transform = Transform3D(4, 0, -2.5429213e-07, 0, 4, 0, 2.5429213e-07, 0, 4, -38.173195, 0.11609483, -22.18274)
 
-[node name="base_tumbochka_0" parent="NavigationRegion3D/Interior/clinic/cabinet3/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/base" parent_id_path=PackedInt32Array(732009461, 1094617278) index="0" unique_id=1624306830]
+[node name="base_tumbochka_0" parent="NavigationRegion3D/Interior/clinic/cabinet3/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/base" parent_id_path=PackedInt32Array(732009461, 442821317) index="0" unique_id=2094851342]
 transform = Transform3D(1.0000001, 2.842171e-14, 8.4703295e-22, -2.842171e-14, 1.0000001, 1.4210855e-14, -8.4703295e-22, -1.4210855e-14, 1.0000001, -0.010751724, 0, 0)
 
-[node name="door1a" parent="NavigationRegion3D/Interior/clinic/cabinet3/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4" parent_id_path=PackedInt32Array(732009461, 1036043350) index="2" unique_id=165527427]
+[node name="door1a" parent="NavigationRegion3D/Interior/clinic/cabinet3/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4" parent_id_path=PackedInt32Array(732009461, 1708262253) index="2" unique_id=137811838]
 transform = Transform3D(1.0000001, 0, 0, 0, 1.0000001, 2.6469783e-23, 0, -2.6469783e-23, 1.0000001, 0.25, -0.55918217, 0.40365213)
 
-[node name="door1_tumbochka_0" parent="NavigationRegion3D/Interior/clinic/cabinet3/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door1a/Object_11/door1" parent_id_path=PackedInt32Array(732009461, 1365649427) index="0" unique_id=224134348]
+[node name="door1_tumbochka_0" parent="NavigationRegion3D/Interior/clinic/cabinet3/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door1a/Object_11/door1" parent_id_path=PackedInt32Array(732009461, 173459023) index="0" unique_id=1409289327]
 transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.005959511, 0, 0)
 
-[node name="shelf1_tumbochka_0" parent="NavigationRegion3D/Interior/clinic/cabinet3/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf1a/Object_18/shelf1" parent_id_path=PackedInt32Array(732009461, 1454212075) index="0" unique_id=1871509952]
+[node name="shelf1_tumbochka_0" parent="NavigationRegion3D/Interior/clinic/cabinet3/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf1a/Object_18/shelf1" parent_id_path=PackedInt32Array(732009461, 1919359373) index="0" unique_id=280332788]
 transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.009283066, 0, 0)
 
-[node name="shelf2_tumbochka_0" parent="NavigationRegion3D/Interior/clinic/cabinet3/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf2a/Object_25/shelf2" parent_id_path=PackedInt32Array(732009461, 814336926) index="0" unique_id=476350371]
+[node name="shelf2_tumbochka_0" parent="NavigationRegion3D/Interior/clinic/cabinet3/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf2a/Object_25/shelf2" parent_id_path=PackedInt32Array(732009461, 1699621658) index="0" unique_id=874194567]
 transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.0045518875, 0, 0)
 
-[node name="shelf3_tumbochka_0" parent="NavigationRegion3D/Interior/clinic/cabinet3/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf3a/Object_32/shelf3" parent_id_path=PackedInt32Array(732009461, 957445745) index="0" unique_id=1457071273]
+[node name="shelf3_tumbochka_0" parent="NavigationRegion3D/Interior/clinic/cabinet3/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf3a/Object_32/shelf3" parent_id_path=PackedInt32Array(732009461, 1517416288) index="0" unique_id=355469019]
 transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.015093803, 0, 0)
 
-[node name="door2a" parent="NavigationRegion3D/Interior/clinic/cabinet3/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4" parent_id_path=PackedInt32Array(732009461, 1036043350) index="6" unique_id=85440434]
+[node name="door2a" parent="NavigationRegion3D/Interior/clinic/cabinet3/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4" parent_id_path=PackedInt32Array(732009461, 1708262253) index="6" unique_id=1630340808]
 transform = Transform3D(1, 0, 0, 0, 1, 2.6469783e-23, 0, -2.646978e-23, 1.0000001, 0.27000046, -0.29803085, 0.4036522)
 
-[node name="door2_tumbochka_0" parent="NavigationRegion3D/Interior/clinic/cabinet3/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door2a/Object_39/door2" parent_id_path=PackedInt32Array(732009461, 695957923) index="0" unique_id=586614551]
+[node name="door2_tumbochka_0" parent="NavigationRegion3D/Interior/clinic/cabinet3/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door2a/Object_39/door2" parent_id_path=PackedInt32Array(732009461, 1118574159) index="0" unique_id=1386601675]
 transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.006136894, 0, 0)
 
-[node name="door3a" parent="NavigationRegion3D/Interior/clinic/cabinet3/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4" parent_id_path=PackedInt32Array(732009461, 1036043350) index="7" unique_id=1650375299]
+[node name="door3a" parent="NavigationRegion3D/Interior/clinic/cabinet3/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4" parent_id_path=PackedInt32Array(732009461, 1708262253) index="7" unique_id=513445900]
 transform = Transform3D(1, 0, 0, 0, 1, 2.6469783e-23, 0, -2.646978e-23, 1.0000001, 0.27000046, 0.29803038, 0.40365225)
 
-[node name="door3_tumbochka_0" parent="NavigationRegion3D/Interior/clinic/cabinet3/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door3a/Object_46/door3" parent_id_path=PackedInt32Array(732009461, 482142683) index="0" unique_id=122032468]
+[node name="door3_tumbochka_0" parent="NavigationRegion3D/Interior/clinic/cabinet3/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door3a/Object_46/door3" parent_id_path=PackedInt32Array(732009461, 1211420680) index="0" unique_id=1844065013]
 transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.0039606094, 0, 0)
 
-[node name="door4_tumbochka_0" parent="NavigationRegion3D/Interior/clinic/cabinet3/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door4a/Object_53/door4" parent_id_path=PackedInt32Array(732009461, 579041059) index="0" unique_id=1786936110]
+[node name="door4_tumbochka_0" parent="NavigationRegion3D/Interior/clinic/cabinet3/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door4a/Object_53/door4" parent_id_path=PackedInt32Array(732009461, 80420449) index="0" unique_id=2115995545]
 transform = Transform3D(1.0000001, 3.5527137e-14, 5.0821977e-21, -3.5527137e-14, 1.0000001, 0, -8.4703295e-22, 0, 1.0000001, -0.014930725, 2.670288e-05, -0.0014679432)
 
-[node name="StaticBody3D2" type="StaticBody3D" parent="NavigationRegion3D/Interior/clinic/cabinet3/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode" parent_id_path=PackedInt32Array(732009461, 1444924199) index="1" unique_id=218209729]
+[node name="StaticBody3D2" type="StaticBody3D" parent="NavigationRegion3D/Interior/clinic/cabinet3/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode" parent_id_path=PackedInt32Array(732009461, 800051464) index="1" unique_id=218209729]
 transform = Transform3D(200, 0, 0, 0, 200, 0, 0, 0, 200, 785.064, 14, 58)
 input_capture_on_drag = true
 script = ExtResource("21_getpj")
@@ -1075,40 +1075,40 @@ transform = Transform3D(0.125, 0, 0, 0, 0.125, 0, 0, 0, 0.125, -47.515446, 6.765
 [node name="cabinet2" parent="NavigationRegion3D/Interior/library" unique_id=1988843779 instance=ExtResource("20_getpj")]
 transform = Transform3D(4, 0, -2.5429213e-07, 0, 4, 0, 2.5429213e-07, 0, 4, -47.930622, 0.0007722378, -100.895584)
 
-[node name="base_tumbochka_0" parent="NavigationRegion3D/Interior/library/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/base" parent_id_path=PackedInt32Array(1988843779, 1094617278) index="0" unique_id=1624306830]
+[node name="base_tumbochka_0" parent="NavigationRegion3D/Interior/library/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/base" parent_id_path=PackedInt32Array(1988843779, 442821317) index="0" unique_id=2094851342]
 transform = Transform3D(1.0000001, 2.842171e-14, 8.4703295e-22, -2.842171e-14, 1.0000001, 1.4210855e-14, -8.4703295e-22, -1.4210855e-14, 1.0000001, -0.010751724, 0, 0)
 
-[node name="door1a" parent="NavigationRegion3D/Interior/library/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4" parent_id_path=PackedInt32Array(1988843779, 1036043350) index="2" unique_id=165527427]
+[node name="door1a" parent="NavigationRegion3D/Interior/library/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4" parent_id_path=PackedInt32Array(1988843779, 1708262253) index="2" unique_id=137811838]
 transform = Transform3D(1.0000001, 0, 0, 0, 1.0000001, 2.6469783e-23, 0, -2.6469783e-23, 1.0000001, 0.25, -0.55918217, 0.40365213)
 
-[node name="door1_tumbochka_0" parent="NavigationRegion3D/Interior/library/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door1a/Object_11/door1" parent_id_path=PackedInt32Array(1988843779, 1365649427) index="0" unique_id=224134348]
+[node name="door1_tumbochka_0" parent="NavigationRegion3D/Interior/library/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door1a/Object_11/door1" parent_id_path=PackedInt32Array(1988843779, 173459023) index="0" unique_id=1409289327]
 transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.005959511, 0, 0)
 
-[node name="shelf1_tumbochka_0" parent="NavigationRegion3D/Interior/library/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf1a/Object_18/shelf1" parent_id_path=PackedInt32Array(1988843779, 1454212075) index="0" unique_id=1871509952]
+[node name="shelf1_tumbochka_0" parent="NavigationRegion3D/Interior/library/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf1a/Object_18/shelf1" parent_id_path=PackedInt32Array(1988843779, 1919359373) index="0" unique_id=280332788]
 transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.009283066, 0, 0)
 
-[node name="shelf2_tumbochka_0" parent="NavigationRegion3D/Interior/library/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf2a/Object_25/shelf2" parent_id_path=PackedInt32Array(1988843779, 814336926) index="0" unique_id=476350371]
+[node name="shelf2_tumbochka_0" parent="NavigationRegion3D/Interior/library/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf2a/Object_25/shelf2" parent_id_path=PackedInt32Array(1988843779, 1699621658) index="0" unique_id=874194567]
 transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.0045518875, 0, 0)
 
-[node name="shelf3_tumbochka_0" parent="NavigationRegion3D/Interior/library/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf3a/Object_32/shelf3" parent_id_path=PackedInt32Array(1988843779, 957445745) index="0" unique_id=1457071273]
+[node name="shelf3_tumbochka_0" parent="NavigationRegion3D/Interior/library/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf3a/Object_32/shelf3" parent_id_path=PackedInt32Array(1988843779, 1517416288) index="0" unique_id=355469019]
 transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.015093803, 0, 0)
 
-[node name="door2a" parent="NavigationRegion3D/Interior/library/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4" parent_id_path=PackedInt32Array(1988843779, 1036043350) index="6" unique_id=85440434]
+[node name="door2a" parent="NavigationRegion3D/Interior/library/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4" parent_id_path=PackedInt32Array(1988843779, 1708262253) index="6" unique_id=1630340808]
 transform = Transform3D(1, 0, 0, 0, 1, 2.6469783e-23, 0, -2.646978e-23, 1.0000001, 0.27000046, -0.29803085, 0.4036522)
 
-[node name="door2_tumbochka_0" parent="NavigationRegion3D/Interior/library/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door2a/Object_39/door2" parent_id_path=PackedInt32Array(1988843779, 695957923) index="0" unique_id=586614551]
+[node name="door2_tumbochka_0" parent="NavigationRegion3D/Interior/library/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door2a/Object_39/door2" parent_id_path=PackedInt32Array(1988843779, 1118574159) index="0" unique_id=1386601675]
 transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.006136894, 0, 0)
 
-[node name="door3a" parent="NavigationRegion3D/Interior/library/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4" parent_id_path=PackedInt32Array(1988843779, 1036043350) index="7" unique_id=1650375299]
+[node name="door3a" parent="NavigationRegion3D/Interior/library/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4" parent_id_path=PackedInt32Array(1988843779, 1708262253) index="7" unique_id=513445900]
 transform = Transform3D(1, 0, 0, 0, 1, 2.6469783e-23, 0, -2.646978e-23, 1.0000001, 0.27000046, 0.29803038, 0.40365225)
 
-[node name="door3_tumbochka_0" parent="NavigationRegion3D/Interior/library/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door3a/Object_46/door3" parent_id_path=PackedInt32Array(1988843779, 482142683) index="0" unique_id=122032468]
+[node name="door3_tumbochka_0" parent="NavigationRegion3D/Interior/library/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door3a/Object_46/door3" parent_id_path=PackedInt32Array(1988843779, 1211420680) index="0" unique_id=1844065013]
 transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.0039606094, 0, 0)
 
-[node name="door4_tumbochka_0" parent="NavigationRegion3D/Interior/library/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door4a/Object_53/door4" parent_id_path=PackedInt32Array(1988843779, 579041059) index="0" unique_id=1786936110]
+[node name="door4_tumbochka_0" parent="NavigationRegion3D/Interior/library/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door4a/Object_53/door4" parent_id_path=PackedInt32Array(1988843779, 80420449) index="0" unique_id=2115995545]
 transform = Transform3D(1.0000001, 3.5527137e-14, 5.0821977e-21, -3.5527137e-14, 1.0000001, 0, -8.4703295e-22, 0, 1.0000001, -0.014930725, 2.670288e-05, -0.0014679432)
 
-[node name="StaticBody3D2" type="StaticBody3D" parent="NavigationRegion3D/Interior/library/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode" parent_id_path=PackedInt32Array(1988843779, 1444924199) index="1" unique_id=1401653443]
+[node name="StaticBody3D2" type="StaticBody3D" parent="NavigationRegion3D/Interior/library/cabinet2/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode" parent_id_path=PackedInt32Array(1988843779, 800051464) index="1" unique_id=1401653443]
 transform = Transform3D(200, 0, 0, 0, 200, 0, 0, 0, 200, 785.064, 14, 58)
 input_capture_on_drag = true
 script = ExtResource("21_getpj")
@@ -1609,40 +1609,40 @@ transform = Transform3D(1, 0, -7.1054274e-15, 0, 1, 0, 7.1054274e-15, 0, 1, 690.
 [node name="cabinet" parent="NavigationRegion3D/Interior/Bedroom" unique_id=1069430012 instance=ExtResource("20_getpj")]
 transform = Transform3D(-180, 0, 2.7179245e-05, 0, 180, 0, -2.7179245e-05, 0, -180, 785.0636, 14, 58.000122)
 
-[node name="base_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/base" parent_id_path=PackedInt32Array(1069430012, 1094617278) index="0" unique_id=1624306830]
+[node name="base_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/base" parent_id_path=PackedInt32Array(1069430012, 442821317) index="0" unique_id=2094851342]
 transform = Transform3D(1.0000001, 2.1316282e-14, 2.5410988e-21, -2.1316282e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.010751724, 0, 0)
 
-[node name="door1a" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4" parent_id_path=PackedInt32Array(1069430012, 1036043350) index="2" unique_id=165527427]
+[node name="door1a" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4" parent_id_path=PackedInt32Array(1069430012, 1708262253) index="2" unique_id=137811838]
 transform = Transform3D(1.0000001, 0, 0, 0, 1.0000001, 2.6469783e-23, 0, -2.6469783e-23, 1.0000001, 0.25, -0.55918217, 0.40365213)
 
-[node name="door1_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door1a/Object_11/door1" parent_id_path=PackedInt32Array(1069430012, 1365649427) index="0" unique_id=224134348]
+[node name="door1_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door1a/Object_11/door1" parent_id_path=PackedInt32Array(1069430012, 173459023) index="0" unique_id=1409289327]
 transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.005959511, 0, 0)
 
-[node name="shelf1_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf1a/Object_18/shelf1" parent_id_path=PackedInt32Array(1069430012, 1454212075) index="0" unique_id=1871509952]
+[node name="shelf1_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf1a/Object_18/shelf1" parent_id_path=PackedInt32Array(1069430012, 1919359373) index="0" unique_id=280332788]
 transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.009283066, 0, 0)
 
-[node name="shelf2_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf2a/Object_25/shelf2" parent_id_path=PackedInt32Array(1069430012, 814336926) index="0" unique_id=476350371]
+[node name="shelf2_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf2a/Object_25/shelf2" parent_id_path=PackedInt32Array(1069430012, 1699621658) index="0" unique_id=874194567]
 transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.0045518875, 0, 0)
 
-[node name="shelf3_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf3a/Object_32/shelf3" parent_id_path=PackedInt32Array(1069430012, 957445745) index="0" unique_id=1457071273]
+[node name="shelf3_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf3a/Object_32/shelf3" parent_id_path=PackedInt32Array(1069430012, 1517416288) index="0" unique_id=355469019]
 transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.015093803, 0, 0)
 
-[node name="door2a" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4" parent_id_path=PackedInt32Array(1069430012, 1036043350) index="6" unique_id=85440434]
+[node name="door2a" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4" parent_id_path=PackedInt32Array(1069430012, 1708262253) index="6" unique_id=1630340808]
 transform = Transform3D(1, 0, 0, 0, 1, 2.6469783e-23, 0, -2.646978e-23, 1.0000001, 0.27000046, -0.29803085, 0.4036522)
 
-[node name="door2_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door2a/Object_39/door2" parent_id_path=PackedInt32Array(1069430012, 695957923) index="0" unique_id=586614551]
+[node name="door2_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door2a/Object_39/door2" parent_id_path=PackedInt32Array(1069430012, 1118574159) index="0" unique_id=1386601675]
 transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.006136894, 0, 0)
 
-[node name="door3a" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4" parent_id_path=PackedInt32Array(1069430012, 1036043350) index="7" unique_id=1650375299]
+[node name="door3a" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4" parent_id_path=PackedInt32Array(1069430012, 1708262253) index="7" unique_id=513445900]
 transform = Transform3D(1, 0, 0, 0, 1, 2.6469783e-23, 0, -2.646978e-23, 1.0000001, 0.27000046, 0.29803038, 0.40365225)
 
-[node name="door3_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door3a/Object_46/door3" parent_id_path=PackedInt32Array(1069430012, 482142683) index="0" unique_id=122032468]
+[node name="door3_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door3a/Object_46/door3" parent_id_path=PackedInt32Array(1069430012, 1211420680) index="0" unique_id=1844065013]
 transform = Transform3D(1.0000001, 1.4210855e-14, 8.4703295e-22, -1.4210855e-14, 1.0000001, 0, 0, 0, 1.0000001, -0.0039606094, 0, 0)
 
-[node name="door4_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door4a/Object_53/door4" parent_id_path=PackedInt32Array(1069430012, 579041059) index="0" unique_id=1786936110]
+[node name="door4_tumbochka_0" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door4a/Object_53/door4" parent_id_path=PackedInt32Array(1069430012, 80420449) index="0" unique_id=2115995545]
 transform = Transform3D(1.0000001, 3.5527137e-14, 5.0821977e-21, -3.5527137e-14, 1.0000001, 0, -8.4703295e-22, 0, 1.0000001, -0.014930725, 2.670288e-05, -0.0014679432)
 
-[node name="StaticBody3D2" type="StaticBody3D" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode" parent_id_path=PackedInt32Array(1069430012, 1444924199) index="1" unique_id=117068519]
+[node name="StaticBody3D2" type="StaticBody3D" parent="NavigationRegion3D/Interior/Bedroom/cabinet/Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode" parent_id_path=PackedInt32Array(1069430012, 800051464) index="1" unique_id=117068519]
 transform = Transform3D(200, 0, 0, 0, 200, 0, 0, 0, 200, 785.064, 14, 58)
 input_capture_on_drag = true
 script = ExtResource("21_getpj")
