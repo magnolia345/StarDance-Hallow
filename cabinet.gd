@@ -7,7 +7,6 @@ var open2 = false
 var open3 = false
 var open4 = false 
 @onready var raycast = $"../../../../../../../../player/Head/Camera3D/RayCast3D"
-
 func _input(event):
 	if event is InputEventKey and event.keycode == KEY_E:
 		if event.pressed and not event.is_echo():

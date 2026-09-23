@@ -21,13 +21,18 @@ var checkx = true
 var checky = true
 var door = null
 var debug = false
+var held = null
 var inventory = []
+var cam_height = 1.6
+var current_bob = Vector3.ZERO
 @onready var ray = $Head/Camera3D/RayCast3D
 @onready var head = $Head
 @onready var camera = $Head/Camera3D
 @onready var progress = $CanvasLayer/Stamina
 @onready var flashlight = $Head/Camera3D/SpotLight3D
 @onready var tools = $"../tools"
+@onready var hand = $Head/Camera3D/Hand
+var held_object = null
 
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
@@ -47,7 +52,7 @@ func _unhandled_input(event):
 			deg_to_rad(-70), deg_to_rad(60))
 		
 func _physics_process(delta: float) -> void:
-	crouching()
+	crouching(delta)
 	if Input.is_key_pressed(KEY_SHIFT) and stamina_level > 0 and crouch == 0:
 		SPEED = 20
 		time = 0
@@ -96,36 +101,46 @@ func _physics_process(delta: float) -> void:
 
 	move_and_slide()
 	
+	var target = ray.get_collider()
 	if Input.is_action_just_pressed("interact"):
-		if ray.is_colliding():
-			var target = ray.get_collider()
-			if target.has_method("interact"):
-				target.interact()
-		
+		if held_object:
+			drop()
+		elif ray.is_colliding():
+			if target is RigidBody3D:
+				held_object = target
+				target.freeze = true
+				set_collision_all(target, false)
+				add_collision_exception_with(target)
+				ray.add_exception(target)
+			
 	progress.value = stamina_level
-	if is_on_floor and velocity.length() > 0.0 and crouch == 0:
+	var bob = Vector3.ZERO
+	if is_on_floor() and velocity.length() > 0.0 and crouch == 0:
 		t_bob += delta * velocity.length() * BOB_AMP
-		var pos: Vector3 = Vector3.ZERO
 		if checky:
-			pos.y = sin(t_bob * BOB_FREQ) * BOB_AMP
+			bob.y = sin(t_bob * BOB_FREQ) * BOB_AMP
 		if checkx:
-			pos.x = cos(t_bob * BOB_FREQ / 2) * BOB_AMP
-		camera.transform.origin = pos
+			bob.x = cos(t_bob * BOB_FREQ / 2) * BOB_AMP
 	else:
 		t_bob = 0
-		camera.transform.origin = camera.transform.origin.lerp(Vector3.ZERO, delta * 10.0)
+	current_bob = current_bob.lerp(bob, delta * 10.0)
+	camera.position = Vector3(0, cam_height, 0) + current_bob
+
+	if held_object:
+		held_object.global_transform = hand.global_transform
 		
 func reset():
 	position = Vector3(50, 2, 4)
-func crouching():
+func crouching(delta):
+	var target_height = 1.6
 	if Input.is_key_pressed(KEY_C) and is_on_floor():
-		camera.position.y = -2
 		crouch = 1
 		resistance = 0.5
+		target_height = -2
 	else:
 		crouch = 0
 		resistance = 1
-		camera.position.y = 1.6
+	cam_height = lerp(cam_height, float(target_height), delta * 10.0)
 func raycast():
 	if ray.is_colliding():
 		var collider = ray.get_collider()
@@ -133,15 +148,27 @@ func raycast():
 		var final_name = collider.name # Fallback default
 		
 		# 1. If it hits a generic StaticBody, try to use the parent
-		if collider is StaticBody3D and "StaticBody" in collider.name:
+		if collider is RigidBody3D and "RigidBody3D" in collider.name:
 			var parent = collider.get_parent()
 			# Don't let it print the root scene name "main"
 			if parent != null and parent.name != "main":
 				final_name = parent.name
 			else:
 				# If the parent IS main, use the mesh name or the collider itself
-				final_name = collider.name 
-		
+				final_name = collider.name
 		print(final_name)
-		return final_name
-	
+		return collider
+func set_collision_all(node, on):
+	if node is CollisionObject3D:
+		node.collision_layer = 1 if on else 0
+		node.collision_mask = 1 if on else 0
+	for child in node.get_children():
+		set_collision_all(child, on)	
+func drop():
+	set_collision_all(held_object, true)
+	remove_collision_exception_with(held_object)
+	ray.remove_exception(held_object)
+	held_object.freeze = false
+	held_object.linear_velocity = -camera.global_transform.basis.z * 3
+	held_object = null
+		
