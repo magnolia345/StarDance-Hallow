@@ -15,11 +15,10 @@ func _input(event):
 			
 	
 func interact():
-	if raycast.is_colliding():
 		is_open = not is_open
 		var root = get_parent().get_parent().get_parent().get_parent()
-		var door1 = root.find_child("door1a", true, false)
-		var door2 = root.find_child("door2a", true, false)
+		var door1 = root.find_child("Material258", true, false)
+		var door2 = root.find_child("Material240", true, false)
 		var door3 = root.find_child("door3a", true, false)
 		var door4 = root.find_child("door4a", true, false)
 		var shelf1 = root.find_child("shelf1a", true, false)
