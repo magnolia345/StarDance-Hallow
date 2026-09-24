@@ -2,20 +2,28 @@
 
 [ext_resource type="PackedScene" uid="uid://d7857wsmq3pl" path="res://tools/chemical/silent_hill_1_meshes_-_chemical.glb" id="1_2uorj"]
 
-[sub_resource type="PlaceholderMesh" id="PlaceholderMesh_y5spk"]
+[sub_resource type="PlaceholderMesh" id="PlaceholderMesh_2uorj"]
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_y5spk"]
-size = Vector3(1, 1.2409668, 1)
+[sub_resource type="BoxShape3D" id="BoxShape3D_miovf"]
+size = Vector3(11.524651, 16.32252, 9.827087)
 
 [node name="chemical" type="Node3D" unique_id=467390483]
 
-[node name="RigidBody3D" type="RigidBody3D" parent="." unique_id=204919684]
+[node name="RigidBody3D2" type="RigidBody3D" parent="." unique_id=1031688306]
+axis_lock_linear_x = true
+axis_lock_linear_z = true
+axis_lock_angular_x = true
+axis_lock_angular_y = true
+axis_lock_angular_z = true
+can_sleep = false
+continuous_cd = true
 
-[node name="Sketchfab_Scene" parent="RigidBody3D" unique_id=922118123 instance=ExtResource("1_2uorj")]
+[node name="Sketchfab_Scene2" parent="RigidBody3D2" unique_id=922118123 instance=ExtResource("1_2uorj")]
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D" unique_id=221980158]
-mesh = SubResource("PlaceholderMesh_y5spk")
+[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D2" unique_id=1686510535]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -0.029361725, -0.223, -0.11)
+mesh = SubResource("PlaceholderMesh_2uorj")
 
-[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D" unique_id=1349754315]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.0057373047, 0)
-shape = SubResource("BoxShape3D_y5spk")
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="RigidBody3D2" unique_id=654430410]
+transform = Transform3D(0.08, 0, 0, 0, 0.08, 0, 0, 0, 0.08, -0.025495917, 0.025174193, -0.11)
+shape = SubResource("BoxShape3D_miovf")
