@@ -112,7 +112,7 @@ func _physics_process(delta: float) -> void:
 				set_collision_all(target, false)
 				add_collision_exception_with(target)
 				ray.add_exception(target)
-			
+		raycast()
 	progress.value = stamina_level
 	var bob = Vector3.ZERO
 	if is_on_floor() and velocity.length() > 0.0 and crouch == 0:
@@ -156,7 +156,7 @@ func raycast():
 			else:
 				# If the parent IS main, use the mesh name or the collider itself
 				final_name = collider.name
-		print(final_name)
+		print(collider.name)
 		return collider
 func set_collision_all(node, on):
 	if node is CollisionObject3D:

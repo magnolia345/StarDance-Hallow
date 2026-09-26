@@ -19,11 +19,11 @@ func interact():
 		var root = get_parent().get_parent().get_parent().get_parent()
 		var door1 = root.find_child("Material258", true, false)
 		var door2 = root.find_child("Material240", true, false)
-		var door3 = root.find_child("door3a", true, false)
-		var door4 = root.find_child("door4a", true, false)
-		var shelf1 = root.find_child("shelf1a", true, false)
-		var shelf2 = root.find_child("shelf2a", true, false)
-		var shelf3 = root.find_child("shelf3a", true, false)
+		var door3 = root.find_child("Material253", true, false)
+		var door4 = root.find_child("Material2132", true, false)
+		var shelf1 = root.find_child("Material2106", true, false)
+		var shelf2 = root.find_child("Material2110", true, false)
+		var shelf3 = root.find_child("Material2123", true, false)
 		var tween = create_tween()
 		if door1 and is_open:
 			tween.parallel().tween_property(door1, "rotation:z", deg_to_rad(-90), 0.5)
@@ -36,24 +36,24 @@ func interact():
 			tween.parallel().tween_property(door2, "rotation:z", deg_to_rad(0), 0.5)
 			
 		if door3 and is_open:
-			tween.parallel().tween_property(door3, "rotation:z", deg_to_rad(90), 0.5)
+			tween.parallel().tween_property(door3, "rotation:z", deg_to_rad(-90), 0.5)
 			
 		else:
 			tween.parallel().tween_property(door3, "rotation:z", deg_to_rad(0), 0.5)
 		if door4 and is_open:
-			tween.parallel().tween_property(door4, "rotation:z", deg_to_rad(90), 0.5)
+			tween.parallel().tween_property(door4, "rotation:z", deg_to_rad(-90), 0.5)
 			
 		else:
 			tween.parallel().tween_property(door4, "rotation:z", deg_to_rad(0), 0.5)
 		if shelf1 and is_open:
-			tween.parallel().tween_property(shelf1, "position:x", 0.761, 0.5)
+			tween.parallel().tween_property(shelf1, "rotation:z", deg_to_rad(-90), 0.5)
 		else:
-			tween.parallel().tween_property(shelf1, "position:x", 0.25, 0.5)
+			tween.parallel().tween_property(shelf1, "rotation:z", deg_to_rad(0), 0.5)
 		if shelf2 and is_open:
-			tween.parallel().tween_property(shelf2, "position:x", 0.761, 0.5)
+			tween.parallel().tween_property(shelf2, "rotation:z", deg_to_rad(-90), 0.5)
 		else:
-			tween.parallel().tween_property(shelf2, "position:x", 0.25, 0.5)
+			tween.parallel().tween_property(shelf2, "rotation:z", deg_to_rad(0), 0.5)
 		if shelf3 and is_open:
-			tween.parallel().tween_property(shelf3, "position:x", 0.761, 0.5)
+			tween.parallel().tween_property(shelf3, "rotation:z", deg_to_rad(-90), 0.5)
 		else:
-			tween.parallel().tween_property(shelf3, "position:x", 0.25, 0.5)
+			tween.parallel().tween_property(shelf3, "rotation:z", deg_to_rad(0), 0.5)
