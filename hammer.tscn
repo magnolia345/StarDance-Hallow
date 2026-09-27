@@ -5,7 +5,7 @@
 [sub_resource type="PlaceholderMesh" id="PlaceholderMesh_y5spk"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_nnw4l"]
-size = Vector3(19.30223, 4.850662, 9.827087)
+size = Vector3(19.30223, 3.5005264, 9.827087)
 
 [node name="Node3D" type="Node3D" unique_id=1079840946]
 
@@ -26,5 +26,5 @@ transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -0.319, -0.223, -0.11)
 mesh = SubResource("PlaceholderMesh_y5spk")
 
 [node name="CollisionShape3D2" type="CollisionShape3D" parent="RigidBody3D" unique_id=2068847274]
-transform = Transform3D(0.08, 0, 0, 0, 0.08, 0, 0, 0, 0.08, -0.319, -0.223, -0.11)
+transform = Transform3D(0.08, 0, 0, 0, 0.08, 0, 0, 0, 0.08, -0.319, -0.16899458, -0.11)
 shape = SubResource("BoxShape3D_nnw4l")

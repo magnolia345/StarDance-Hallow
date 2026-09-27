@@ -148,7 +148,7 @@ func raycast():
 		var final_name = collider.name # Fallback default
 		
 		# 1. If it hits a generic StaticBody, try to use the parent
-		if collider is RigidBody3D and "RigidBody3D" in collider.name:
+		if collider is RigidBody3D or StaticBody3D :
 			var parent = collider.get_parent()
 			# Don't let it print the root scene name "main"
 			if parent != null and parent.name != "main":
@@ -156,7 +156,7 @@ func raycast():
 			else:
 				# If the parent IS main, use the mesh name or the collider itself
 				final_name = collider.name
-		print(collider.name)
+		print(final_name)
 		return collider
 func set_collision_all(node, on):
 	if node is CollisionObject3D:
