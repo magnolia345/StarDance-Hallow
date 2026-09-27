@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://r22uk06jf4p3"
-path="res://.godot/imported/fridge_-_modern_furniture_game-ready.glb-195acbe125648106f4fd8bc0127be6a5.scn"
+uid="uid://citdrrbniycao"
+path="res://.godot/imported/pan_of_borshch.glb-fe68e83881abe1ffdf26918acbf281ff.scn"
 
 [deps]
 
-source_file="res://furniture/iving room/fridge/fridge_-_modern_furniture_game-ready.glb"
-dest_files=["res://.godot/imported/fridge_-_modern_furniture_game-ready.glb-195acbe125648106f4fd8bc0127be6a5.scn"]
+source_file="res://furniture/iving room/rsch/pan_of_borshch.glb"
+dest_files=["res://.godot/imported/pan_of_borshch.glb-fe68e83881abe1ffdf26918acbf281ff.scn"]
 
 [params]
 

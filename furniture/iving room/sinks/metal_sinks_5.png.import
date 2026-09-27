@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bgkgwv08riyes"
-path.s3tc="res://.godot/imported/fridge_-_modern_furniture_game-ready_0.png-1a8ccd96bf85f739b82236133c27e363.s3tc.ctex"
+uid="uid://dny7axbf7ab6e"
+path.s3tc="res://.godot/imported/metal_sinks_5.png-c31a334b694cf85818ec8069735c09c9.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "d58680c8c1bd0bb5e175ec9ddfa0858a"
+"md5": "8b61f15aa4e705a4975bfa2c4b9c0152"
 }
 
 [deps]
 
-source_file="res://furniture/iving room/fridge/fridge_-_modern_furniture_game-ready_0.png"
-dest_files=["res://.godot/imported/fridge_-_modern_furniture_game-ready_0.png-1a8ccd96bf85f739b82236133c27e363.s3tc.ctex"]
+source_file="res://furniture/iving room/sinks/metal_sinks_5.png"
+dest_files=["res://.godot/imported/metal_sinks_5.png-c31a334b694cf85818ec8069735c09c9.s3tc.ctex"]
 
 [params]
 
