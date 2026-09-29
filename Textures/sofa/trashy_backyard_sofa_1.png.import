@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://h5xquurgijcb"
-path.s3tc="res://.godot/imported/trashy_backyard_sofa_1.png-f392361a28235b4aa61a29000ae199c9.s3tc.ctex"
+path.s3tc="res://.godot/imported/trashy_backyard_sofa_1.png-d9b14c8b5de4c0ce809a36d07b62a06a.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://textures/sofa/trashy_backyard_sofa_1.png"
-dest_files=["res://.godot/imported/trashy_backyard_sofa_1.png-f392361a28235b4aa61a29000ae199c9.s3tc.ctex"]
+source_file="res://Textures/sofa/trashy_backyard_sofa_1.png"
+dest_files=["res://.godot/imported/trashy_backyard_sofa_1.png-d9b14c8b5de4c0ce809a36d07b62a06a.s3tc.ctex"]
 
 [params]
 
