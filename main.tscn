@@ -51,6 +51,7 @@
 [ext_resource type="PackedScene" uid="uid://ewbrruverl10" path="res://furniture/library/altar/ritual_altar_-_game_asset.glb" id="30_4lmeg"]
 [ext_resource type="Texture2D" uid="uid://rqucujub04qm" path="res://sofa/Image for Godot.webp" id="30_kq58d"]
 [ext_resource type="PackedScene" uid="uid://d2epvosslla5n" path="res://furniture/common/table/wooden_table.glb" id="31_0cp0l"]
+[ext_resource type="Script" uid="uid://b74bkj4x7j2d2" path="res://furniture/common/closet_/BathroomCabinets.gd" id="32_1vm84"]
 [ext_resource type="PackedScene" uid="uid://8rdatotfls0w" path="res://furniture/classrooms/lab/shelf/lab_shelf__utility_cart__virus_laboratory.glb" id="32_ntx8l"]
 [ext_resource type="PackedScene" uid="uid://dsq81ohvu5co6" path="res://furniture/library/mo_dinngtable_mo_16.glb" id="33_4k2k6"]
 [ext_resource type="PackedScene" uid="uid://bsevex008i1sw" path="res://furniture/classrooms/lab/cabinet/laboratory_cabinet_storage__pbr_low_poly__free.glb" id="33_uatky"]
@@ -202,6 +203,9 @@ texture_list = Array[Terrain3DTextureAsset]([SubResource("Terrain3DTextureAsset_
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_y5spk"]
 
+[sub_resource type="BoxShape3D" id="BoxShape3D_m4ira"]
+size = Vector3(1.3023071, 1.6518672, 0.8831787)
+
 [sub_resource type="BoxShape3D" id="BoxShape3D_75kfu"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_nnw4l"]
@@ -211,7 +215,7 @@ size = Vector3(200.20776, 77.7641, 98.27759)
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_75kfu"]
 
-[sub_resource type="ShaderMaterial" id="ShaderMaterial_rqtf5"]
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_cyx1q"]
 render_priority = 0
 shader = ExtResource("10_ycdy4")
 shader_parameter/albedo = Color(1, 1, 1, 1)
@@ -946,6 +950,13 @@ transform = Transform3D(1, 4.9960036e-16, 0, -3.330669e-16, 1, -5.5879354e-09, 0
 
 [node name="cabinet3" parent="NavigationRegion3D/Interior/classrooms/bathroom" unique_id=165035516 instance=ExtResource("17_come4")]
 transform = Transform3D(-4.3711395e-08, -0.008726535, -0.9999619, -1.8626451e-09, 0.99996203, -0.008726535, 1, 9.313226e-10, -4.3706677e-08, -33.11492, -0.80914974, -34.729168)
+
+[node name="StaticBody3D" type="StaticBody3D" parent="NavigationRegion3D/Interior/classrooms/bathroom/cabinet3" unique_id=2014690048]
+script = ExtResource("32_1vm84")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="NavigationRegion3D/Interior/classrooms/bathroom/cabinet3/StaticBody3D" unique_id=835478253]
+transform = Transform3D(1, 3.380701e-07, 0, 0, 1, -4.3172577e-10, -2.6411726e-09, 3.0408597e-07, 1, 0.028663635, 1.3249339, -0.058418274)
+shape = SubResource("BoxShape3D_m4ira")
 
 [node name="cabinet4" parent="NavigationRegion3D/Interior/classrooms/bathroom" unique_id=1911461440 instance=ExtResource("17_come4")]
 transform = Transform3D(-4.3711374e-08, 0.008726536, 0.9999619, 6.519258e-09, 0.99996245, -0.008726534, -1, 3.7252903e-09, -4.366302e-08, -35.933327, -0.82544374, -36.681076)
@@ -1709,7 +1720,7 @@ avoidance_enabled = true
 [node name="VisionCheckTimer" type="Timer" parent="Enemy" unique_id=1277709621]
 
 [node name="SimpleGrassTextured" type="MultiMeshInstance3D" parent="." unique_id=1769417006]
-material_override = SubResource("ShaderMaterial_rqtf5")
+material_override = SubResource("ShaderMaterial_cyx1q")
 multimesh = SubResource("MultiMesh_ntx8l")
 script = ExtResource("13_2cqfq")
 scale_h = 6.0
@@ -1731,6 +1742,7 @@ metadata/_custom_type_script = "uid://2juaclm8gc1n"
 metadata/SimpleGrassTextured = "2.0.5"
 
 [editable path="NavigationRegion3D/Interior/clinic/cabinet3"]
+[editable path="NavigationRegion3D/Interior/classrooms/bathroom/cabinet3"]
 [editable path="NavigationRegion3D/Interior/classrooms/bathroom/sink7"]
 [editable path="NavigationRegion3D/Interior/classrooms/bio/tables/table"]
 [editable path="NavigationRegion3D/Interior/classrooms/bio/lab/shelf"]

@@ -7,7 +7,7 @@ var is_open = false
 
 @onready var cabinet_root: Node = get_parent().get_parent().get_parent().get_parent()
 
-@onready var door1 = cabinet_root.find_child("Plane018_Material #0_0", true, false)
+@onready var door1 = cabinet_root.find_child("Object_4", true, false)
 
 func _input(event):
 	if event is InputEventKey and event.keycode == KEY_E:
