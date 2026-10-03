@@ -59,8 +59,6 @@ func _physics_process(delta):
 	_move_along_path()
 
 
-# ---------------- VISION ----------------
-
 func _check_vision():
 	if not player or cooldown_timer > 0:
 		return
@@ -88,8 +86,6 @@ func _can_see_player() -> bool:
 	if dist > view_distance:
 		return false
 
-	# Point-blank range: skip angle/raycast, the enemy is basically on top
-	# of the player, so line-of-sight checks are unreliable/meaningless here.
 	if dist < close_range:
 		return true
 

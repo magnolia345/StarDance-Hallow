@@ -23,7 +23,7 @@
 [ext_resource type="PackedScene" uid="uid://c67vwrpp4jdgi" path="res://furniture/bathroom/bathtub/bathtub.glb" id="14_d13ii"]
 [ext_resource type="PackedScene" uid="uid://cwsyujss8qvwq" path="res://furniture/library/small_shelf.glb" id="15_ok6jj"]
 [ext_resource type="PackedScene" uid="uid://dvcv16jto7tw0" path="res://furniture/library/bookshelf.glb" id="15_seu75"]
-[ext_resource type="Texture2D" uid="uid://banenojhhjyyn" path="res://textures/dirt for godot.jpeg" id="15_vivmo"]
+[ext_resource type="Texture2D" uid="uid://banenojhhjyyn" path="res://dirt for godot.jpeg" id="15_vivmo"]
 [ext_resource type="PackedScene" uid="uid://c3wl74l1u08w3" path="res://furniture/bathroom/urinal/silent_hill_2_urinal_toilet_dirty.glb" id="15_xuqvo"]
 [ext_resource type="PackedScene" uid="uid://0wre45ox7hnx" path="res://furniture/bathroom/dirty mirror/dirty_mirror_lowpolyvray.glb" id="16_0odxb"]
 [ext_resource type="PackedScene" uid="uid://dd05541x1hd8b" path="res://node_3d.tscn" id="16_2cqfq"]
@@ -48,6 +48,8 @@
 [ext_resource type="PackedScene" uid="uid://cmfp1pwhbx2c0" path="res://furniture/clinic/wheelc/re_wheelchair_horror_game_hospital.glb" id="24_sm6fg"]
 [ext_resource type="PackedScene" uid="uid://deoepocfumeux" path="res://furniture/common/nightstand/cac_aaa-nightstand.glb" id="25_b17eg"]
 [ext_resource type="PackedScene" uid="uid://bsvjwf3neij1n" path="res://furniture/bathroom/sink/sink_toilet_wc_-_14mb.glb" id="26_lswn8"]
+[ext_resource type="PackedScene" uid="uid://jvm55j1brkjb" path="res://furniture/music/music hall/beethoven_music_hall_table.glb" id="29_cyx1q"]
+[ext_resource type="PackedScene" uid="uid://c2k7nur7xs0r3" path="res://furniture/music/music stand/music_stand.glb" id="30_0dhbp"]
 [ext_resource type="PackedScene" uid="uid://ewbrruverl10" path="res://furniture/library/altar/ritual_altar_-_game_asset.glb" id="30_4lmeg"]
 [ext_resource type="Texture2D" uid="uid://rqucujub04qm" path="res://sofa/Image for Godot.webp" id="30_kq58d"]
 [ext_resource type="PackedScene" uid="uid://d2epvosslla5n" path="res://furniture/common/table/wooden_table.glb" id="31_0cp0l"]
@@ -375,7 +377,7 @@ spot_range = 32.0
 script = ExtResource("3_h2yge")
 
 [node name="NavigationRegion3D" type="NavigationRegion3D" parent="." unique_id=837217684]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -90.70873, 2.2636557, 83.78261)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -90.6046, 2.2636633, 83.821594)
 navigation_mesh = SubResource("NavigationMesh_vkgo8")
 
 [node name="Gridm" type="Node3D" parent="NavigationRegion3D" unique_id=1654291452]
@@ -473,8 +475,13 @@ size = Vector3(46.046432, 20.815247, 1)
 material = ExtResource("10_w48qg")
 
 [node name="CSGBox3D7" type="CSGBox3D" parent="NavigationRegion3D/Walls/Walls90" unique_id=809936536]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 165.52832, 10.768951, 54.889175)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 165.52832, 10.768951, 52.427902)
 size = Vector3(76.897964, 20.815247, 1)
+material = ExtResource("10_w48qg")
+
+[node name="CSGBox3D10" type="CSGBox3D" parent="NavigationRegion3D/Walls/Walls90" unique_id=1636683247]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 179.2601, 10.768951, 53.25786)
+size = Vector3(48.187622, 20.815247, 2.871521)
 material = ExtResource("10_w48qg")
 
 [node name="CSGBox3D8" type="CSGBox3D" parent="NavigationRegion3D/Walls/Walls90" unique_id=106871889]
@@ -537,9 +544,19 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 96.75351, 10.345184, 130.8763
 size = Vector3(33.018875, 20, 1)
 material = ExtResource("10_w48qg")
 
+[node name="CSGBox3D31" type="CSGBox3D" parent="NavigationRegion3D/Walls/Walls90" unique_id=43633113]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 120.32419, 8.833801, 120.485214)
+size = Vector3(14.077919, 23.087769, 14.311462)
+material = ExtResource("10_w48qg")
+
 [node name="CSGBox3D24" type="CSGBox3D" parent="NavigationRegion3D/Walls/Walls90" unique_id=140679285]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 69.83625, 10.32312, 116.438736)
 size = Vector3(87.60434, 20, 1)
+material = ExtResource("10_w48qg")
+
+[node name="CSGBox3D32" type="CSGBox3D" parent="NavigationRegion3D/Walls/Walls90" unique_id=721012321]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 61.137726, 10.32312, 105.675064)
+size = Vector3(50.176945, 20, 1)
 material = ExtResource("10_w48qg")
 
 [node name="CSGBox3D13" type="CSGBox3D" parent="NavigationRegion3D/Walls/Walls90" unique_id=143718619]
@@ -592,10 +609,10 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 175.23608, 6.8980255, 136.614
 operation = 2
 size = Vector3(6.249514, 15.37735, 3.1658936)
 
-[node name="Door Way10" type="CSGBox3D" parent="NavigationRegion3D/Walls/Walls90" unique_id=643874860]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 181.95714, 7.8528595, 54.43924)
+[node name="Door Way16" type="CSGBox3D" parent="NavigationRegion3D/Walls/Walls90" unique_id=855453955]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 198.4548, 6.8980255, 95.61932)
 operation = 2
-size = Vector3(8.415224, 15.37735, 3.1658936)
+size = Vector3(6.249514, 15.37735, 3.1658936)
 
 [node name="CSGBox3D23" type="CSGBox3D" parent="NavigationRegion3D/Walls/Walls90" unique_id=899513977]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 160.10193, 10.768951, 23.118149)
@@ -624,6 +641,11 @@ size = Vector3(7.1103563, 16.344925, 5.9205017)
 
 [node name="Door Way17" type="CSGBox3D" parent="NavigationRegion3D/Walls/Walls90" unique_id=464980264]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 54.953156, 7.948654, 115.967316)
+operation = 2
+size = Vector3(7.1103563, 16.344925, 3.6205444)
+
+[node name="Door Way19" type="CSGBox3D" parent="NavigationRegion3D/Walls/Walls90" unique_id=1521874442]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 88.62189, 7.948654, 115.967316)
 operation = 2
 size = Vector3(7.1103563, 16.344925, 3.6205444)
 
@@ -680,14 +702,39 @@ transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 107.
 size = Vector3(78.2583, 20.815247, 1.6743164)
 material = ExtResource("10_w48qg")
 
+[node name="Wall29" type="CSGBox3D" parent="NavigationRegion3D/Walls/Walls0" unique_id=1903596262]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 55.858616, 10.768951, 91.08305)
+size = Vector3(28.998398, 20.815247, 1.6743164)
+material = ExtResource("10_w48qg")
+
+[node name="Wall27" type="CSGBox3D" parent="NavigationRegion3D/Walls/Walls0" unique_id=1823056821]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 104.469604, 10.768951, 57.711304)
+size = Vector3(38.502686, 20.815247, 6.917053)
+material = ExtResource("10_w48qg")
+
+[node name="Wall28" type="CSGBox3D" parent="NavigationRegion3D/Walls/Walls0" unique_id=967398618]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 104.469604, 10.768951, 111.55293)
+size = Vector3(9.4227295, 20.815247, 6.917053)
+material = ExtResource("10_w48qg")
+
 [node name="Wall11" type="CSGBox3D" parent="NavigationRegion3D/Walls/Walls0" unique_id=1080340561]
-transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 124.76158, 10.768951, 107.95996)
-size = Vector3(107, 20.815247, 6.4716797)
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 125.228134, 10.768951, 107.44287)
+size = Vector3(110.11035, 20.815247, 5.538574)
 material = ExtResource("10_w48qg")
 
 [node name="Wall12" type="CSGBox3D" parent="NavigationRegion3D/Walls/Walls0" unique_id=1028714628]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 164.47684, 10.768951, 120.85031)
 size = Vector3(50.759857, 20.815247, 1)
+material = ExtResource("10_w48qg")
+
+[node name="Wall30" type="CSGBox3D" parent="NavigationRegion3D/Walls/Walls0" unique_id=415873262]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 155.47684, 10.768951, 68.23758)
+size = Vector3(31.278809, 20.815247, 1)
+material = ExtResource("10_w48qg")
+
+[node name="Wall31" type="CSGBox3D" parent="NavigationRegion3D/Walls/Walls0" unique_id=1457893563]
+transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, 180.66287, 10.768951, 62.582428)
+size = Vector3(19.968506, 20.815247, 1)
 material = ExtResource("10_w48qg")
 
 [node name="Wall25" type="CSGBox3D" parent="NavigationRegion3D/Walls/Walls0" unique_id=1727143629]
@@ -774,6 +821,11 @@ size = Vector3(3.9876103, 13.792313, 1.5746765)
 transform = Transform3D(-4.371139e-08, 0, 1.949799, 0, 1, 0, -1, 0, -8.5228415e-08, 125.01662, 7.871414, 140.15869)
 operation = 2
 size = Vector3(7.73926, 15.37735, 6.796814)
+
+[node name="Door Way5" type="CSGBox3D" parent="NavigationRegion3D/Walls/Walls0" unique_id=1923003849]
+transform = Transform3D(-4.371139e-08, 0, 1.949799, 0, 1, 0, -1, 0, -8.5228415e-08, 119.166306, 7.8713074, 156.95709)
+operation = 2
+size = Vector3(7.73926, 15.37735, 12.686996)
 
 [node name="Door Way8" type="CSGBox3D" parent="NavigationRegion3D/Walls/Walls0" unique_id=1383422091]
 transform = Transform3D(-4.371139e-08, 0, 1.949799, 0, 1, 0, -1, 0, -8.5228415e-08, 164.49495, 7.871414, 107.24368)
@@ -939,6 +991,26 @@ transform = Transform3D(0.14846753, 0, -0.20114024, 0, 0.25, 0, 0.20114024, 0, 0
 
 [node name="classrooms" type="Node3D" parent="NavigationRegion3D/Interior" unique_id=1964373828]
 
+[node name="music" type="Node3D" parent="NavigationRegion3D/Interior/classrooms" unique_id=915202967]
+transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 84.121704, -0.19291687, -42.041122)
+
+[node name="hall" parent="NavigationRegion3D/Interior/classrooms/music" unique_id=1732834004 instance=ExtResource("29_cyx1q")]
+
+[node name="stand" parent="NavigationRegion3D/Interior/classrooms/music" unique_id=1379839692 instance=ExtResource("30_0dhbp")]
+transform = Transform3D(0.014, 0, 0, 0, 0.014, 0, 0, 0, 0.014, -1.3795681, 0.06875986, 3.5370846)
+
+[node name="stand2" parent="NavigationRegion3D/Interior/classrooms/music" unique_id=33285052 instance=ExtResource("30_0dhbp")]
+transform = Transform3D(0.014, 0, 0, 0, 0.014, 0, 0, 0, 0.014, 0.31056118, 0.06875986, 4.5000896)
+
+[node name="stand3" parent="NavigationRegion3D/Interior/classrooms/music" unique_id=534651556 instance=ExtResource("30_0dhbp")]
+transform = Transform3D(0.014, 0, 0, 0, 0.014, 0, 0, 0, 0.014, -0.20362282, 0.06875986, 5.650259)
+
+[node name="stand4" parent="NavigationRegion3D/Interior/classrooms/music" unique_id=18698370 instance=ExtResource("30_0dhbp")]
+transform = Transform3D(0.014, 0, 0, 0, 0.014, 0, 0, 0, 0.014, -1.3795671, 0.06875986, 5.1697865)
+
+[node name="stand5" parent="NavigationRegion3D/Interior/classrooms/music" unique_id=2101838592 instance=ExtResource("30_0dhbp")]
+transform = Transform3D(0.014, 0, 0, 0, 0.014, 0, 0, 0, 0.014, 0.51879406, 0.06875986, 3.5370846)
+
 [node name="cabinet" parent="NavigationRegion3D/Interior/classrooms" unique_id=2087720541 instance=ExtResource("25_b17eg")]
 transform = Transform3D(-1.3113416e-07, 0, 3, 0, 3, 0, -3, 0, -1.3113416e-07, 109.875046, 0.18582511, 43.90976)
 
@@ -1035,10 +1107,10 @@ transform = Transform3D(1, -8.4703295e-22, 0, 0, 1, 7.1054274e-15, 0, -7.1054274
 transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 130.8101, 0.07063651, -2.897644)
 
 [node name="plants" parent="NavigationRegion3D/Interior/classrooms/bio/lab" unique_id=14589848 instance=ExtResource("34_rqtf5")]
-transform = Transform3D(-2, 0, -1.7484555e-07, 0, 2, 0, 1.7484555e-07, 0, -2, 114.29814, 0.16170287, 21.306702)
+transform = Transform3D(-3, 0, -4.5298742e-07, 0, 3, 0, 4.5298742e-07, 0, -3, 116.369965, 0.16170287, 21.306702)
 
 [node name="skel" parent="NavigationRegion3D/Interior/classrooms/bio/lab" unique_id=2144280580 instance=ExtResource("35_1vm84")]
-transform = Transform3D(3.0000002, 0, 0, 0, 3, 0, 0, 0, 3.0000002, 114.81711, 6.7457933, 0.8104248)
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 114.81711, 4.4480143, 0.8104248)
 
 [node name="table10" parent="NavigationRegion3D/Interior/classrooms/bio/lab" unique_id=1154190342 instance=ExtResource("24_hrvbo")]
 transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 132.77347, -0.07751298, 25.111313)
