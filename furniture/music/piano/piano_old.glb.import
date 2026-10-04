@@ -1,0 +1,84 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://dsmc5slh4c5yk"
+path="res://.godot/imported/piano_old.glb-10aced2952aac064b9e53b91914216bb.scn"
+
+[deps]
+
+source_file="res://furniture/music/piano/piano_old.glb"
+dest_files=["res://.godot/imported/piano_old.glb-10aced2952aac064b9e53b91914216bb.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/root_script=null
+mesh_library/use_node_names_as_mesh_names=false
+array_mesh/deduplicate_surfaces=true
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+nodes/use_name_suffixes=true
+nodes/use_node_type_suffixes=true
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+materials/extract=0
+materials/extract_format=0
+materials/extract_path=""
+_subresources={
+"nodes": {
+"PATH:Sketchfab_model/piano_fbx/RootNode/Cap/Cap_Original_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/piano_fbx/RootNode/Cap2/Cap2_Original_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/piano_fbx/RootNode/Cube_001/Cube_001_Original_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/piano_fbx/RootNode/Cube_002/Cube_002_Original_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/piano_fbx/RootNode/Front/Front_Original_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/piano_fbx/RootNode/Front/Front_wood_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/piano_fbx/RootNode/Pedals/Pedals_pedal_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/piano_fbx/RootNode/body/body_Original_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/piano_fbx/RootNode/leg/leg_Original_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/piano_fbx/RootNode/leg_back/leg_back_Original_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/piano_fbx/RootNode/wheel/wheel_metal_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/piano_fbx/RootNode/wheel_001/wheel_001_metal_0": {
+"generate/physics": true
+}
+}
+}
+gltf/naming_version=2
+gltf/embedded_image_handling=1
+gltf/texture_map_mode=1
