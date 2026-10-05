@@ -7,11 +7,8 @@ var is_open = false
 
 @onready var cabinet_root: Node = get_parent().get_parent().get_parent().get_parent()
 
-@onready var door1 = cabinet_root.find_child("Object_4", true, false)
+@onready var door1 = cabinet_root.find_child("Drawers_low_001", true, false) if cabinet_root else null
 var active_tween: Tween
-func _ready():
-	if door1:
-		door1.position.y = 0.0
 func _input(event):
 	if not raycast:
 		return
