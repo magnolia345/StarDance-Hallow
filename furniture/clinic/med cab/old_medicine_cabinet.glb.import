@@ -39,7 +39,28 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={}
+_subresources={
+"nodes": {
+"PATH:Sketchfab_model/6a52379fb6f948b582b6b59bb030eca7_fbx/Object_2/RootNode/MedicineCabinet_01/MedicineCabinet_01_Door/MedicineCabinet_01_Door_Clasp/MedicineCabinet_01_Door_Clasp_Material_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/6a52379fb6f948b582b6b59bb030eca7_fbx/Object_2/RootNode/MedicineCabinet_01/MedicineCabinet_01_Door/MedicineCabinet_01_Door_Material_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/6a52379fb6f948b582b6b59bb030eca7_fbx/Object_2/RootNode/MedicineCabinet_01/MedicineCabinet_01_LockHousing/MedicineCabinet_01_LockHousing_Material_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/6a52379fb6f948b582b6b59bb030eca7_fbx/Object_2/RootNode/MedicineCabinet_01/MedicineCabinet_01_LockHousing/MedicineCabinet_01_LockLeaver/MedicineCabinet_01_LockLeaver_Material_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/6a52379fb6f948b582b6b59bb030eca7_fbx/Object_2/RootNode/MedicineCabinet_01/MedicineCabinet_01_LockHousing/MedicineCabinet_01_LockLeaver/MedicineCabinet_01_LockRing/MedicineCabinet_01_LockRing_Material_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/6a52379fb6f948b582b6b59bb030eca7_fbx/Object_2/RootNode/MedicineCabinet_01/MedicineCabinet_01_Material_0": {
+"generate/physics": true
+}
+}
+}
 gltf/naming_version=2
 gltf/embedded_image_handling=1
 gltf/texture_map_mode=1
