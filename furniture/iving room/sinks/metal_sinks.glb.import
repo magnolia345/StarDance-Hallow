@@ -39,7 +39,34 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={}
+_subresources={
+"nodes": {
+"PATH:Sketchfab_model/e282e159aed648eaa457f720a2d22910_fbx/RootNode/SM_Sink/SM_Kitchen_pipe/SM_Kitchen_pipe_M_Sink_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/e282e159aed648eaa457f720a2d22910_fbx/RootNode/SM_Sink/SM_Sink_M_Sink_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/e282e159aed648eaa457f720a2d22910_fbx/RootNode/SM_Sink/SM_Taps/SM_Taps_M_Sink_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/e282e159aed648eaa457f720a2d22910_fbx/RootNode/SM_Sink/SM_Vent/SM_Vent_M_Sink_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/e282e159aed648eaa457f720a2d22910_fbx/RootNode/SM_Sink_001/SM_Kitchen_pipe_002/SM_Kitchen_pipe_002_M_Sink_worn_0": {
+"import/skip_import": true
+},
+"PATH:Sketchfab_model/e282e159aed648eaa457f720a2d22910_fbx/RootNode/SM_Sink_001/SM_Sink_001_M_Sink_worn_0": {
+"import/skip_import": true
+},
+"PATH:Sketchfab_model/e282e159aed648eaa457f720a2d22910_fbx/RootNode/SM_Sink_001/SM_Taps_005/SM_Taps_005_M_Sink_worn_0": {
+"import/skip_import": true
+},
+"PATH:Sketchfab_model/e282e159aed648eaa457f720a2d22910_fbx/RootNode/SM_Sink_001/SM_Vent_001/SM_Vent_001_M_Sink_worn_0": {
+"import/skip_import": true
+}
+}
+}
 gltf/naming_version=2
 gltf/embedded_image_handling=1
 gltf/texture_map_mode=1

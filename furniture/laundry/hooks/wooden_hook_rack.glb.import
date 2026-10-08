@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dd3kevts0if8d"
-path="res://.godot/imported/wooden_hook_rack.glb-9111c6fff143405fc3a5842a74565bf9.scn"
+path="res://.godot/imported/wooden_hook_rack.glb-6f54b441fe5211f0f2f3cd0258315bc6.scn"
 
 [deps]
 
-source_file="res://furaddin/hooks/wooden_hook_rack.glb"
-dest_files=["res://.godot/imported/wooden_hook_rack.glb-9111c6fff143405fc3a5842a74565bf9.scn"]
+source_file="res://furniture/laundry/hooks/wooden_hook_rack.glb"
+dest_files=["res://.godot/imported/wooden_hook_rack.glb-6f54b441fe5211f0f2f3cd0258315bc6.scn"]
 
 [params]
 
@@ -39,7 +39,13 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={}
+_subresources={
+"nodes": {
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/SM_plank_hook_0/Object_4": {
+"generate/physics": true
+}
+}
+}
 gltf/naming_version=2
 gltf/embedded_image_handling=1
 gltf/texture_map_mode=1

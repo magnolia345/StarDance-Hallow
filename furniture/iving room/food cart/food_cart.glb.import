@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://0nbve8ouvytn"
-path="res://.godot/imported/the_kungsara_bench.glb-d69d696e076a28a579deae6fe2f56779.scn"
+uid="uid://ny7n7owaxr5u"
+path="res://.godot/imported/food_cart.glb-1a7816e7c8015292a76fe523c79b9693.scn"
 
 [deps]
 
-source_file="res://furaddin/bench/the_kungsara_bench.glb"
-dest_files=["res://.godot/imported/the_kungsara_bench.glb-d69d696e076a28a579deae6fe2f56779.scn"]
+source_file="res://furniture/iving room/food cart/food_cart.glb"
+dest_files=["res://.godot/imported/food_cart.glb-1a7816e7c8015292a76fe523c79b9693.scn"]
 
 [params]
 
@@ -39,7 +39,19 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={}
+_subresources={
+"nodes": {
+"PATH:Sketchfab_model/e930bd2306fe4d07879a7f9c0fc1023a_fbx/RootNode/foodcart_06/foodcart_06_pasted__pasted__blinn3_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/e930bd2306fe4d07879a7f9c0fc1023a_fbx/RootNode/foodcart_06/foodcart_06_pasted__pasted__phong21_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/e930bd2306fe4d07879a7f9c0fc1023a_fbx/RootNode/foodcart_06/foodcart_06_pasted__pasted__phong22_0": {
+"generate/physics": true
+}
+}
+}
 gltf/naming_version=2
 gltf/embedded_image_handling=1
 gltf/texture_map_mode=1

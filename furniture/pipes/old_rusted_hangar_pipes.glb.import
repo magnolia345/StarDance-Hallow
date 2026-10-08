@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://byl4nh6up6roy"
-path="res://.godot/imported/old_rusted_hangar_pipes.glb-cc2c1b0583799388351a652acbd50f8b.scn"
+path="res://.godot/imported/old_rusted_hangar_pipes.glb-41291b247cf1f3ce56c8b71d894e40db.scn"
 
 [deps]
 
-source_file="res://furaddin/pipes/old_rusted_hangar_pipes.glb"
-dest_files=["res://.godot/imported/old_rusted_hangar_pipes.glb-cc2c1b0583799388351a652acbd50f8b.scn"]
+source_file="res://furniture/pipes/old_rusted_hangar_pipes.glb"
+dest_files=["res://.godot/imported/old_rusted_hangar_pipes.glb-41291b247cf1f3ce56c8b71d894e40db.scn"]
 
 [params]
 
@@ -39,7 +39,22 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={}
+_subresources={
+"nodes": {
+"PATH:Sketchfab_model/Collada visual scene group/Material2": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/Material3": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/Material4": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/Material42": {
+"generate/physics": true
+}
+}
+}
 gltf/naming_version=2
 gltf/embedded_image_handling=1
 gltf/texture_map_mode=1

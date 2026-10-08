@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dtjpco01nt5st"
-path.s3tc="res://.godot/imported/kitchen_tools_pack_0.png-169738e2733d9199cb9cdadb38ebc737.s3tc.ctex"
+uid="uid://vhy1pb6trxcq"
+path.s3tc="res://.godot/imported/pumpkin_3dst23_0.jpg-ad4c014df4ad5c81477d161a1a7e683d.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "9fd532840b4145ce5ad1853298601692"
+"md5": "1166c48b7ed0bbc7b3a7e34381f7d37a"
 }
 
 [deps]
 
-source_file="res://furaddin/kitchen tools/kitchen_tools_pack_0.png"
-dest_files=["res://.godot/imported/kitchen_tools_pack_0.png-169738e2733d9199cb9cdadb38ebc737.s3tc.ctex"]
+source_file="res://furniture/iving room/pumpkin/pumpkin_3dst23_0.jpg"
+dest_files=["res://.godot/imported/pumpkin_3dst23_0.jpg-ad4c014df4ad5c81477d161a1a7e683d.s3tc.ctex"]
 
 [params]
 

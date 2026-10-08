@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ci457oepdaluf"
-path.s3tc="res://.godot/imported/wooden_hook_rack_0.png-ad29a5c23ae7218a268aed89228b83b6.s3tc.ctex"
+uid="uid://dtjpco01nt5st"
+path.s3tc="res://.godot/imported/kitchen_tools_pack_0.png-7bf4fd369bd367210706196f35e1c446.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "439be585f4cf6de9dec4e04f22340e64"
+"md5": "9fd532840b4145ce5ad1853298601692"
 }
 
 [deps]
 
-source_file="res://furaddin/hooks/wooden_hook_rack_0.png"
-dest_files=["res://.godot/imported/wooden_hook_rack_0.png-ad29a5c23ae7218a268aed89228b83b6.s3tc.ctex"]
+source_file="res://furniture/iving room/kitchen tools/kitchen_tools_pack_0.png"
+dest_files=["res://.godot/imported/kitchen_tools_pack_0.png-7bf4fd369bd367210706196f35e1c446.s3tc.ctex"]
 
 [params]
 

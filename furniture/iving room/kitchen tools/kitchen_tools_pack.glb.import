@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bwybuyo8vpfb2"
-path="res://.godot/imported/kitchen_tools_pack.glb-9360739b1a2d0829d3a82303fefcd5c2.scn"
+path="res://.godot/imported/kitchen_tools_pack.glb-dfd941c4b19b302089e6a521ef5a94c6.scn"
 
 [deps]
 
-source_file="res://furaddin/kitchen tools/kitchen_tools_pack.glb"
-dest_files=["res://.godot/imported/kitchen_tools_pack.glb-9360739b1a2d0829d3a82303fefcd5c2.scn"]
+source_file="res://furniture/iving room/kitchen tools/kitchen_tools_pack.glb"
+dest_files=["res://.godot/imported/kitchen_tools_pack.glb-dfd941c4b19b302089e6a521ef5a94c6.scn"]
 
 [params]
 

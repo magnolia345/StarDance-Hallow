@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://vhy1pb6trxcq"
-path.s3tc="res://.godot/imported/pumpkin_3dst23_0.jpg-ab92920520aeae078ad8c150011dbc05.s3tc.ctex"
+uid="uid://camcjpx8s1hdm"
+path.s3tc="res://.godot/imported/kitchen_tools_pack_3.png-f1968736c9bc5dab9256b075d1ed1887.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "1166c48b7ed0bbc7b3a7e34381f7d37a"
+"md5": "2d3ed80d08592e6cc086f75638263bd6"
 }
 
 [deps]
 
-source_file="res://furaddin/pumpkin/pumpkin_3dst23_0.jpg"
-dest_files=["res://.godot/imported/pumpkin_3dst23_0.jpg-ab92920520aeae078ad8c150011dbc05.s3tc.ctex"]
+source_file="res://furniture/iving room/kitchen tools/kitchen_tools_pack_3.png"
+dest_files=["res://.godot/imported/kitchen_tools_pack_3.png-f1968736c9bc5dab9256b075d1ed1887.s3tc.ctex"]
 
 [params]
 
@@ -25,12 +25,12 @@ compress/lossy_quality=0.7
 compress/uastc_level=0
 compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
-compress/normal_map=0
+compress/normal_map=1
 compress/channel_pack=0
 mipmaps/generate=true
 mipmaps/limit=-1
-roughness/mode=0
-roughness/src_normal=""
+roughness/mode=1
+roughness/src_normal="res://ADD INNNNN/kitchen_tools_pack_3.png"
 process/channel_remap/red=0
 process/channel_remap/green=1
 process/channel_remap/blue=2

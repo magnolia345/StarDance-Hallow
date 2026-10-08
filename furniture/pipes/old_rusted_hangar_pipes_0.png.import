@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://sh3ga2y3qfhc"
-path.s3tc="res://.godot/imported/kitchen_tools_pack_1.png-321f1f8b91354c11e59299f92b7b1f52.s3tc.ctex"
+uid="uid://dgxs0rbmhv61q"
+path.s3tc="res://.godot/imported/old_rusted_hangar_pipes_0.png-04d5e0b353d787afee4eb0234483461e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "f5e5d696454c51e50dbe0484375832c4"
+"md5": "1dbd9f3b3674633188617cfcdf76340b"
 }
 
 [deps]
 
-source_file="res://furaddin/kitchen tools/kitchen_tools_pack_1.png"
-dest_files=["res://.godot/imported/kitchen_tools_pack_1.png-321f1f8b91354c11e59299f92b7b1f52.s3tc.ctex"]
+source_file="res://furniture/pipes/old_rusted_hangar_pipes_0.png"
+dest_files=["res://.godot/imported/old_rusted_hangar_pipes_0.png-04d5e0b353d787afee4eb0234483461e.s3tc.ctex"]
 
 [params]
 

@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://bpd33fds1k0f4"
-path="res://.godot/imported/pumpkin_3dst23.glb-a48e916a4c2f3905d447e62b525c994f.scn"
+uid="uid://0nbve8ouvytn"
+path="res://.godot/imported/the_kungsara_bench.glb-8d9e7e7a7627e6bdbd706dcd442cc17f.scn"
 
 [deps]
 
-source_file="res://furaddin/pumpkin/pumpkin_3dst23.glb"
-dest_files=["res://.godot/imported/pumpkin_3dst23.glb-a48e916a4c2f3905d447e62b525c994f.scn"]
+source_file="res://furniture/iving room/dining/bench/the_kungsara_bench.glb"
+dest_files=["res://.godot/imported/the_kungsara_bench.glb-8d9e7e7a7627e6bdbd706dcd442cc17f.scn"]
 
 [params]
 
@@ -39,7 +39,14 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={}
+_subresources={
+"nodes": {
+"PATH:Sketchfab_model/model_obj_cleaner_materialmerger_gles/Object_2": {
+"generate/physics": true,
+"physics/shape_type": 3
+}
+}
+}
 gltf/naming_version=2
 gltf/embedded_image_handling=1
 gltf/texture_map_mode=1

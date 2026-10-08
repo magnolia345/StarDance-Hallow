@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://ny7n7owaxr5u"
-path="res://.godot/imported/food_cart.glb-fa63cc2158f51f3a5bf168ced4de759c.scn"
+uid="uid://bpd33fds1k0f4"
+path="res://.godot/imported/pumpkin_3dst23.glb-abf05514bd3370d8998d46d628b8feed.scn"
 
 [deps]
 
-source_file="res://furaddin/food cart/food_cart.glb"
-dest_files=["res://.godot/imported/food_cart.glb-fa63cc2158f51f3a5bf168ced4de759c.scn"]
+source_file="res://furniture/iving room/pumpkin/pumpkin_3dst23.glb"
+dest_files=["res://.godot/imported/pumpkin_3dst23.glb-abf05514bd3370d8998d46d628b8feed.scn"]
 
 [params]
 
@@ -39,7 +39,13 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={}
+_subresources={
+"nodes": {
+"PATH:Sketchfab_model/model_mesh_obj_cleaner/Object_2": {
+"generate/physics": true
+}
+}
+}
 gltf/naming_version=2
 gltf/embedded_image_handling=1
 gltf/texture_map_mode=1

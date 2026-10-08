@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://buje7sk0eqvcy"
-path.s3tc="res://.godot/imported/kitchen_tools_pack_2.png-5fb3a73e1060948a29f4940a665f8dc5.s3tc.ctex"
+uid="uid://sh3ga2y3qfhc"
+path.s3tc="res://.godot/imported/kitchen_tools_pack_1.png-6625fdf57bb576d2d30c8cff2d2d9d9d.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "b6d81b360a5672d80c27430f39153e2c"
+"md5": "f5e5d696454c51e50dbe0484375832c4"
 }
 
 [deps]
 
-source_file="res://furaddin/kitchen tools/kitchen_tools_pack_2.png"
-dest_files=["res://.godot/imported/kitchen_tools_pack_2.png-5fb3a73e1060948a29f4940a665f8dc5.s3tc.ctex"]
+source_file="res://furniture/iving room/kitchen tools/kitchen_tools_pack_1.png"
+dest_files=["res://.godot/imported/kitchen_tools_pack_1.png-6625fdf57bb576d2d30c8cff2d2d9d9d.s3tc.ctex"]
 
 [params]
 
