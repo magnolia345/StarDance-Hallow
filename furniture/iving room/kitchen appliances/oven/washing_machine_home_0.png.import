@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cq1gkci42eswj"
-path.s3tc="res://.godot/imported/old_gas_stove_and_oven_1.png-f2ec37cd5a40ac55aa53e782e6e16bcb.s3tc.ctex"
+uid="uid://d3b125v25icml"
+path.s3tc="res://.godot/imported/washing_machine_home_0.png-5c485e0cebfdaa2877a5616d854b9d35.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "2f242b3af0717f955e9a3b83a95e93f2"
+"md5": "8e8a40537cad791e76ba9c7d1b20718c"
 }
 
 [deps]
 
-source_file="res://furniture/iving room/oven/old_gas_stove_and_oven_1.png"
-dest_files=["res://.godot/imported/old_gas_stove_and_oven_1.png-f2ec37cd5a40ac55aa53e782e6e16bcb.s3tc.ctex"]
+source_file="res://furniture/iving room/kitchen appliances/oven/washing_machine_home_0.png"
+dest_files=["res://.godot/imported/washing_machine_home_0.png-5c485e0cebfdaa2877a5616d854b9d35.s3tc.ctex"]
 
 [params]
 
@@ -29,8 +29,8 @@ compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=true
 mipmaps/limit=-1
-roughness/mode=8
-roughness/src_normal="res://furniture/old_gas_stove_and_oven_2.png"
+roughness/mode=0
+roughness/src_normal=""
 process/channel_remap/red=0
 process/channel_remap/green=1
 process/channel_remap/blue=2

@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://baab2flgap08o"
-path.s3tc="res://.godot/imported/old_fridge_1.png-435bb7ff929e28d0505005d5520858e1.s3tc.ctex"
+uid="uid://crpxocaact5at"
+path.s3tc="res://.godot/imported/old_gas_stove_and_oven_1.png-fe17779e36a29bee7fa67b573202c4a4.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "94f4ec5f397af944d7f57167fc9338a8"
+"md5": "2f242b3af0717f955e9a3b83a95e93f2"
 }
 
 [deps]
 
-source_file="res://furniture/iving room/other fridge /old_fridge_1.png"
-dest_files=["res://.godot/imported/old_fridge_1.png-435bb7ff929e28d0505005d5520858e1.s3tc.ctex"]
+source_file="res://furniture/iving room/kitchen appliances/oven/old_gas_stove_and_oven_1.png"
+dest_files=["res://.godot/imported/old_gas_stove_and_oven_1.png-fe17779e36a29bee7fa67b573202c4a4.s3tc.ctex"]
 
 [params]
 
@@ -30,7 +30,7 @@ compress/channel_pack=0
 mipmaps/generate=true
 mipmaps/limit=-1
 roughness/mode=8
-roughness/src_normal="res://furniture/iving room/old_fridge_2.png"
+roughness/src_normal="res://furniture/iving room/kitchen appliances/old_gas_stove_and_oven_2.png"
 process/channel_remap/red=0
 process/channel_remap/green=1
 process/channel_remap/blue=2

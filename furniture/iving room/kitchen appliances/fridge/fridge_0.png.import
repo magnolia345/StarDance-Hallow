@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://oakwc4ck4m2"
-path.s3tc="res://.godot/imported/old_gas_stove_and_oven_0.png-cdf8d626dd52632ebc950138af44b727.s3tc.ctex"
+uid="uid://c0p117xlmhbd8"
+path.s3tc="res://.godot/imported/fridge_0.png-15dc20621c67e7a82574a4ac1da48a8e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "2163dbbc36d56099f41358baddc90215"
+"md5": "e2f72e6a71b427f4cfda91da78e602c7"
 }
 
 [deps]
 
-source_file="res://furniture/iving room/oven/old_gas_stove_and_oven_0.png"
-dest_files=["res://.godot/imported/old_gas_stove_and_oven_0.png-cdf8d626dd52632ebc950138af44b727.s3tc.ctex"]
+source_file="res://furniture/iving room/kitchen appliances/fridge/fridge_0.png"
+dest_files=["res://.godot/imported/fridge_0.png-15dc20621c67e7a82574a4ac1da48a8e.s3tc.ctex"]
 
 [params]
 

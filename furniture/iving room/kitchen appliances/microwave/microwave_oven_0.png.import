@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://caryepir6d6fp"
-path.s3tc="res://.godot/imported/old_fridge_4.png-b16f98956343638065f856ab87472f8f.s3tc.ctex"
+uid="uid://b3so8kufpaykp"
+path.s3tc="res://.godot/imported/microwave_oven_0.png-b7b0794a76d68b54244592a055d09367.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "da132915bbfdda5e4ae5c466004b6bf1"
+"md5": "14f337cc8feee80ead5b1dc98b1c645d"
 }
 
 [deps]
 
-source_file="res://furniture/iving room/other fridge /old_fridge_4.png"
-dest_files=["res://.godot/imported/old_fridge_4.png-b16f98956343638065f856ab87472f8f.s3tc.ctex"]
+source_file="res://furniture/iving room/kitchen appliances/microwave/microwave_oven_0.png"
+dest_files=["res://.godot/imported/microwave_oven_0.png-b7b0794a76d68b54244592a055d09367.s3tc.ctex"]
 
 [params]
 
@@ -29,8 +29,8 @@ compress/normal_map=0
 compress/channel_pack=0
 mipmaps/generate=true
 mipmaps/limit=-1
-roughness/mode=8
-roughness/src_normal="res://furniture/iving room/old_fridge_5.png"
+roughness/mode=0
+roughness/src_normal=""
 process/channel_remap/red=0
 process/channel_remap/green=1
 process/channel_remap/blue=2
