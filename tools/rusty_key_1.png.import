@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ctywo0l4bj5l7"
-path.s3tc="res://.godot/imported/desk_0.png-4d242899a543fee94d931e57061de87b.s3tc.ctex"
+uid="uid://cir632we5dcke"
+path.s3tc="res://.godot/imported/rusty_key_1.png-32d74b87017d107060f8e4ca8fc8f9ad.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "b1a4ba80f020ceb8e43adc99f0ee0cb5"
+"md5": "41d96a6ec5bf792c82c20c1367534e6e"
 }
 
 [deps]
 
-source_file="res://furniture/classrooms/desk (2)/desk_0.png"
-dest_files=["res://.godot/imported/desk_0.png-4d242899a543fee94d931e57061de87b.s3tc.ctex"]
+source_file="res://tools/rusty_key_1.png"
+dest_files=["res://.godot/imported/rusty_key_1.png-32d74b87017d107060f8e4ca8fc8f9ad.s3tc.ctex"]
 
 [params]
 

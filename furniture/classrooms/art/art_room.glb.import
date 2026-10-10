@@ -1,0 +1,162 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://b68nlkq7f26we"
+path="res://.godot/imported/art_room.glb-da6087f1ce0b87eec793e78befaf3e9f.scn"
+
+[deps]
+
+source_file="res://furniture/classrooms/art/art_room.glb"
+dest_files=["res://.godot/imported/art_room.glb-da6087f1ce0b87eec793e78befaf3e9f.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/root_script=null
+mesh_library/use_node_names_as_mesh_names=false
+array_mesh/deduplicate_surfaces=true
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+nodes/use_name_suffixes=true
+nodes/use_node_type_suffixes=true
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+materials/extract=0
+materials/extract_format=0
+materials/extract_path=""
+_subresources={
+"nodes": {
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/curtains_001_27/Object_64": {
+"import/skip_import": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/curtains_002_31/Object_74": {
+"import/skip_import": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/curtains_26/Object_61": {
+"import/skip_import": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/curtains_26/Object_62": {
+"import/skip_import": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/easel_002_3/Object_10": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/easel_003_4/Object_12": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/easel_004_5/Object_14": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/easel_005_30/Object_72": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/holder_002_19/Object_45": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/holder_002_19/Object_46": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/holder_003_20/Object_48": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/holder_004_21/Object_50": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/holder_004_21/Object_51": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/holder_005_24/Object_57": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/holder_006_25/Object_59": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/holder_007_29/Object_69": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/holder_007_29/Object_70": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/painting_003_16/Object_37": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/paintingreal_002_7/Object_18": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/paintingreal_002_7/Object_19": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/paintingreal_003_17/Object_39": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/paintingreal_003_17/Object_40": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/paintingreference_006_18/Object_42": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/paintingreference_006_18/Object_43": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/palette_001_22/Object_53": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/palette_002_23/Object_55": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/statue_001_6/Object_16": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/stool_002_8/Object_21": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/stool_003_9/Object_23": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/stool_004_10/Object_25": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/stool_005_11/Object_27": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/stool_006_12/Object_29": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/stool_007_13/Object_31": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/stool_008_14/Object_33": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/stool_009_15/Object_35": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/table_002_1/Object_6": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/table_003_2/Object_8": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/root/GLTF_SceneRootNode/wallfloorartroom_0/Object_4": {
+"import/skip_import": true
+}
+}
+}
+gltf/naming_version=2
+gltf/embedded_image_handling=1
+gltf/texture_map_mode=1
