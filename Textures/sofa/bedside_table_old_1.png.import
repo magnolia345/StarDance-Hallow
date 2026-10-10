@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bnqafbc5jr1ib"
-path.s3tc="res://.godot/imported/bedside_table_old_1.png-b92b108a6ff1825c137d57602c69770f.s3tc.ctex"
+path.s3tc="res://.godot/imported/bedside_table_old_1.png-fbcf12055c9a73281cb399f8aa5f69ff.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://textures/sofa/bedside_table_old_1.png"
-dest_files=["res://.godot/imported/bedside_table_old_1.png-b92b108a6ff1825c137d57602c69770f.s3tc.ctex"]
+source_file="res://Textures/sofa/bedside_table_old_1.png"
+dest_files=["res://.godot/imported/bedside_table_old_1.png-fbcf12055c9a73281cb399f8aa5f69ff.s3tc.ctex"]
 
 [params]
 

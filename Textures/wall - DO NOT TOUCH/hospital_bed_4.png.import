@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cp0dem5y4qb7k"
-path.s3tc="res://.godot/imported/hospital_bed_4.png-ba1854bc3ef91b817aaa663d570309ac.s3tc.ctex"
+path.s3tc="res://.godot/imported/hospital_bed_4.png-cc319587393eb72df5f981dfbcd5ff34.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -14,8 +14,8 @@ generator_parameters={
 
 [deps]
 
-source_file="res://textures/wall - DO NOT TOUCH/hospital_bed_4.png"
-dest_files=["res://.godot/imported/hospital_bed_4.png-ba1854bc3ef91b817aaa663d570309ac.s3tc.ctex"]
+source_file="res://Textures/wall - DO NOT TOUCH/hospital_bed_4.png"
+dest_files=["res://.godot/imported/hospital_bed_4.png-cc319587393eb72df5f981dfbcd5ff34.s3tc.ctex"]
 
 [params]
 
