@@ -1,0 +1,63 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://dcc5t5ofkl1f0"
+path="res://.godot/imported/pantry.glb-dd389708c24e18889449e0fd01941056.scn"
+
+[deps]
+
+source_file="res://furniture/iving room/panry/pantry.glb"
+dest_files=["res://.godot/imported/pantry.glb-dd389708c24e18889449e0fd01941056.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/root_script=null
+mesh_library/use_node_names_as_mesh_names=false
+array_mesh/deduplicate_surfaces=true
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+nodes/use_name_suffixes=true
+nodes/use_node_type_suffixes=true
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+materials/extract=0
+materials/extract_format=0
+materials/extract_path=""
+_subresources={
+"nodes": {
+"PATH:Sketchfab_model/Collada visual scene group/K_Pantry_uv5/K1_Pantry_Base/defaultMaterial": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/K_Pantry_uv5/K2_Pantry_Barrels/defaultMaterial2": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/K_Pantry_uv5/K3_Pantry_Lvl1/defaultMaterial3": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/K_Pantry_uv5/K4_Pantry_Lvl2/defaultMaterial4": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/K_Pantry_uv5/K5_Pantry_Lvl3/defaultMaterial5": {
+"generate/physics": true
+}
+}
+}
+gltf/naming_version=2
+gltf/embedded_image_handling=1
+gltf/texture_map_mode=1

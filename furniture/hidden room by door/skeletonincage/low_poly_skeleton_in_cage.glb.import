@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://c55yo20768h2s"
-path="res://.godot/imported/bunk_bed_loft.glb-fbfc266d61ea6eea13b227036bdcd9d8.scn"
+uid="uid://csrlh57wuji3o"
+path="res://.godot/imported/low_poly_skeleton_in_cage.glb-32d9f5fb63ac89473e108b26b8263325.scn"
 
 [deps]
 
-source_file="res://furniture/classrooms/bunk_bed_loft.glb"
-dest_files=["res://.godot/imported/bunk_bed_loft.glb-fbfc266d61ea6eea13b227036bdcd9d8.scn"]
+source_file="res://furniture/hidden room by door/skeletonincage/low_poly_skeleton_in_cage.glb"
+dest_files=["res://.godot/imported/low_poly_skeleton_in_cage.glb-32d9f5fb63ac89473e108b26b8263325.scn"]
 
 [params]
 
@@ -39,7 +39,16 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={}
+_subresources={
+"nodes": {
+"PATH:Sketchfab_model/f534121965c9416a9a3cbb028ef53230_fbx/RootNode/Circle_002/Circle_002__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/f534121965c9416a9a3cbb028ef53230_fbx/RootNode/TextureAtlas_mergedObject_005/TextureAtlas_mergedObject_005_Material_001_0": {
+"generate/physics": true
+}
+}
+}
 gltf/naming_version=2
 gltf/embedded_image_handling=1
 gltf/texture_map_mode=1

@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://bl0ja274iawpg"
-path="res://.godot/imported/PaintedPlaster014_2K-PNG_NormalGL.png-67dc82d13df1ce559742376bb11b5da7.ctex"
+path="res://.godot/imported/PaintedPlaster014_2K-PNG_NormalGL.png-b89699941c481d0a22a44e317e8d0858.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Textures/Textures/wall - DO NOT TOUCH/PaintedPlaster014_2K-PNG_NormalGL.png"
-dest_files=["res://.godot/imported/PaintedPlaster014_2K-PNG_NormalGL.png-67dc82d13df1ce559742376bb11b5da7.ctex"]
+source_file="res://textures/Textures/wall - DO NOT TOUCH/PaintedPlaster014_2K-PNG_NormalGL.png"
+dest_files=["res://.godot/imported/PaintedPlaster014_2K-PNG_NormalGL.png-b89699941c481d0a22a44e317e8d0858.ctex"]
 
 [params]
 
