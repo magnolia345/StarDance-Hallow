@@ -32,11 +32,12 @@ var current_bob = Vector3.ZERO
 @onready var flashlight = $Head/Camera3D/SpotLight3D
 @onready var tools = $"../tools"
 @onready var hand = $Head/Camera3D/Hand
+@onready var text = $CanvasLayer/TextEdit
 var held_object = null
 
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
-	show()
+
 	progress.position = Vector2(250, 0)
 func help(event):
 	if event is InputEventKey:
@@ -44,7 +45,6 @@ func help(event):
 			print("key pressed: ", event.keycode)
 
 func _unhandled_input(event):
-
 	if event is InputEventMouseMotion:
 		head.rotate_y(-event.relative.x * sensitivity)
 		camera.rotate_x(-event.relative.y * sensitivity)
