@@ -5,12 +5,11 @@
 [sub_resource type="PlaceholderMesh" id="PlaceholderMesh_y5spk"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_nnw4l"]
-size = Vector3(0.6829834, 0.55700684, 0.61712646)
+size = Vector3(0.46029663, 0.55700684, 0.61712646)
 
 [node name="Pumpkin" type="Node3D" unique_id=1079840946]
 
 [node name="RigidBody3D" type="RigidBody3D" parent="." unique_id=882129836]
-transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
 axis_lock_linear_x = true
 axis_lock_linear_z = true
 axis_lock_angular_x = true
@@ -24,8 +23,8 @@ transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -0.319, -0.223, -0.11)
 mesh = SubResource("PlaceholderMesh_y5spk")
 
 [node name="Sketchfab_Scene" parent="RigidBody3D" unique_id=592675265 instance=ExtResource("1_fy8b1")]
-transform = Transform3D(8, 0, 0, 0, 3.9999998, 6.9282036, 0, -6.9282036, 3.9999998, 0, 0, 0)
+transform = Transform3D(80, 0, 0, 0, 39.999996, 69.282036, 0, -69.282036, 39.999996, 0, 0, 0)
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D" unique_id=1911420080]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.013000488, 0.055725098, -0.016693115)
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, -0.013000488, 0.055725098, -0.016693115)
 shape = SubResource("BoxShape3D_nnw4l")

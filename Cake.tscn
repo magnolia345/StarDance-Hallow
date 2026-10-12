@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://dc3ri5pyoj0j0"]
+
+[ext_resource type="PackedScene" uid="uid://05edc3pt31rd" path="res://furaddin/cake/strawberry_birthday_cake.glb" id="1_kkshh"]
+
+[sub_resource type="PlaceholderMesh" id="PlaceholderMesh_y5spk"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_nnw4l"]
+size = Vector3(0.7207031, 0.55700684, 0.61712646)
+
+[node name="Cake" type="Node3D" unique_id=1079840946]
+
+[node name="RigidBody3D" type="RigidBody3D" parent="." unique_id=882129836]
+axis_lock_linear_x = true
+axis_lock_linear_z = true
+axis_lock_angular_x = true
+axis_lock_angular_y = true
+axis_lock_angular_z = true
+can_sleep = false
+continuous_cd = true
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D" unique_id=2079876942]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -0.319, -0.223, -0.11)
+mesh = SubResource("PlaceholderMesh_y5spk")
+
+[node name="Sketchfab_Scene" parent="RigidBody3D" unique_id=1959228377 instance=ExtResource("1_kkshh")]
+transform = Transform3D(10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0)
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D" unique_id=1911420080]
+transform = Transform3D(54.5, -0.00141064, 0.007151963, 0.003616024, 21.29999, -0.05688608, -0.0067424104, 0.02097064, 57.779972, -0.40302277, 7.4910674, -0.016644863)
+shape = SubResource("BoxShape3D_nnw4l")
