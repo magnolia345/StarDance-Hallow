@@ -361,7 +361,7 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -62.042725, 64.711655, 48.316
 visible = false
 
 [node name="player" type="CharacterBody3D" parent="." unique_id=1901592758 groups=["player"]]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -209.76776, 6.1096067, 95.6452)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -230.35797, 6.1096067, 95.6452)
 floor_snap_length = 1.0
 script = ExtResource("2_0xm2m")
 
