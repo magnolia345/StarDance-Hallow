@@ -37,7 +37,6 @@ func _ready():
 	# this layer overlap because vision uses a manual raycast, not physics
 	# contact.
 
-	nav_agent.velocity_computed.connect(_on_velocity_computed)
 	vision_check_timer.timeout.connect(_check_vision)
 	vision_check_timer.wait_time = 0.15
 	vision_check_timer.start()
@@ -45,6 +44,14 @@ func _ready():
 
 
 func _physics_process(delta):
+	var map_id = nav_agent.get_navigation_map()
+	var map_iteration = NavigationServer3D.map_get_iteration_id(map_id)
+
+	if map_iteration == 0:
+		if DEBUG:
+			print("Enemy waiting for navigation map")
+		return
+
 	if cooldown_timer > 0:
 		cooldown_timer -= delta
 
@@ -127,11 +134,11 @@ func _pick_new_wander_point():
 
 func _chase():
 	nav_agent.max_speed = chase_speed
-	var to_player = player.global_position - global_position
-	# Don't keep re-targeting the player's exact position once we're
-	# already close — that's what caused the wedge-into-wall bug.
-	if to_player.length() > stop_distance:
-		nav_agent.target_position = player.global_position
+	nav_agent.target_desired_distance = stop_distance
+
+	if player:
+		if nav_agent.target_position.distance_to(player.global_position) > 0.5:
+			nav_agent.target_position = player.global_position
 
 
 func _enter_search():
@@ -194,9 +201,4 @@ func _move_along_path():
 	if direction.length() > 0.1:
 		look_at(global_position + direction, Vector3.UP)
 
-	move_and_slide()
-
-
-func _on_velocity_computed(safe_velocity: Vector3):
-	velocity = safe_velocity
 	move_and_slide()
