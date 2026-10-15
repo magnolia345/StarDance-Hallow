@@ -1,4 +1,3 @@
-
 extends CharacterBody3D
 
 enum State { WANDER, CHASE, SEARCH }
@@ -11,15 +10,20 @@ enum State { WANDER, CHASE, SEARCH }
 @export var view_angle := 360.0
 @export var close_range := 2.0
 
-@export var stop_distance := 1.5
+@export var stop_distance := 3.5
 @export var chase_repath_distance := 2.0
 
 @export var search_duration := 5.0
+@export var chase_memory := 7.0
+@export var search_radius := 30.0
+# attack stuff
+@export var attack_range := 4.0
+@export var attack_cooldown := 1.2
 @export var detection_cooldown := 1.5
 
 # Movement smoothing
-@export var acceleration := 10.0
-@export var turn_speed := 4.0
+@export var acceleration := 15.0
+@export var turn_speed := 10.0
 
 # Stuck recovery
 @export var stuck_timeout := 1.5
@@ -35,6 +39,8 @@ var current_path := PackedVector3Array()
 var path_index := 0
 
 var retry_timer := 0.0
+var memory_timer := 0.0
+var attack_timer := 0.0
 var cooldown_timer := 0.0
 var vision_timer := 0.0
 var search_timer := 0.0
@@ -51,7 +57,8 @@ var last_check_position := Vector3.ZERO
 
 func _ready() -> void:
 	player = get_tree().get_first_node_in_group("player") as Node3D
-
+	print("Enemy target: ", player.get_path())
+	
 	nav_agent.avoidance_enabled = false
 
 	call_deferred("_initialize_navigation")
@@ -74,8 +81,7 @@ func _initialize_navigation() -> void:
 	_pick_random_destination()
 
 
-# --------------------------------------------------
-# MAIN LOOP
+# main looping heree
 # --------------------------------------------------
 
 func _physics_process(delta: float) -> void:
@@ -86,7 +92,9 @@ func _physics_process(delta: float) -> void:
 
 	if cooldown_timer > 0.0:
 		cooldown_timer = maxf(0.0, cooldown_timer - delta)
-
+	if attack_timer > 0.0:
+		attack_timer -= delta
+		
 	# Check vision approximately every 0.15 seconds.
 	vision_timer += delta
 
@@ -108,16 +116,25 @@ func _physics_process(delta: float) -> void:
 
 		State.CHASE:
 			_update_chase_target()
-
+			_try_attack()
+			
 		State.SEARCH:
-			if _path_finished():
+			if memory_timer > 0.0:
+				memory_timer -= delta
+				last_known_position = player.global_position
+				_update_chase_target()
+			else:
 				search_timer -= delta
-
-				# Look around while searching for the player.
-				global_rotation.y += 0.8 * delta
 
 				if search_timer <= 0.0:
 					_change_state(State.WANDER)
+				elif _path_finished():
+					var offset := Vector3(
+						randf_range(-search_radius, search_radius),
+						0.0,
+						randf_range(-search_radius, search_radius)
+					)
+					_calculate_path(last_known_position + offset)
 
 	_move_along_path(delta)
 
@@ -142,7 +159,8 @@ func _check_vision() -> void:
 	print("State: ", State.keys()[state],
 		" | Can see player: ", visible,
 		" | Distance: ", global_position.distance_to(player.global_position))
-
+	print("Enemy: ", global_position, " | Eyes: ", eyes.global_position, " | Player: ", player.global_position)
+	
 	match state:
 		State.WANDER:
 			if visible:
@@ -203,6 +221,7 @@ func _can_see_player() -> bool:
 		return false
 
 	var collider = result.get("collider")
+	print("Ray hit: ", collider.name)
 	return is_instance_valid(collider) and collider.is_in_group("player")
 
 
@@ -254,6 +273,16 @@ func _update_chase_target() -> void:
 		retry_timer = 0.25
 		print("CHASE PATH FAILED: ", destination)
 
+func _try_attack() -> void:
+	if attack_timer > 0.0 or not is_instance_valid(player):
+		return
+
+	var to_player := player.global_position - global_position
+	to_player.y = 0.0
+
+	if to_player.length() <= attack_range and player.has_method("take_hit"):
+		player.take_hit()
+		attack_timer = attack_cooldown
 
 # --------------------------------------------------
 # SEARCH
@@ -266,7 +295,7 @@ func _enter_search() -> void:
 		last_known_position = global_position
 
 	search_timer = search_duration
-
+	memory_timer = chase_memory
 	current_path.clear()
 	path_index = 0
 
@@ -307,6 +336,7 @@ func _change_state(new_state: State) -> void:
 # RANDOM NAVIGATION
 # --------------------------------------------------
 
+
 func _pick_random_destination(escape: bool = false) -> void:
 	var map_id := nav_agent.get_navigation_map()
 
@@ -324,33 +354,47 @@ func _pick_random_destination(escape: bool = false) -> void:
 		search_radius *= 2.5
 		print("Enemy stuck! Finding another destination.")
 
-	for attempt in range(20):
-		var random_point := global_position + Vector3(
-			randf_range(-search_radius, search_radius),
-			0.0,
-			randf_range(-search_radius, search_radius)
+	var best_path := PackedVector3Array()
+	var best_distance := 0.0
+
+	for attempt in range(40):
+		var destination := NavigationServer3D.map_get_random_point(
+			map_id,
+			nav_agent.navigation_layers,
+			false
 		)
+		var distance := start_point.distance_to(destination)
 
-		var destination := _closest_navigation_point(random_point)
-
-		# Avoid repeatedly picking destinations very close by.
-		var min_distance := 3.5
-
-		if escape:
-			min_distance = 5.0
-
-		if start_point.distance_to(destination) < min_distance:
+		if distance < 10.0 or distance > wander_radius:
 			continue
 
-		if _calculate_path(destination):
-			stuck_timer = 0.0
-			progress_check_timer = 0.0
-			last_check_position = global_position
-			return
+		var candidate_path: PackedVector3Array = NavigationServer3D.map_get_path(
+			map_id,
+			start_point,
+			destination,
+			true,
+			nav_agent.navigation_layers
+		)
 
-	current_path.clear()
-	path_index = 0
-	retry_timer = 0.5
+		if candidate_path.size() < 2:
+			continue
+
+		best_distance = distance
+		best_path = candidate_path
+		break
+
+	if best_path.size() >= 2:
+		current_path = best_path
+		path_index = 1
+		stuck_timer = 0.0
+		progress_check_timer = 0.0
+		last_check_position = global_position
+		print("Wander destination distance: ", best_distance)
+	else:
+		current_path.clear()
+		path_index = 0
+		retry_timer = 0.5
+		print("WANDER FAILED: no suitable destination found.")
 
 
 func _calculate_path(destination: Vector3) -> bool:

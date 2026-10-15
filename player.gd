@@ -1,5 +1,12 @@
 extends CharacterBody3D
 
+# this is for attacks
+@export var max_hits := 3
+var hits_taken := 0
+var blood_tween: Tween
+
+@onready var blood_screen: CanvasItem = $CanvasLayer/ImageForGodot
+#-----
 
 const JUMP_VELOCITY = 8
 const sensitivity = 0.003
@@ -172,3 +179,23 @@ func drop():
 	held_object.linear_velocity = -camera.global_transform.basis.z * 3
 	held_object = null
 		
+		
+func take_hit() -> void:
+	hits_taken += 1
+	print("Player hit! ", hits_taken, "/", max_hits)
+	_flash_blood()
+
+	if hits_taken >= max_hits:
+		print("Player died")
+
+
+func _flash_blood() -> void:
+	if blood_tween:
+		blood_tween.kill()
+
+	blood_screen.visible = true
+	blood_screen.modulate.a = 1.0
+
+	blood_tween = create_tween()
+	blood_tween.tween_property(blood_screen, "modulate:a", 0.0, 0.8)
+	blood_tween.tween_callback(func(): blood_screen.visible = false)
