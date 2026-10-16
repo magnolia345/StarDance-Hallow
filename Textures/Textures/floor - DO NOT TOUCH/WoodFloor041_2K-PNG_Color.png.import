@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://cdw78rsvbmf5b"
-path="res://.godot/imported/WoodFloor041_2K-PNG_Color.png-ec4eabda645266ef27f7dca50aa3680a.ctex"
+path="res://.godot/imported/WoodFloor041_2K-PNG_Color.png-5f75f1a2ef2d3d148fb20f786dc23a53.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://textures/Textures/floor - DO NOT TOUCH/WoodFloor041_2K-PNG_Color.png"
-dest_files=["res://.godot/imported/WoodFloor041_2K-PNG_Color.png-ec4eabda645266ef27f7dca50aa3680a.ctex"]
+source_file="res://Textures/Textures/floor - DO NOT TOUCH/WoodFloor041_2K-PNG_Color.png"
+dest_files=["res://.godot/imported/WoodFloor041_2K-PNG_Color.png-5f75f1a2ef2d3d148fb20f786dc23a53.ctex"]
 
 [params]
 
