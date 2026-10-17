@@ -39,7 +39,34 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={}
+_subresources={
+"nodes": {
+"PATH:Sketchfab_model/1e38bd43e6dd40e9a8cd52dbf403acc1_fbx/RootNode/Chair_a/Chair_a_Chair_Mat_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/1e38bd43e6dd40e9a8cd52dbf403acc1_fbx/RootNode/Chair_b/Chair_b_Chair_Mat_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/1e38bd43e6dd40e9a8cd52dbf403acc1_fbx/RootNode/Chair_c/Chair_c_Chair_Mat_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/1e38bd43e6dd40e9a8cd52dbf403acc1_fbx/RootNode/Chair_d/Chair_d_Chair_Mat_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/1e38bd43e6dd40e9a8cd52dbf403acc1_fbx/RootNode/Chair_e/Chair_e_Chair_Mat_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/1e38bd43e6dd40e9a8cd52dbf403acc1_fbx/RootNode/Chair_f/Chair_f_Chair_Mat_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/1e38bd43e6dd40e9a8cd52dbf403acc1_fbx/RootNode/Cloth/Cloth_ClothMat_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/1e38bd43e6dd40e9a8cd52dbf403acc1_fbx/RootNode/Table/Table_TableMat_0": {
+"generate/physics": true
+}
+}
+}
 gltf/naming_version=2
 gltf/embedded_image_handling=1
 gltf/texture_map_mode=1
