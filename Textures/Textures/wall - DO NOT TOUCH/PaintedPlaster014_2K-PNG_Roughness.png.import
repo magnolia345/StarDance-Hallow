@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dh0l4bun4enjy"
-path="res://.godot/imported/PaintedPlaster014_2K-PNG_Roughness.png-227642cd19625a7c0c22abae6618decb.ctex"
+path="res://.godot/imported/PaintedPlaster014_2K-PNG_Roughness.png-de6718efffa8ef7f7c8c544177f04bbd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Textures/Textures/wall - DO NOT TOUCH/PaintedPlaster014_2K-PNG_Roughness.png"
-dest_files=["res://.godot/imported/PaintedPlaster014_2K-PNG_Roughness.png-227642cd19625a7c0c22abae6618decb.ctex"]
+source_file="res://textures/Textures/wall - DO NOT TOUCH/PaintedPlaster014_2K-PNG_Roughness.png"
+dest_files=["res://.godot/imported/PaintedPlaster014_2K-PNG_Roughness.png-de6718efffa8ef7f7c8c544177f04bbd.ctex"]
 
 [params]
 
