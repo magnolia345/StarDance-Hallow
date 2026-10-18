@@ -39,7 +39,85 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={}
+_subresources={
+"nodes": {
+"PATH:Sketchfab_model/91ece7a1976f4c8fac029e38dcb70046_fbx/Object_2/RootNode/Box1/Box1__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/91ece7a1976f4c8fac029e38dcb70046_fbx/Object_2/RootNode/Box1/Ruchka1/Ruchka1__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/91ece7a1976f4c8fac029e38dcb70046_fbx/Object_2/RootNode/Box2/Box2__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/91ece7a1976f4c8fac029e38dcb70046_fbx/Object_2/RootNode/Box2/Ruchka2/Ruchka2__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/91ece7a1976f4c8fac029e38dcb70046_fbx/Object_2/RootNode/Box3/Box3__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/91ece7a1976f4c8fac029e38dcb70046_fbx/Object_2/RootNode/Box3/Ruchka3/Ruchka3__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/91ece7a1976f4c8fac029e38dcb70046_fbx/Object_2/RootNode/Box4/Box4__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/91ece7a1976f4c8fac029e38dcb70046_fbx/Object_2/RootNode/Box4/Ruchka4/Ruchka4__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/91ece7a1976f4c8fac029e38dcb70046_fbx/Object_2/RootNode/Box5/Box5__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/91ece7a1976f4c8fac029e38dcb70046_fbx/Object_2/RootNode/Box5/Ruchka5_1/Ruchka5_1__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/91ece7a1976f4c8fac029e38dcb70046_fbx/Object_2/RootNode/Box5/Ruchka5_2/Ruchka5_2__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/91ece7a1976f4c8fac029e38dcb70046_fbx/Object_2/RootNode/Box6/Box6__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/91ece7a1976f4c8fac029e38dcb70046_fbx/Object_2/RootNode/Box6/Ruchka6/Ruchka6__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/91ece7a1976f4c8fac029e38dcb70046_fbx/Object_2/RootNode/Box7/Box7__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/91ece7a1976f4c8fac029e38dcb70046_fbx/Object_2/RootNode/Box7/Ruchka7/Ruchka7__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/91ece7a1976f4c8fac029e38dcb70046_fbx/Object_2/RootNode/Box8/Box8__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/91ece7a1976f4c8fac029e38dcb70046_fbx/Object_2/RootNode/Box8/Ruchka8/Ruchka8__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/91ece7a1976f4c8fac029e38dcb70046_fbx/Object_2/RootNode/Box9/Box9__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/91ece7a1976f4c8fac029e38dcb70046_fbx/Object_2/RootNode/Box9/Ruchka9/Ruchka9__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/91ece7a1976f4c8fac029e38dcb70046_fbx/Object_2/RootNode/Niz/Niz__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/91ece7a1976f4c8fac029e38dcb70046_fbx/Object_2/RootNode/Osnova_/Osnova___0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/91ece7a1976f4c8fac029e38dcb70046_fbx/Object_2/RootNode/Osnova_verh/Osnova_verh__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/91ece7a1976f4c8fac029e38dcb70046_fbx/Object_2/RootNode/Pokritie/Pokritie__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/91ece7a1976f4c8fac029e38dcb70046_fbx/Object_2/RootNode/Prostavka/Prostavka__0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/91ece7a1976f4c8fac029e38dcb70046_fbx/Object_2/RootNode/Stoleshnica/Stoleshnica__0": {
+"generate/physics": true
+}
+}
+}
 gltf/naming_version=2
 gltf/embedded_image_handling=1
 gltf/texture_map_mode=1

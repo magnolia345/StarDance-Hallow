@@ -2,8 +2,9 @@ extends StaticBody3D
 
 var is_open = false
 
-@onready var player: Node3D =$"../../../../../../../../player"
-@onready var raycast: RayCast3D = $"../../../../../../../../player/Head/Camera3D/RayCast3D"
+var player: Node3D
+var raycast: RayCast3D
+
 
 @onready var cabinet_root: Node = get_parent().get_parent().get_parent().get_parent()
 
@@ -15,6 +16,9 @@ var is_open = false
 @onready var shelf2 = cabinet_root.find_child("shelf2a", true, false)
 @onready var shelf3 = cabinet_root.find_child("shelf3a", true, false)
 
+func _ready():
+	player = get_tree().get_first_node_in_group("player")
+	raycast = player.get_node("Head/Camera3D/RayCast3D")
 func _input(event):
 	if event is InputEventKey and event.keycode == KEY_E:
 		if event.pressed and not event.is_echo():

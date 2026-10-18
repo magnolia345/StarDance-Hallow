@@ -39,7 +39,178 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={}
+_subresources={
+"nodes": {
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Cube_141/Cube_141_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Cube_142/Cube_142_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Cube_143/Cube_143_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Cube_144/Cube_144_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Cube_145/Cube_145_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Cube_146/Cube_146_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Cube_147/Cube_147_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Cube_148/Cube_148_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Cube_149/Cube_149_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Cube_150/Cube_150_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Cube_151/Cube_151_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Cube_152/Cube_152_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Cube_153/Cube_153_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Cube_154/Cube_154_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Plane_043/Plane_043_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Plane_044/Plane_044_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Plane_045/Plane_045_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Plane_046/Plane_046_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Plane_047/Plane_047_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Plane_048/Plane_048_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Plane_049/Plane_049_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Plane_050/Plane_050_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Plane_051/Plane_051_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Plane_052/Plane_052_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Plane_053/Plane_053_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Plane_054/Plane_054_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Plane_055/Plane_055_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Plane_056/Plane_056_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Plane_057/Plane_057_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Plane_058/Plane_058_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Plane_059/Plane_059_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Plane_060/Plane_060_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Plane_061/Plane_061_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Plane_062/Plane_062_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Plane_063/Plane_063_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Plane_064/Plane_064_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Plane_065/Plane_065_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Sphere_001/Sphere_001_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Sphere_002/Sphere_002_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Sphere_003/Sphere_003_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Sphere_004/Sphere_004_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Sphere_005/Sphere_005_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Sphere_006/Sphere_006_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Sphere_007/Sphere_007_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Sphere_008/Sphere_008_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Sphere_009/Sphere_009_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Sphere_010/Sphere_010_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Sphere_011/Sphere_011_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Sphere_012/Sphere_012_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Sphere_013/Sphere_013_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Sphere_014/Sphere_014_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Sphere_015/Sphere_015_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Sphere_016/Sphere_016_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Sphere_017/Sphere_017_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Sphere_018/Sphere_018_Material_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Wooden Drawer_fbx/RootNode/Sphere_019/Sphere_019_Material_006_0": {
+"generate/physics": true
+}
+}
+}
 gltf/naming_version=2
 gltf/embedded_image_handling=1
 gltf/texture_map_mode=1

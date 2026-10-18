@@ -53,8 +53,7 @@ var last_chase_target := Vector3.ZERO
 var stuck_timer := 0.0
 var progress_check_timer := 0.0
 var last_check_position := Vector3.ZERO
-
-
+var debug = false
 func _ready() -> void:
 	player = get_tree().get_first_node_in_group("player") as Node3D
 	print("Enemy target: ", player.get_path())
@@ -77,7 +76,7 @@ func _initialize_navigation() -> void:
 	navigation_ready = true
 	last_check_position = global_position
 
-	print("Enemy navigation ready!")
+
 	_pick_random_destination()
 
 
@@ -154,12 +153,12 @@ func _check_vision() -> void:
 		return
 
 	var visible := _can_see_player()
-
+	if debug:
 	# DEBUG: shows whether vision is working and the enemy's current state.
-	print("State: ", State.keys()[state],
-		" | Can see player: ", visible,
-		" | Distance: ", global_position.distance_to(player.global_position))
-	print("Enemy: ", global_position, " | Eyes: ", eyes.global_position, " | Player: ", player.global_position)
+		print("State: ", State.keys()[state],
+			" | Can see player: ", visible,
+			" | Distance: ", global_position.distance_to(player.global_position))
+		print("Enemy: ", global_position, " | Eyes: ", eyes.global_position, " | Player: ", player.global_position)
 	
 	match state:
 		State.WANDER:
@@ -221,7 +220,8 @@ func _can_see_player() -> bool:
 		return false
 
 	var collider = result.get("collider")
-	print("Ray hit: ", collider.name)
+	if debug:
+		print("Ray hit: ", collider.name)
 	return is_instance_valid(collider) and collider.is_in_group("player")
 
 
@@ -265,13 +265,15 @@ func _update_chase_target() -> void:
 	if _calculate_path(destination):
 		last_chase_target = destination
 		has_chase_target = true
-		print("CHASE PATH FOUND: ", destination)
+		if debug:
+			print("CHASE PATH FOUND: ", destination)
 	else:
 		current_path.clear()
 		path_index = 0
 		has_chase_target = false
 		retry_timer = 0.25
-		print("CHASE PATH FAILED: ", destination)
+		if debug:
+			print("CHASE PATH FAILED: ", destination)
 
 func _try_attack() -> void:
 	if attack_timer > 0.0 or not is_instance_valid(player):
@@ -352,7 +354,8 @@ func _pick_random_destination(escape: bool = false) -> void:
 
 	if escape:
 		search_radius *= 2.5
-		print("Enemy stuck! Finding another destination.")
+		if debug:
+			print("Enemy stuck! Finding another destination.")
 
 	var best_path := PackedVector3Array()
 	var best_distance := 0.0
@@ -389,12 +392,14 @@ func _pick_random_destination(escape: bool = false) -> void:
 		stuck_timer = 0.0
 		progress_check_timer = 0.0
 		last_check_position = global_position
-		print("Wander destination distance: ", best_distance)
+		if debug:
+			print("Wander destination distance: ", best_distance)
 	else:
 		current_path.clear()
 		path_index = 0
 		retry_timer = 0.5
-		print("WANDER FAILED: no suitable destination found.")
+		if debug:
+			print("WANDER FAILED: no suitable destination found.")
 
 
 func _calculate_path(destination: Vector3) -> bool:
