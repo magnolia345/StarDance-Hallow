@@ -53,7 +53,7 @@ var last_chase_target := Vector3.ZERO
 var stuck_timer := 0.0
 var progress_check_timer := 0.0
 var last_check_position := Vector3.ZERO
-var debug = false
+var debug = true
 func _ready() -> void:
 	player = get_tree().get_first_node_in_group("player") as Node3D
 	print("Enemy target: ", player.get_path())
