@@ -41,16 +41,16 @@ func interact():
 	if active_tween and active_tween.is_valid():
 		active_tween.kill()
 	var tween = create_tween()
-	check(collider, door1, tween, -90, false)
-	check(collider, door2, tween, -90, false)
-	check(collider, door3, tween, -90, false)
-	check(collider, door4, tween, -90, false)
-	check(collider, door5, tween, -90, false)
-	check(collider, door6, tween, -90, false)
-	check(collider, door7, tween, -90, false)
-	check(collider, door8, tween, -90, false)
-	check(collider, door9, tween, -90, false)
-	check(collider, door10, tween, -90, false)
+	check(collider, door1, tween, -90, true)
+	check(collider, door2, tween, -90, true)
+	check(collider, door3, tween, -90, true)
+	check(collider, door4, tween, -90, true)
+	check(collider, door5, tween, -90, true)
+	check(collider, door6, tween, -90, true)
+	check(collider, door7, tween, -90, true)
+	check(collider, door8, tween, -90, true)
+	check(collider, door9, tween, -90, true)
+	check(collider, door10, tween, -90, true)
 
 func _tween_door(tween: Tween, door: Node3D, open_angle_deg: float):
 	if not door:
