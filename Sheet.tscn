@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://du0btlejfqxk8"]
+
+[ext_resource type="PackedScene" uid="uid://bwsjfagglnmb7" path="res://tools/lock/rusty_lock_free.glb" id="1_dtyl5"]
+
+[sub_resource type="PlaceholderMesh" id="PlaceholderMesh_4cdgx"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_s1v5r"]
+size = Vector3(12.637447, 74.799805, 43.87468)
+
+[node name="Node3D" type="Node3D" unique_id=1485152752]
+
+[node name="RigidBody3D2" type="RigidBody3D" parent="." unique_id=1296784378]
+axis_lock_linear_x = true
+axis_lock_linear_z = true
+axis_lock_angular_x = true
+axis_lock_angular_y = true
+axis_lock_angular_z = true
+can_sleep = false
+continuous_cd = true
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D2" unique_id=2116946575]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -0.029361725, -0.223, -0.11)
+mesh = SubResource("PlaceholderMesh_4cdgx")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="RigidBody3D2" unique_id=1182978026]
+transform = Transform3D(0.08, 0, 0, 0, 0.08, 0, 0, 0, 0.08, -0.05477278, -0.08615388, -0.03351891)
+shape = SubResource("BoxShape3D_s1v5r")
+
+[node name="Sketchfab_Scene" parent="RigidBody3D2" unique_id=476255685 instance=ExtResource("1_dtyl5")]
+transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 0, 0, 0)

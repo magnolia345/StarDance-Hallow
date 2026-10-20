@@ -1,0 +1,35 @@
+[gd_scene format=3 uid="uid://bonxcqkdrrko1"]
+
+[ext_resource type="PackedScene" uid="uid://c62tfr0w4mg4l" path="res://tools/wheel/a_wheel....glb" id="1_h6t4i"]
+
+[sub_resource type="PlaceholderMesh" id="PlaceholderMesh_5it63"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_sd07o"]
+size = Vector3(1.6554713, 0.5564892, 1.9481812)
+
+[node name="Node3D" type="Node3D" unique_id=1360666134]
+
+[node name="RigidBody3D2" type="RigidBody3D" parent="." unique_id=1002904359]
+axis_lock_linear_x = true
+axis_lock_linear_z = true
+axis_lock_angular_x = true
+axis_lock_angular_y = true
+axis_lock_angular_z = true
+can_sleep = false
+continuous_cd = true
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D2" unique_id=1182415296]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -0.029361725, -0.223, -0.11)
+mesh = SubResource("PlaceholderMesh_5it63")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="RigidBody3D2" unique_id=965180918]
+transform = Transform3D(0.08, 0, 0, 0, 0.08, 0, 0, 0, 0.08, 0.00029458106, 0.00011595222, 0.0007018484)
+shape = SubResource("BoxShape3D_sd07o")
+
+[node name="Sketchfab_Scene" parent="RigidBody3D2" unique_id=217271642 instance=ExtResource("1_h6t4i")]
+transform = Transform3D(0.08, 0, 0, 0, 0.08, 0, 0, 0, 0.08, 0, 0, 0)
+
+[node name="CollisionShape3D" parent="RigidBody3D2/Sketchfab_Scene/Sketchfab_model/Collada visual scene group/Cylinder_001/defaultMaterial/StaticBody3D" parent_id_path=PackedInt32Array(217271642, 190824931) index="0" unique_id=1016180164]
+disabled = true
+
+[editable path="RigidBody3D2/Sketchfab_Scene"]
