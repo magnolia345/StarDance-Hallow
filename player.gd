@@ -40,6 +40,8 @@ var current_bob = Vector3.ZERO
 @onready var tools = $"../tools"
 @onready var hand = $Head/Camera3D/Hand
 @onready var text = $CanvasLayer/TextEdit
+@onready var dialogue = $CanvasLayer/Dialogue
+var dialogue_id := 0
 var held_object = null
 
 func _ready():
@@ -110,7 +112,10 @@ func _physics_process(delta: float) -> void:
 	
 	var target = ray.get_collider()
 	if Input.is_action_just_pressed("interact"):
-		if held_object:
+		var interactable = _find_interactable(target)
+		if interactable:
+			interactable.puzzle_interact(self)
+		elif held_object:
 			drop()
 		elif ray.is_colliding():
 			if target is RigidBody3D:
@@ -134,7 +139,8 @@ func _physics_process(delta: float) -> void:
 	camera.position = Vector3(0, cam_height, 0) + current_bob
 
 	if held_object:
-		held_object.global_transform = hand.global_transform
+		var original_scale = held_object.get_parent().global_basis.get_scale()
+		held_object.global_transform = Transform3D(hand.global_basis.orthonormalized().scaled_local(original_scale), hand.global_position)
 		
 func reset():
 	position = Vector3(50, 2, 4)
@@ -199,3 +205,36 @@ func _flash_blood() -> void:
 	blood_tween = create_tween()
 	blood_tween.tween_property(blood_screen, "modulate:a", 0.0, 0.8)
 	blood_tween.tween_callback(func(): blood_screen.visible = false)
+	
+	
+func held_item_name() -> String:
+	if held_object == null:
+		return ""
+	return held_object.get_parent().name.to_lower()
+
+
+func take_held_item():
+	var item = held_object
+	remove_collision_exception_with(item)
+	ray.remove_exception(item)
+	held_object = null
+	return item
+
+
+func show_message(msg: String) -> void:
+	if msg == "":
+		return
+	dialogue_id += 1
+	var my_id = dialogue_id
+	dialogue.text = msg
+	dialogue.show()
+	await get_tree().create_timer(3.0).timeout
+	if my_id == dialogue_id:
+		dialogue.hide()
+
+func _find_interactable(node):
+	while node:
+		if node.has_method("puzzle_interact"):
+			return node
+		node = node.get_parent()
+	return null

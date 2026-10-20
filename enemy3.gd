@@ -6,8 +6,8 @@ enum State { WANDER, CHASE, SEARCH }
 @export var chase_speed := 20.0
 @export var wander_radius := 1000.0
 
-@export var view_distance := 150.0
-@export var view_angle := 360.0
+@export var view_distance := 40.0
+@export var view_angle := 110.0
 @export var close_range := 2.0
 
 @export var stop_distance := 3.5

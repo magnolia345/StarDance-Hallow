@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://dl416yuu63gy5"
-path="res://.godot/imported/rusty_key.glb-b0bc21560b73ea490b4bfb2ea6d1b918.scn"
+uid="uid://d4fmlcwf0ughk"
+path="res://.godot/imported/bouncy_ball.glb-03a43786709eceb5af4b3ea2c7582c44.scn"
 
 [deps]
 
-source_file="res://tools/rusty_key.glb"
-dest_files=["res://.godot/imported/rusty_key.glb-b0bc21560b73ea490b4bfb2ea6d1b918.scn"]
+source_file="res://tools/gum/bouncy_ball.glb"
+dest_files=["res://.godot/imported/bouncy_ball.glb-03a43786709eceb5af4b3ea2c7582c44.scn"]
 
 [params]
 
@@ -39,7 +39,13 @@ import_script/path=""
 materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
-_subresources={}
+_subresources={
+"nodes": {
+"PATH:Sketchfab_model/e5a759a476514827b494e369fefc5bb4_fbx/RootNode/pSphere1/pSphere1_lambert1_0": {
+"generate/physics": true
+}
+}
+}
 gltf/naming_version=2
 gltf/embedded_image_handling=1
 gltf/texture_map_mode=1

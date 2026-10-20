@@ -2,20 +2,20 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cir632we5dcke"
-path.s3tc="res://.godot/imported/rusty_key_1.png-32d74b87017d107060f8e4ca8fc8f9ad.s3tc.ctex"
+uid="uid://f2h7vnao6fum"
+path.s3tc="res://.godot/imported/house_door_0.jpg-07c54a664e13d7ae162d55f4511c30d2.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
 generator_parameters={
-"md5": "41d96a6ec5bf792c82c20c1367534e6e"
+"md5": "6487ed7d549cc6a7c52678f1ae0bcff9"
 }
 
 [deps]
 
-source_file="res://tools/rusty_key_1.png"
-dest_files=["res://.godot/imported/rusty_key_1.png-32d74b87017d107060f8e4ca8fc8f9ad.s3tc.ctex"]
+source_file="res://furniture/exit/door/house_door_0.jpg"
+dest_files=["res://.godot/imported/house_door_0.jpg-07c54a664e13d7ae162d55f4511c30d2.s3tc.ctex"]
 
 [params]
 
