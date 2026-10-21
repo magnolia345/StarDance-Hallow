@@ -5,7 +5,7 @@
 [sub_resource type="PlaceholderMesh" id="PlaceholderMesh_qnip4"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_7mb5m"]
-size = Vector3(280.93365, 54.400803, 147.33661)
+size = Vector3(20.476624, 2.1938477, 11.118164)
 
 [node name="hammer" type="Node3D" unique_id=1793480416]
 
@@ -19,17 +19,17 @@ can_sleep = false
 continuous_cd = true
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D2" unique_id=1583359300]
-transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -0.029361725, -0.223, -0.11)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.029361725, -0.223, -0.11)
 mesh = SubResource("PlaceholderMesh_qnip4")
 
 [node name="CollisionShape3D2" type="CollisionShape3D" parent="RigidBody3D2" unique_id=2010321856]
-transform = Transform3D(0.08, 0, 0, 0, 0.08, 0, 0, 0, 0.08, 0.25756752, 1.9306446, 0.24629676)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.080901265, 1.3591114, 0.24629676)
 shape = SubResource("BoxShape3D_7mb5m")
 
 [node name="Sketchfab_Scene" parent="RigidBody3D2" unique_id=577608705 instance=ExtResource("1_qnip4")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0, 0.49453783)
 
-[node name="CollisionShape3D" parent="RigidBody3D2/Sketchfab_Scene/Sketchfab_model/fcd8eb7ffac74a51a7f5b612b7e01391_fbx/RootNode/Hammer_LP/Hammer_LP_01 - Default_0/StaticBody3D" parent_id_path=PackedInt32Array(577608705, 1205794266) index="0" unique_id=1831269228]
+[node name="CollisionShape3D" parent="RigidBody3D2/Sketchfab_Scene/Sketchfab_model/fcd8eb7ffac74a51a7f5b612b7e01391_fbx/RootNode/Hammer_LP/Hammer_LP_01 - Default_0/StaticBody3D" parent_id_path=PackedInt32Array(577608705, 310170451) index="0" unique_id=541829573]
 disabled = true
 
 [editable path="RigidBody3D2/Sketchfab_Scene"]

@@ -8,7 +8,7 @@ size = Vector3(0.099609375, 0.099609375, 0.0029296875)
 [sub_resource type="PlaceholderMesh" id="PlaceholderMesh_y5spk"]
 
 [node name="Coin" type="Node3D" unique_id=1079840946]
-transform = Transform3D(5, 0, 0, 0, 5, 0, 0, 0, 5, 0, 0, 0)
+transform = Transform3D(5, 0, 0, 0, 11.8655, 0, 0, 0, 5, 0, 0, 0)
 
 [node name="RigidBody3D" type="RigidBody3D" parent="." unique_id=882129836]
 transform = Transform3D(1, 0, 0, 0, -4.371139e-08, 1, 0, -1, -4.371139e-08, 0, 0, 0)

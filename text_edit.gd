@@ -19,11 +19,11 @@ func _process(_delta: float) -> void:
 		text_edit.text = "there is water"
 		show()
 	elif collider and bathtub1.is_ancestor_of(collider):
-		wide(150.0)
+		wide(116.0)
 		text_edit.text = "there is water"
 		show()
 	elif collider and bathtub2.is_ancestor_of(collider):
-		wide(150.0)
+		wide(116.0)
 		text_edit.text = "there is water"
 		show()
 

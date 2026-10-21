@@ -5,7 +5,7 @@
 [sub_resource type="PlaceholderMesh" id="PlaceholderMesh_4cdgx"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_s1v5r"]
-size = Vector3(12.637447, 74.799805, 43.87468)
+size = Vector3(0.328125, 2.139923, 1.1582031)
 
 [node name="Node3D" type="Node3D" unique_id=1485152752]
 
@@ -23,8 +23,7 @@ transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -0.029361725, -0.223, -0.11)
 mesh = SubResource("PlaceholderMesh_4cdgx")
 
 [node name="CollisionShape3D2" type="CollisionShape3D" parent="RigidBody3D2" unique_id=1182978026]
-transform = Transform3D(0.08, 0, 0, 0, 0.08, 0, 0, 0, 0.08, -0.05477278, -0.08615388, -0.03351891)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.05477278, -0.06941509, -0.03351891)
 shape = SubResource("BoxShape3D_s1v5r")
 
 [node name="Sketchfab_Scene" parent="RigidBody3D2" unique_id=476255685 instance=ExtResource("1_dtyl5")]
-transform = Transform3D(3, 0, 0, 0, 3, 0, 0, 0, 3, 0, 0, 0)
