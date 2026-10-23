@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://2lgf68hv7cee"]
+
+[ext_resource type="PackedScene" uid="uid://j7dkfv7ks8ni" path="res://tools/screwd/free_screwdriver.glb" id="1_x22dv"]
+
+[sub_resource type="PlaceholderMesh" id="PlaceholderMesh_l0ys5"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_f4woe"]
+size = Vector3(631.94116, 582.3172, 4575.7383)
+
+[node name="screwd" type="Node3D" unique_id=1256421684]
+
+[node name="RigidBody3D2" type="RigidBody3D" parent="." unique_id=1210943583]
+axis_lock_linear_x = true
+axis_lock_linear_z = true
+axis_lock_angular_x = true
+axis_lock_angular_y = true
+axis_lock_angular_z = true
+can_sleep = false
+continuous_cd = true
+
+[node name="Sketchfab_Scene" parent="RigidBody3D2" unique_id=1258961043 instance=ExtResource("1_x22dv")]
+transform = Transform3D(0.2, 0, 0, 0, -8.742278e-09, -0.2, 0, 0.2, -8.742278e-09, -0.1861968, 0, 46.430477)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D2" unique_id=278966365]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -1.3668709, -0.223, -0.11)
+mesh = SubResource("PlaceholderMesh_l0ys5")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="RigidBody3D2" unique_id=1178635729]
+transform = Transform3D(0.08, 0, 0, 0, 0.08, 0, 0, 0, 0.08, 1.8188667, -0.51236963, -10.245749)
+shape = SubResource("BoxShape3D_f4woe")

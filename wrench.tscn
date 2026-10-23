@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://croi0typp8sfw"]
+
+[ext_resource type="PackedScene" uid="uid://cwevbdsftrxr2" path="res://tools/wrench/low_poly_wrench.glb" id="1_objai"]
+
+[sub_resource type="PlaceholderMesh" id="PlaceholderMesh_bqspc"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_0r4w2"]
+size = Vector3(2.1107788, 0.39711, 0.94729614)
+
+[node name="wrench" type="Node3D" unique_id=670890096]
+
+[node name="RigidBody3D" type="RigidBody3D" parent="." unique_id=1763555435]
+axis_lock_linear_x = true
+axis_lock_linear_z = true
+axis_lock_angular_x = true
+axis_lock_angular_y = true
+axis_lock_angular_z = true
+can_sleep = false
+continuous_cd = true
+
+[node name="Sketchfab_Scene" parent="RigidBody3D" unique_id=1971865761 instance=ExtResource("1_objai")]
+transform = Transform3D(0.9731657, -0.07768946, -0.21659434, 0.23010597, 0.32856473, 0.9160222, 7.0352923e-10, -0.9412809, 0.33762476, -0.006034851, 0, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D" unique_id=442664823]
+transform = Transform3D(-0.50000006, 0, 0.8660254, 0, 1, 0, -0.8660254, 0, -0.50000006, -0.0018450022, -0.22299999, -0.11)
+mesh = SubResource("PlaceholderMesh_bqspc")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D" unique_id=1408314325]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016571045, -0.013472274, -0.028505422)
+shape = SubResource("BoxShape3D_0r4w2")
+
+[editable path="RigidBody3D/Sketchfab_Scene"]

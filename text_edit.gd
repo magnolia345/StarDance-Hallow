@@ -14,18 +14,6 @@ func _process(_delta: float) -> void:
 		wide(104.0)
 		text_edit.text = "E to Interact"
 		show()
-	elif collider and bathtub.is_ancestor_of(collider):
-		wide(116.0)
-		text_edit.text = "there is water"
-		show()
-	elif collider and bathtub1.is_ancestor_of(collider):
-		wide(116.0)
-		text_edit.text = "there is water"
-		show()
-	elif collider and bathtub2.is_ancestor_of(collider):
-		wide(116.0)
-		text_edit.text = "there is water"
-		show()
 
 	else:
 		hide()

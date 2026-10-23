@@ -42,7 +42,8 @@ materials/extract_path=""
 _subresources={
 "nodes": {
 "PATH:Sketchfab_model/Collada visual scene group/Cube_002_Cube_014/defaultMaterial": {
-"generate/physics": true
+"generate/physics": true,
+"physics/shape_type": 4
 }
 }
 }

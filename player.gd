@@ -42,6 +42,8 @@ var current_bob = Vector3.ZERO
 @onready var text = $CanvasLayer/TextEdit
 @onready var dialogue = $CanvasLayer/Dialogue
 var dialogue_id := 0
+var hovering := false
+var message_active := false
 var held_object = null
 
 func _ready():
@@ -111,6 +113,14 @@ func _physics_process(delta: float) -> void:
 	move_and_slide()
 	
 	var target = ray.get_collider()
+	var looked = _find_interactable(target)
+	if looked and not looked.solved and not message_active:
+		dialogue.text = looked.ask_text
+		dialogue.show()
+		hovering = true
+	elif hovering and not message_active:
+		dialogue.hide()
+		hovering = false
 	if Input.is_action_just_pressed("interact"):
 		var interactable = _find_interactable(target)
 		if interactable:
@@ -120,6 +130,9 @@ func _physics_process(delta: float) -> void:
 		elif ray.is_colliding():
 			if target is RigidBody3D:
 				held_object = target
+				for r in get_tree().get_nodes_in_group("follow"):
+					if r.get_node_or_null(r.remote_path) == target:
+						r.remote_path = NodePath()
 				target.freeze = true
 				set_collision_all(target, false)
 				add_collision_exception_with(target)
@@ -228,8 +241,10 @@ func show_message(msg: String) -> void:
 	var my_id = dialogue_id
 	dialogue.text = msg
 	dialogue.show()
+	message_active = true
 	await get_tree().create_timer(3.0).timeout
 	if my_id == dialogue_id:
+		message_active = false
 		dialogue.hide()
 
 func _find_interactable(node):
