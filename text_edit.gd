@@ -11,7 +11,7 @@ extends TextEdit
 func _process(_delta: float) -> void:
 	var collider = raycast.get_collider()
 	if collider and tools.is_ancestor_of(collider):
-		wide(104.0)
+		wide(130.0)
 		text_edit.text = "E to Interact"
 		show()
 
