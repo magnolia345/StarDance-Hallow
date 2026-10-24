@@ -1,0 +1,11 @@
+[gd_scene format=3 uid="uid://dyew5gvc7w2sc"]
+
+[ext_resource type="PackedScene" uid="uid://ckrmmoo8s6p6l" path="res://tools/paper/paper.glb" id="1_uu0ee"]
+
+[node name="before" type="Node3D" unique_id=272673183]
+
+[node name="Sketchfab_Scene" parent="." unique_id=166236128 instance=ExtResource("1_uu0ee")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.359375, -29.844658, 34.9607)
+
+[node name="Sketchfab_Scene2" parent="." unique_id=2071021685 instance=ExtResource("1_uu0ee")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.714523, -29.844658, 40.434162)

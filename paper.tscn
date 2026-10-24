@@ -1,15 +1,16 @@
 [gd_scene format=3 uid="uid://bxk06rtwhv2n1"]
 
 [ext_resource type="PackedScene" uid="uid://ckrmmoo8s6p6l" path="res://tools/paper/paper.glb" id="1_pugg3"]
+[ext_resource type="Texture2D" uid="uid://d0adi1wsly81m" path="res://tools/Screenshot 2026-10-24 at 2.57.35 AM.png" id="2_dpwhn"]
 
-[sub_resource type="PlaceholderMesh" id="PlaceholderMesh_dpwhn"]
+[sub_resource type="PlaceholderMesh" id="PlaceholderMesh_kq2bq"]
 
-[sub_resource type="BoxShape3D" id="BoxShape3D_kq2bq"]
-size = Vector3(108.01134, 11.128422, 86.24327)
+[sub_resource type="BoxShape3D" id="BoxShape3D_rhp03"]
+size = Vector3(48.23529, 257.01263, 48.54236)
 
 [node name="paper" type="Node3D" unique_id=1583721482]
 
-[node name="RigidBody3D2" type="RigidBody3D" parent="." unique_id=648172049]
+[node name="RigidBody3D2" type="RigidBody3D" parent="." unique_id=1891871866]
 axis_lock_linear_x = true
 axis_lock_linear_z = true
 axis_lock_angular_x = true
@@ -24,10 +25,14 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.359375, -29.844658, 34.960
 [node name="Sketchfab_Scene2" parent="RigidBody3D2" unique_id=556075669 instance=ExtResource("1_pugg3")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 18.714523, -29.844658, 40.434162)
 
-[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D2" unique_id=294895077]
-transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -0.029361725, -0.223, -0.11)
-mesh = SubResource("PlaceholderMesh_dpwhn")
+[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D2" unique_id=1579121008]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -0.27321863, -0.223, 0.29073918)
+mesh = SubResource("PlaceholderMesh_kq2bq")
 
-[node name="CollisionShape3D2" type="CollisionShape3D" parent="RigidBody3D2" unique_id=930945856]
-transform = Transform3D(0.08, 0, 0, 0, 0.08, 0, 0, 0, 0.08, 0.26890504, 2.0178204, 0.9177898)
-shape = SubResource("BoxShape3D_kq2bq")
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="RigidBody3D2" unique_id=1160439185]
+transform = Transform3D(0.08, 0, 0, 0, 0.08, 0, 0, 0, 0.08, -0.019569159, -1.2863681, 0.083551586)
+shape = SubResource("BoxShape3D_rhp03")
+
+[node name="Sprite3D" type="Sprite3D" parent="RigidBody3D2" unique_id=1872416851]
+transform = Transform3D(-0.065785, -1.1981955, -5.2374777e-08, 3.0620048e-16, -5.245366e-08, 1.1999999, -1.1981955, 0.065785, 2.8755536e-09, 0.30451202, 2.1406548, 3.4410403)
+texture = ExtResource("2_dpwhn")

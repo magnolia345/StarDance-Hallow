@@ -2,20 +2,17 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cu7q4fmhw0n5f"
-path.s3tc="res://.godot/imported/sheet_music_0.jpg-ffa1b56031d8c0e4213d86a6da05f2bd.s3tc.ctex"
+uid="uid://d0adi1wsly81m"
+path.s3tc="res://.godot/imported/Screenshot 2026-10-24 at 2.57.35 AM.png-e83528e73454972008d38a35cdf210fd.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
 }
-generator_parameters={
-"md5": "510ab96fe2e98f95a7b98eb9a74b7edc"
-}
 
 [deps]
 
-source_file="res://tools/sheet/sheet_music_0.jpg"
-dest_files=["res://.godot/imported/sheet_music_0.jpg-ffa1b56031d8c0e4213d86a6da05f2bd.s3tc.ctex"]
+source_file="res://tools/Screenshot 2026-10-24 at 2.57.35 AM.png"
+dest_files=["res://.godot/imported/Screenshot 2026-10-24 at 2.57.35 AM.png-e83528e73454972008d38a35cdf210fd.s3tc.ctex"]
 
 [params]
 
