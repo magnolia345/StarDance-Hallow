@@ -19,6 +19,10 @@ enum State { WANDER, CHASE, SEARCH }
 # attack stuff
 @export var attack_range := 4.0
 @export var attack_cooldown := 1.2
+@export var walk_anim := "Zombie_Walk"
+@export var run_anim := "Run_Anime"
+@export var attack_anim := "Sword_Attack"
+@export var idle_anim := "Zombie_Idle"
 @export var detection_cooldown := 1.5
 
 # Movement smoothing
@@ -30,6 +34,7 @@ enum State { WANDER, CHASE, SEARCH }
 
 @onready var nav_agent: NavigationAgent3D = $NavigationAgent3D
 @onready var eyes: Node3D = $Eyes
+@onready var anim: AnimationPlayer = find_child("AnimationPlayer", true, false)
 
 var state: State = State.WANDER
 var player: Node3D
@@ -41,6 +46,7 @@ var path_index := 0
 var retry_timer := 0.0
 var memory_timer := 0.0
 var attack_timer := 0.0
+var start_transform: Transform3D
 var cooldown_timer := 0.0
 var vision_timer := 0.0
 var search_timer := 0.0
@@ -53,7 +59,7 @@ var last_chase_target := Vector3.ZERO
 var stuck_timer := 0.0
 var progress_check_timer := 0.0
 var last_check_position := Vector3.ZERO
-var debug = false
+var debug = true
 func _ready() -> void:
 	player = get_tree().get_first_node_in_group("player") as Node3D
 	print("Enemy target: ", player.get_path())
@@ -61,6 +67,7 @@ func _ready() -> void:
 	nav_agent.avoidance_enabled = false
 
 	call_deferred("_initialize_navigation")
+	start_transform = global_transform
 
 
 func _initialize_navigation() -> void:
@@ -136,7 +143,7 @@ func _physics_process(delta: float) -> void:
 					_calculate_path(last_known_position + offset)
 
 	_move_along_path(delta)
-
+	_update_animation()
 
 # --------------------------------------------------
 # VISION
@@ -184,7 +191,8 @@ func _can_see_player() -> bool:
 	if distance_to_player > view_distance:
 		return false
 
-	if distance_to_player < close_range:
+	var flat_dist := Vector2(to_player.x, to_player.z).length()
+	if flat_dist < close_range:
 		return true
 
 	# A 360-degree angle allows vision in every direction.
@@ -284,6 +292,8 @@ func _try_attack() -> void:
 
 	if to_player.length() <= attack_range and player.has_method("take_hit"):
 		player.take_hit()
+		if anim:
+			anim.play(attack_anim, 0.1)
 		attack_timer = attack_cooldown
 
 # --------------------------------------------------
@@ -592,4 +602,34 @@ func _check_if_stuck(delta: float) -> void:
 			has_chase_target = false
 
 		elif state == State.SEARCH:
-			_enter_search()
+			current_path.clear()
+			path_index = 0
+
+func _update_animation() -> void:
+	if anim == null:
+		return
+
+	# Let the attack finish before switching.
+	if anim.current_animation == attack_anim and anim.is_playing():
+		return
+
+	var flat_speed := Vector2(velocity.x, velocity.z).length()
+	var wanted := idle_anim
+
+	if flat_speed > 0.5:
+		if state == State.WANDER:
+			wanted = walk_anim
+		else:
+			wanted = run_anim
+
+	if anim.current_animation != wanted:
+		anim.play(wanted, 0.2)
+
+func reset_enemy() -> void:
+	global_transform = start_transform
+	velocity = Vector3.ZERO
+	state = State.WANDER
+	has_chase_target = false
+	cooldown_timer = detection_cooldown
+	attack_timer = attack_cooldown
+	_pick_random_destination()

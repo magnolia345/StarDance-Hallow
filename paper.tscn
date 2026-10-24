@@ -34,5 +34,5 @@ transform = Transform3D(0.08, 0, 0, 0, 0.08, 0, 0, 0, 0.08, -0.019569159, -1.286
 shape = SubResource("BoxShape3D_rhp03")
 
 [node name="Sprite3D" type="Sprite3D" parent="RigidBody3D2" unique_id=1872416851]
-transform = Transform3D(-0.065785, -1.1981955, -5.2374777e-08, 3.0620048e-16, -5.245366e-08, 1.1999999, -1.1981955, 0.065785, 2.8755536e-09, 0.30451202, 2.1406548, 3.4410403)
+transform = Transform3D(-0.065785, -1.1981955, -5.2374777e-08, 3.0620048e-16, -5.245366e-08, 1.1999999, -1.1981955, 0.065785, 2.8755536e-09, 0.30451202, 2.194852, 3.4410403)
 texture = ExtResource("2_dpwhn")

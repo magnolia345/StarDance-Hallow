@@ -59,16 +59,40 @@ _subresources={
 "PATH:Sketchfab_model/piano_fbx/RootNode/Front/Front_wood_0": {
 "generate/physics": true
 },
+"PATH:Sketchfab_model/piano_fbx/RootNode/Note/Note_Original_0": {
+"generate/physics": true
+},
 "PATH:Sketchfab_model/piano_fbx/RootNode/Pedals/Pedals_pedal_0": {
 "generate/physics": true
 },
+"PATH:Sketchfab_model/piano_fbx/RootNode/Stick/Stick_Original_0": {
+"generate/physics": true
+},
 "PATH:Sketchfab_model/piano_fbx/RootNode/body/body_Original_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/piano_fbx/RootNode/key_black/key_black_key_b_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/piano_fbx/RootNode/key_black_001/key_black_001_key_b_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/piano_fbx/RootNode/key_black_002/key_black_002_key_b_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/piano_fbx/RootNode/key_whait/key_whait_key_w_0": {
 "generate/physics": true
 },
 "PATH:Sketchfab_model/piano_fbx/RootNode/leg/leg_Original_0": {
 "generate/physics": true
 },
 "PATH:Sketchfab_model/piano_fbx/RootNode/leg_back/leg_back_Original_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/piano_fbx/RootNode/metal/metal_wheel_metal2_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/piano_fbx/RootNode/metal_001/metal_wheel_001_metal2_0": {
 "generate/physics": true
 },
 "PATH:Sketchfab_model/piano_fbx/RootNode/wheel/wheel_metal_0": {

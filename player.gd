@@ -1,10 +1,11 @@
 extends CharacterBody3D
 
-# this is for attacks
-@export var max_hits := 3
+# this is for attacks/respawn
+@export var max_hits := 5
 var hits_taken := 0
 var blood_tween: Tween
-
+var spawn_transform: Transform3D
+var dead := false
 @onready var blood_screen: CanvasItem = $CanvasLayer/ImageForGodot
 #-----
 
@@ -48,7 +49,7 @@ var held_object = null
 
 func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
-
+	spawn_transform = global_transform
 	progress.position = Vector2(250, 0)
 func help(event):
 	if event is InputEventKey:
@@ -63,6 +64,8 @@ func _unhandled_input(event):
 			deg_to_rad(-70), deg_to_rad(60))
 		
 func _physics_process(delta: float) -> void:
+	if dead:
+		return
 	crouching(delta)
 	if Input.is_key_pressed(KEY_SHIFT) and stamina_level > 0 and crouch == 0:
 		SPEED = 20
@@ -200,12 +203,14 @@ func drop():
 		
 		
 func take_hit() -> void:
+	if dead:
+		return
 	hits_taken += 1
 	print("Player hit! ", hits_taken, "/", max_hits)
 	_flash_blood()
 
 	if hits_taken >= max_hits:
-		print("Player died")
+		_die()
 
 
 func _flash_blood() -> void:
@@ -242,7 +247,7 @@ func show_message(msg: String) -> void:
 	dialogue.text = msg
 	dialogue.show()
 	message_active = true
-	await get_tree().create_timer(3.0).timeout
+	await get_tree().create_timer(max(3.0, msg.length() * 0.07)).timeout
 	if my_id == dialogue_id:
 		message_active = false
 		dialogue.hide()
@@ -253,3 +258,17 @@ func _find_interactable(node):
 			return node
 		node = node.get_parent()
 	return null
+
+
+func _die() -> void:
+	dead = true
+	if held_object:
+		drop()
+	show_message("You died...")
+	await get_tree().create_timer(2.0).timeout
+	global_transform = spawn_transform
+	velocity = Vector3.ZERO
+	hits_taken = 0
+	dead = false
+	for e in get_tree().get_nodes_in_group("enemy"):
+		e.reset_enemy()
