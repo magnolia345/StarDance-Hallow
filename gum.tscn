@@ -1,0 +1,30 @@
+[gd_scene format=3 uid="uid://bwvmtghj0lly0"]
+
+[ext_resource type="PackedScene" uid="uid://d4fmlcwf0ughk" path="res://tools/gum/bouncy_ball.glb" id="1_7q8pc"]
+
+[sub_resource type="PlaceholderMesh" id="PlaceholderMesh_08n5l"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_kkfjc"]
+size = Vector3(48.23529, 45.458755, 48.54236)
+
+[node name="gu" type="Node3D" unique_id=1015558094]
+
+[node name="RigidBody3D2" type="RigidBody3D" parent="." unique_id=1309509625]
+axis_lock_linear_x = true
+axis_lock_linear_z = true
+axis_lock_angular_x = true
+axis_lock_angular_y = true
+axis_lock_angular_z = true
+can_sleep = false
+continuous_cd = true
+
+[node name="gum" parent="RigidBody3D2" unique_id=439646366 instance=ExtResource("1_7q8pc")]
+transform = Transform3D(4, 0, 0, 0, 4, 0, 0, 0, 4, 0, -10.457689, 0)
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D2" unique_id=470766686]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -0.029361725, -0.223, -0.11)
+mesh = SubResource("PlaceholderMesh_08n5l")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="RigidBody3D2" unique_id=851181728]
+transform = Transform3D(0.08, 0, 0, 0, 0.08, 0, 0, 0, 0.08, -0.01807189, 0.2910724, 0.08161372)
+shape = SubResource("BoxShape3D_kkfjc")
