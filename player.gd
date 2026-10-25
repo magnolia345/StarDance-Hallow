@@ -156,7 +156,7 @@ func _physics_process(delta: float) -> void:
 	camera.position = Vector3(0, cam_height, 0) + current_bob
 
 	if held_object:
-		var original_scale = held_object.get_parent().global_basis.get_scale()
+		var original_scale = held_object.get_parent().global_basis.get_scale() * held_object.get_parent().get_meta("hold_scale", 1.0)
 		held_object.global_transform = Transform3D(hand.global_basis.orthonormalized().scaled_local(original_scale), hand.global_position)
 		
 func reset():
@@ -195,6 +195,7 @@ func set_collision_all(node, on):
 	for child in node.get_children():
 		set_collision_all(child, on)	
 func drop():
+	held_object.global_transform = Transform3D(held_object.global_basis.orthonormalized().scaled_local(held_object.get_parent().global_basis.get_scale()), held_object.global_position)
 	set_collision_all(held_object, true)
 	remove_collision_exception_with(held_object)
 	ray.remove_exception(held_object)

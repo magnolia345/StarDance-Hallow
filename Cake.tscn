@@ -5,7 +5,7 @@
 [sub_resource type="PlaceholderMesh" id="PlaceholderMesh_y5spk"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_nnw4l"]
-size = Vector3(3.7487793, 1.0596161, 3.732788)
+size = Vector3(4.098816, 1.8554802, 4.0366516)
 
 [node name="Cake" type="Node3D" unique_id=1079840946]
 
@@ -24,6 +24,11 @@ mesh = SubResource("PlaceholderMesh_y5spk")
 
 [node name="Sketchfab_Scene" parent="RigidBody3D" unique_id=1959228377 instance=ExtResource("1_kkshh")]
 
+[node name="CollisionShape3D" parent="RigidBody3D/Sketchfab_Scene/Sketchfab_model/2023cake_fbx/RootNode/Retopo_3DModel/Retopo_3DModel_Cake_0/StaticBody3D" parent_id_path=PackedInt32Array(1959228377, 1801836798) index="0" unique_id=16161720]
+process_mode = 4
+
 [node name="CollisionShape3D" type="CollisionShape3D" parent="RigidBody3D" unique_id=1911420080]
-transform = Transform3D(1, -6.6227236e-05, 0.00012377922, 6.634907e-05, 0.9999995, -0.0009845289, -0.00012371395, 0.0009845372, 0.9999995, 0.0014368888, 0.748622, 0.0009834926)
+transform = Transform3D(1, -6.6227236e-05, 0.00012377922, 6.634907e-05, 0.9999995, -0.0009845289, -0.00012371395, 0.0009845372, 0.9999995, 0.05565449, 0.809781, 0.013375956)
 shape = SubResource("BoxShape3D_nnw4l")
+
+[editable path="RigidBody3D/Sketchfab_Scene"]
