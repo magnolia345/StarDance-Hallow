@@ -21,6 +21,9 @@ continuous_cd = true
 [node name="Sketchfab_Scene" parent="RigidBody3D2" unique_id=1258961043 instance=ExtResource("1_x22dv")]
 transform = Transform3D(0.2, 0, 0, 0, -8.742278e-09, -0.2, 0, 0.2, -8.742278e-09, -0.1861968, 0, 46.430477)
 
+[node name="CollisionShape3D" parent="RigidBody3D2/Sketchfab_Scene/Sketchfab_model/mejsel_fbx/RootNode/Cylinder/Cylinder_Screwdriver_0/StaticBody3D" parent_id_path=PackedInt32Array(1258961043, 256212118) index="0" unique_id=349494346]
+disabled = true
+
 [node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D2" unique_id=278966365]
 transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, -1.3668709, -0.223, -0.11)
 mesh = SubResource("PlaceholderMesh_l0ys5")
@@ -28,3 +31,5 @@ mesh = SubResource("PlaceholderMesh_l0ys5")
 [node name="CollisionShape3D2" type="CollisionShape3D" parent="RigidBody3D2" unique_id=1178635729]
 transform = Transform3D(0.08, 0, 0, 0, 0.08, 0, 0, 0, 0.08, 1.8188667, -0.51236963, -10.245749)
 shape = SubResource("BoxShape3D_f4woe")
+
+[editable path="RigidBody3D2/Sketchfab_Scene"]
