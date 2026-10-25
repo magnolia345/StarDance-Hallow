@@ -43,6 +43,7 @@ var current_bob = Vector3.ZERO
 @onready var text = $CanvasLayer/TextEdit
 @onready var dialogue = $CanvasLayer/Dialogue
 @export var enemy: CharacterBody3D
+@export var cake: Node3D
 var dialogue_id := 0
 var hovering := false
 var message_active := false
@@ -202,6 +203,7 @@ func drop():
 	held_object.freeze = false
 	held_object.linear_velocity = -camera.global_transform.basis.z * 3
 	held_object = null
+
 		
 		
 func take_hit() -> void:
