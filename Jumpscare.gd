@@ -50,4 +50,8 @@ func _physics_process(delta):
 		
 		# Play the attack animation safely
 		anim_player.play("Scene")
-		return
+		
+		anim_player.animation_finished.connect(func(anim_name): queue_free())
+		anim_player.animation_finished.connect(func(anim_name): player.end())
+
+		

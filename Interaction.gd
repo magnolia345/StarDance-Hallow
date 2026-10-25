@@ -7,7 +7,9 @@ var check = false
 var val
 var checker = false
 var try
+@onready var cake = find_child("Cake", true, false)
 # Called when the node enters the scene tree for the first time.
+
 func _ready() -> void:
 
 	pass # Replace with function body.
@@ -22,4 +24,5 @@ func interacts(node):
 	val.hide()
 func interact(node):
 	node.global_position = hand.global_position
-	
+	if node == cake or cake.is_ancestor_of(node):
+		node.global_position = hand.global_transform + Vector3(100, 0, 0)

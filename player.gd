@@ -42,6 +42,7 @@ var current_bob = Vector3.ZERO
 @onready var hand = $Head/Camera3D/Hand
 @onready var text = $CanvasLayer/TextEdit
 @onready var dialogue = $CanvasLayer/Dialogue
+@export var enemy: CharacterBody3D
 var dialogue_id := 0
 var hovering := false
 var message_active := false
@@ -270,5 +271,10 @@ func _die() -> void:
 	velocity = Vector3.ZERO
 	hits_taken = 0
 	dead = false
-	for e in get_tree().get_nodes_in_group("enemy"):
-		e.reset_enemy()
+	enemy.reset_enemy()
+
+func end():
+	if held_object:
+		drop()
+	position = Vector3(-122.188, 6.11, 90.364)
+	
