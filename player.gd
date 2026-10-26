@@ -6,6 +6,7 @@ var hits_taken := 0
 var blood_tween: Tween
 var spawn_transform: Transform3D
 var dead := false
+@export var lives := 3
 @onready var blood_screen: CanvasItem = $CanvasLayer/ImageForGodot
 #-----
 
@@ -53,6 +54,8 @@ func _ready():
 	Input.set_mouse_mode(Input.MOUSE_MODE_CAPTURED)
 	spawn_transform = global_transform
 	progress.position = Vector2(250, 0)
+	show_message("Press V to toggle the VHS filter.")
+	show_message("Controls: WASD + E for interact/open/others")
 func help(event):
 	if event is InputEventKey:
 		if false:
@@ -64,6 +67,12 @@ func _unhandled_input(event):
 		camera.rotate_x(-event.relative.y * sensitivity)
 		camera.rotation.x = clamp(camera.rotation.x, 
 			deg_to_rad(-70), deg_to_rad(60))
+			
+	if event is InputEventKey and event.pressed and not event.echo and event.keycode == KEY_V:
+		var retro = get_tree().get_first_node_in_group("retro")
+		if retro:
+			retro.visible = not retro.visible
+			show_message("VHS effect: " + ("ON" if retro.visible else "OFF"))
 		
 func _physics_process(delta: float) -> void:
 	if dead:
@@ -268,13 +277,19 @@ func _die() -> void:
 	dead = true
 	if held_object:
 		drop()
-	show_message("You died...")
+	lives -= 1
+	if lives <= 0:
+		get_tree().get_first_node_in_group("screens").show_game_over()
+		return
+	show_message("You died... %d lives left" % lives)
 	await get_tree().create_timer(2.0).timeout
 	global_transform = spawn_transform
 	velocity = Vector3.ZERO
 	hits_taken = 0
 	dead = false
-	enemy.reset_enemy()
+	for e in get_tree().get_nodes_in_group("enemy"):
+		if e.has_method("reset_enemy"):
+			e.reset_enemy()
 
 func end():
 	if held_object:

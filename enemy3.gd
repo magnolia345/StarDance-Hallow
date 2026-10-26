@@ -3,7 +3,7 @@ extends CharacterBody3D
 enum State { WANDER, CHASE, SEARCH }
 
 @export var wander_speed := 5.0
-@export var chase_speed := 20.0
+@export var chase_speed := 17.0
 @export var wander_radius := 1000.0
 
 @export var view_distance := 40.0
