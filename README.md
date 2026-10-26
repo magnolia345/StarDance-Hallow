@@ -5,7 +5,7 @@ A first-person 3D survival horror game made in Godot 4. Coded using GDScript (li
   HALLOW is a short-form horror game built for the StarDance Hack Club Program. Inspired by indie horror games eg, Puppet Combo games (Stay Out of the House, Nun Massacre) and Granny. This game strips survival horror down to its core of explore, find the thing, get out alive.
 
 ### Story
-The player is teleported into this abandoned orphanage. Using a 1970s, retro VHS style, this game is given a vintage, spooky vibe. Though, if you're a 21st-century person, removing the VHS-filter is fine too.
+The player is teleported into this abandoned orphanage. Using a 1970s, retro VHS style, this game is given a vintage, spooky vibe. Though, if you're a 21st-century person, removing the VHS-filter is fine too. Traverse through the dark environment where your only source of light is your flashlight.
 ## How to Play
 ## Features & Mechanics
 ### Gameplay
