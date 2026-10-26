@@ -1,9 +1,12 @@
 # Hallow
-A first-person 3D survival horror game made in Godot 4. Coded using GDScript (like Python). No combat or weapons.
+A first-person 3D survival horror game made in Godot 4. Coded using GDScript (like Python). No combat or weapons.  
 
 ## About
-  HALLOW is a short-form horror game built for the StarDance Hack Club Program. Inspired by indie horror games eg, Puppet Combo games (Stay Out of the House, Nun Massacre) and Granny. This game strips survival horror down to its core of explore, find the thing, get out alive.
-
+  HALLOW is a short-form horror game built for the StarDance Hack Club Program. Inspired by indie horror games eg, Puppet Combo games (Stay Out of the House, Nun Massacre) and Granny. This game strips survival horror down to its core of explore, find the thing, get out alive.  
+...  
+.......  vhs style on below; low quality gif so dw, the real thing is much better ...
+  <img width="504" height="280" alt="gif" src="https://github.com/user-attachments/assets/6535358e-44bb-4866-bf8a-4a719adb73c9" />
+  
 ### Story
 The player is teleported into this abandoned orphanage. Using a 1970s, retro VHS style, this game is given a vintage, spooky vibe. Though, if you're a 21st-century person, removing the VHS-filter is fine too. Traverse through the dark environment where your only source of light is your flashlight.
 ## How to Play
@@ -30,6 +33,7 @@ The player is teleported into this abandoned orphanage. Using a 1970s, retro VHS
     - CRUCIAL FOR PUZZLES/DOING STUFF
   - Toggle VHS-filter: 'V'
   - Turn flashlight on/off (why would you ever turn it off but): 'F'
+ 
 ### Puzzles/Hints
 - Note about puzzles: most of them are just 'Use X on Y, and event Z will happen.'
 - Look CAREFULLY for items. Note that everything (furniture and every single piece) was put into the game manually and a lot of time has gone into this alone.
