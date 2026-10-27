@@ -1,6 +1,6 @@
 # Hallow
 A first-person 3D survival horror game made in Godot 4. Coded using GDScript (like Python). No combat or weapons.  
-
+(lol sorry for the poor formatting above, but i guess it doesn't matter too much because you can just download via itch.io and not deal with my accident! i lwk forgot about format before starting the dev process, and since I alr put in all the files, i couldn't reorganize it later without updating ALL the paths. eg like a BILLION paths. so sorry!!)
 ## About
   HALLOW is a short-form horror game built for the StarDance Hack Club Program. Inspired by indie horror games eg, Puppet Combo games (Stay Out of the House, Nun Massacre) and Granny. This game strips survival horror down to its core of explore, find the thing, get out alive.  
 ...  
