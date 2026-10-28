@@ -233,10 +233,6 @@ func _can_see_player() -> bool:
 	return is_instance_valid(collider) and collider.is_in_group("player")
 
 
-# --------------------------------------------------
-# CHASE
-# --------------------------------------------------
-
 func _update_chase_target() -> void:
 	if not is_instance_valid(player):
 		_change_state(State.WANDER)
@@ -296,9 +292,6 @@ func _try_attack() -> void:
 			anim.play(attack_anim, 0.1)
 		attack_timer = attack_cooldown
 
-# --------------------------------------------------
-# SEARCH
-# --------------------------------------------------
 
 func _enter_search() -> void:
 	if is_instance_valid(player):
@@ -315,10 +308,7 @@ func _enter_search() -> void:
 		_closest_navigation_point(last_known_position)
 	)
 
-
-# --------------------------------------------------
 # STATE CHANGES
-# --------------------------------------------------
 
 func _change_state(new_state: State) -> void:
 	if state == new_state:
@@ -344,9 +334,7 @@ func _change_state(new_state: State) -> void:
 			_enter_search()
 
 
-# --------------------------------------------------
 # RANDOM NAVIGATION
-# --------------------------------------------------
 
 
 func _pick_random_destination(escape: bool = false) -> void:
@@ -454,9 +442,7 @@ func _path_finished() -> bool:
 	return current_path.is_empty() or path_index >= current_path.size()
 
 
-# --------------------------------------------------
 # MOVEMENT
-# --------------------------------------------------
 
 func _move_along_path(delta: float) -> void:
 	# If chasing and already close, stop and face the player.
@@ -560,9 +546,7 @@ func _stop_horizontal() -> void:
 	velocity.z = 0.0
 
 
-# --------------------------------------------------
 # STUCK RECOVERY
-# --------------------------------------------------
 
 func _check_if_stuck(delta: float) -> void:
 	if _path_finished():
