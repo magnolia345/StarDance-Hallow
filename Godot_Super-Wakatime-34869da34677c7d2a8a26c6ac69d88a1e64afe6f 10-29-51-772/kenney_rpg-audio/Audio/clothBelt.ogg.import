@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://c3homygr6e78i"
+path="res://.godot/imported/clothBelt.ogg-30dec899b8516758bb23b6c987fecd50.oggvorbisstr"
+
+[deps]
+
+source_file="res://Godot_Super-Wakatime-34869da34677c7d2a8a26c6ac69d88a1e64afe6f 10-29-51-772/kenney_rpg-audio/Audio/clothBelt.ogg"
+dest_files=["res://.godot/imported/clothBelt.ogg-30dec899b8516758bb23b6c987fecd50.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

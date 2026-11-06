@@ -1,0 +1,96 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://ctlnt2i0tmdhm"
+path="res://.godot/imported/barrel__crate.glb-6e9a207244db454dd27ae3ce5f7bcab2.scn"
+
+[deps]
+
+source_file="res://furniture/barrel/barrel__crate.glb"
+dest_files=["res://.godot/imported/barrel__crate.glb-6e9a207244db454dd27ae3ce5f7bcab2.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/root_script=null
+mesh_library/use_node_names_as_mesh_names=false
+array_mesh/deduplicate_surfaces=true
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+nodes/use_name_suffixes=true
+nodes/use_node_type_suffixes=true
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+materials/extract=0
+materials/extract_format=0
+materials/extract_path=""
+_subresources={
+"nodes": {
+"PATH:Sketchfab_model/abda27c02f1c444eb849d527f16260ae_fbx/RootNode/barrel/barrel_cratebarrel_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/abda27c02f1c444eb849d527f16260ae_fbx/RootNode/barrelbroken/barrelpiece/barrelpiece_cratebarrel_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/abda27c02f1c444eb849d527f16260ae_fbx/RootNode/barrelbroken/barrelpiece_2/barrelpiece_2_cratebarrel_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/abda27c02f1c444eb849d527f16260ae_fbx/RootNode/barrelbroken/barrelpiece_3/barrelpiece_3_cratebarrel_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/abda27c02f1c444eb849d527f16260ae_fbx/RootNode/barrelbroken/barrelpiece_4/barrelpiece_4_cratebarrel_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/abda27c02f1c444eb849d527f16260ae_fbx/RootNode/barrelbroken/barrelpiece_5/barrelpiece_5_cratebarrel_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/abda27c02f1c444eb849d527f16260ae_fbx/RootNode/barrelbroken/barrelpiece_6/barrelpiece_6_cratebarrel_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/abda27c02f1c444eb849d527f16260ae_fbx/RootNode/barrelbroken/barrelpiece_7/barrelpiece_7_cratebarrel_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/abda27c02f1c444eb849d527f16260ae_fbx/RootNode/crate/crate_cratebarrel_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/abda27c02f1c444eb849d527f16260ae_fbx/RootNode/cratebroken/cratepiece/cratepiece_cratebarrel_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/abda27c02f1c444eb849d527f16260ae_fbx/RootNode/cratebroken/cratepiece_2/cratepiece_2_cratebarrel_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/abda27c02f1c444eb849d527f16260ae_fbx/RootNode/cratebroken/cratepiece_3/cratepiece_3_cratebarrel_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/abda27c02f1c444eb849d527f16260ae_fbx/RootNode/cratebroken/cratepiece_4/cratepiece_4_cratebarrel_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/abda27c02f1c444eb849d527f16260ae_fbx/RootNode/cratebroken/cratepiece_5/cratepiece_5_cratebarrel_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/abda27c02f1c444eb849d527f16260ae_fbx/RootNode/cratebroken/cratepiece_6/cratepiece_6_cratebarrel_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/abda27c02f1c444eb849d527f16260ae_fbx/RootNode/cratebroken/cratepiece_7/cratepiece_7_cratebarrel_0": {
+"generate/physics": true
+}
+}
+}
+gltf/naming_version=2
+gltf/embedded_image_handling=1
+gltf/texture_map_mode=1

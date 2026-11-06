@@ -1,0 +1,2649 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://clbx12rl78f2s"
+path="res://.godot/imported/kitchen_cabinets.glb-9499f64b4f066717c0b68bb685d1c15f.scn"
+
+[deps]
+
+source_file="res://furniture/iving room/kcabinets/kitchen_cabinets.glb"
+dest_files=["res://.godot/imported/kitchen_cabinets.glb-9499f64b4f066717c0b68bb685d1c15f.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/root_script=null
+mesh_library/use_node_names_as_mesh_names=false
+array_mesh/deduplicate_surfaces=true
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+nodes/use_name_suffixes=true
+nodes/use_node_type_suffixes=true
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+materials/extract=0
+materials/extract_format=0
+materials/extract_path=""
+_subresources={
+"nodes": {
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/Material2866": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_0/instance_0/Component_97/Material2": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_0/instance_1/Component_124/Material22": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_0/instance_10/Component_78/Material217": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_0/instance_11/Component_125/Material218": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_0/instance_12/Component_85/Material219": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_0/instance_13/Component_96/Material220": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_0/instance_14/Component_84/Material221": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_0/instance_14/Component_84/Material222": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_0/instance_15/Component_143/Material223": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_0/instance_15/Component_143/Material224": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_0/instance_15/Component_143/Material225": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_0/instance_2/Component_104/Material23": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_0/instance_2/Component_104/Material24": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_0/instance_3/Component_106/Material25": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_0/instance_4/Component_105/Material26": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_0/instance_5/Component_142/Material27": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_0/instance_5/Component_142/Material28": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_0/instance_5/Component_142/Material29": {
+"import/skip_import": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_0/instance_6/Component_107/Material210": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_0/instance_6/Component_107/Material211": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_0/instance_7/Component_66/Material212": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_0/instance_8/Component_67/Material213": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_0/instance_9/Component_144/Material214": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_0/instance_9/Component_144/Material215": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_0/instance_9/Component_144/Material216": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_1/instance_16/Component_127/Material226": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_1/instance_17/Component_69/Material227": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_1/instance_18/Component_87/Material228": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_1/instance_19/Component_98/Material229": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_1/instance_20/Component_108/Material230": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_1/instance_21/Component_86/Material231": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_1/instance_22/Component_79/Material232": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_1/instance_23/Component_126/Material233": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_1/instance_24/Component_109/Material234": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_1/instance_25/Component_68/Material235": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_1/instance_26/Component_145/Material236": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_1/instance_26/Component_145/Material237": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_1/instance_27/Component_146/Material238": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_1/instance_27/Component_146/Material239": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_10/instance_160/Component_90/Material2251": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_10/instance_161/Component_130/Material2252": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_10/instance_162/Component_72/Material2253": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_10/instance_163/Component_73/Material2254": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_10/instance_164/Component_114/Material2255": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_10/instance_165/Component_102/Material2256": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_10/instance_166/Component_91/Material2257": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_10/instance_167/Component_81/Material2258": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_10/instance_168/Component_115/Material2259": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_10/instance_169/Component_160/Material2260": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_10/instance_169/Component_160/Material2261": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_10/instance_170/Component_131/Material2262": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_10/instance_171/Component_159/Material2263": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_10/instance_171/Component_159/Material2264": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_11/instance_172/Component_103/Material2265": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_11/instance_173/Component_162/Material2266": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_11/instance_173/Component_162/Material2267": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_11/instance_174/Component_75/Material2268": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_11/instance_175/Component_74/Material2269": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_11/instance_176/Component_119/Material2270": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_11/instance_177/Component_116/Material2271": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_11/instance_177/Component_116/Material2272": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_11/instance_178/Component_82/Material2273": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_11/instance_179/Component_161/Material2274": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_11/instance_179/Component_161/Material2275": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_11/instance_180/Component_93/Material2276": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_11/instance_181/Component_117/Material2277": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_11/instance_182/Component_118/Material2278": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_11/instance_183/Component_922/Material2279": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_11/instance_184/Component_1322/Material2280": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_11/instance_185/Component_133/Material2281": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_12/instance_186/Component_40/Material2282": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_12/instance_186/Component_40/Material2283": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_12/instance_187/Component_5/Material2284": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_12/instance_188/Component_11/Material2285": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_12/instance_189/Component_1510/Material2286": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_12/instance_190/Component_56/Material2287": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_12/instance_190/Component_56/Material2288": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_12/instance_191/Component_49/Material2289": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_12/instance_192/Component_60/Material2290": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_12/instance_192/Component_60/Material2291": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_12/instance_193/Component_6/Material2292": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_12/instance_194/Component_37/Material2293": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_12/instance_195/Component_165/Material2294": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_12/instance_195/Component_165/Material2295": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_12/instance_196/Component_232/Material2296": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_12/instance_197/Component_29/Material2297": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_12/instance_198/Component_28/Material2298": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_12/instance_199/Component_19/Material2299": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_12/instance_200/Component_166/Material2300": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_12/instance_200/Component_166/Material2301": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_12/instance_201/Component_174/Material2302": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_13/Material2303": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_13/Material2304": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_14/Material2305": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_14/Material2306": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_15/Material2307": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_16/Material2308": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_16/Material2309": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_17/Material2310": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_17/Material2311": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_18/Material2312": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_18/Material2313": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_18/Material2314": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_18/instance_202/Component_65/Material2315": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_18/instance_202/Component_65/Material2316": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_18/instance_202/Component_65/Material2317": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_18/instance_202/Component_65/Material3": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_18/instance_203/Component_652/Material2318": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_18/instance_203/Component_652/Material2319": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_18/instance_203/Component_652/Material2320": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_18/instance_203/Component_652/Material32": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_28/Component_137/Material240": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_29/Component_141/Material241": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_29/Component_141/Material242": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_29/Component_141/Material243": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_30/Component_139/Material244": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_30/Component_139/Material245": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_30/Component_139/Material246": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_31/Component_38/Material247": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_31/Component_38/Material248": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_31/Component_38/Material249": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_32/Component_140/Material250": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_32/Component_140/Material251": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_32/Component_140/Material252": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_33/Component_138/Material253": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_33/Component_138/Material254": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_33/Component_138/Material255": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_34/Component_2/Material256": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_35/Component_13/Material257": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_36/Component_136/Material258": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_36/Component_136/Material259": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_36/Component_136/Material260": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_37/Component_42/Material261": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_38/Component_54/Material262": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_38/Component_54/Material263": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_39/Component_58/Material264": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_39/Component_58/Material265": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_39/Component_58/Material266": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_40/Component_43/Material267": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_41/Component_32/Material268": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_42/Component_44/Material269": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_43/Component_1/Material270": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_44/Component_9/Material271": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_45/Component_17/Material272": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_45/Component_17/Material273": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_46/Component_25/Material274": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_47/Component_33/Material275": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_48/Component_21/Material276": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_2/instance_49/Component_24/Material277": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_3/instance_50/Component_112/Material278": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_3/instance_51/Component_129/Material279": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_3/instance_52/Component_158/Material280": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_3/instance_52/Component_158/Material281": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_3/instance_53/Component_110/Material282": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_3/instance_54/Component_128/Material283": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_3/instance_55/Component_70/Material284": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_3/instance_56/Component_155/Material285": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_3/instance_56/Component_155/Material286": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_3/instance_57/Component_100/Material287": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_3/instance_58/Component_157/Material288": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_3/instance_58/Component_157/Material289": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_3/instance_59/Component_101/Material290": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_3/instance_60/Component_89/Material291": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_3/instance_61/Component_71/Material292": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_3/instance_62/Component_99/Material293": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_3/instance_63/Component_80/Material294": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_3/instance_63/Component_80/Material295": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_3/instance_64/Component_88/Material296": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_3/instance_65/Component_111/Material297": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_3/instance_66/Component_113/Material298": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_3/instance_67/Component_156/Material2100": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_3/instance_67/Component_156/Material299": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_68/Component_39/Material2101": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_68/Component_39/Material2102": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_69/Component_27/Material2103": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_70/Component_154/Material2104": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_70/Component_154/Material2105": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_71/Component_148/Material2106": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_72/Component_10/Material2107": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_73/Component_151/Material2108": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_73/Component_151/Material2109": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_74/Component_149/Material2110": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_74/Component_149/Material2111": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_75/Component_48/Material2112": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_76/Component_45/Material2113": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_77/Component_55/Material2114": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_77/Component_55/Material2115": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_78/Component_46/Material2116": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_79/Component_47/Material2117": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_80/Component_59/Material2118": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_80/Component_59/Material2119": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_81/Component_153/Material2120": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_81/Component_153/Material2121": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_82/Component_4/Material2122": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_83/Component_150/Material2123": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_83/Component_150/Material2124": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_84/Component_35/Material2125": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_85/Component_36/Material2126": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_86/Component_34/Material2127": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_87/Component_3/Material2128": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_88/Component_14/Material2129": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_89/Component_18/Material2130": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_90/Component_22/Material2131": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_91/Component_147/Material2132": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_91/Component_147/Material2133": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_92/Component_26/Material2134": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_4/instance_93/Component_152/Material2135": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_5/instance_100/Component_122/Material2142": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_5/instance_101/Component_83/Material2143": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_5/instance_102/Component_94/Material2144": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_5/instance_102/Component_94/Material2145": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_5/instance_103/Component_167/Material2146": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_5/instance_103/Component_167/Material2147": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_5/instance_104/Component_135/Material2148": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_5/instance_105/Component_134/Material2149": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_5/instance_94/Component_120/Material2136": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_5/instance_95/Component_76/Material2137": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_5/instance_96/Component_77/Material2138": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_5/instance_97/Component_121/Material2139": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_5/instance_98/Component_95/Material2140": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_5/instance_99/Component_123/Material2141": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_6/instance_106/Component_171/Material2150": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_6/instance_106/Component_171/Material2151": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_6/instance_107/Component_53/Material2152": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_6/instance_108/Component_41/Material2153": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_6/instance_108/Component_41/Material2154": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_6/instance_109/Component_57/Material2155": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_6/instance_109/Component_57/Material2156": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_6/instance_110/Component_61/Material2157": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_6/instance_110/Component_61/Material2158": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_6/instance_111/Component_170/Material2159": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_6/instance_111/Component_170/Material2160": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_6/instance_112/Component_51/Material2161": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_6/instance_113/Component_12/Material2162": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_6/instance_114/Component_7/Material2163": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_6/instance_115/Component_52/Material2164": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_6/instance_116/Component_8/Material2165": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_6/instance_116/Component_8/Material2166": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_6/instance_117/Component_20/Material2167": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_6/instance_118/Component_16/Material2168": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_6/instance_118/Component_16/Material2169": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_6/instance_119/Component_31/Material2170": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_6/instance_120/Component_30/Material2171": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_6/instance_121/Component_169/Material2172": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_6/instance_121/Component_169/Material2173": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_6/instance_122/Component_168/Material2174": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_6/instance_122/Component_168/Material2175": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_7/instance_123/Component_972/Material2176": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_7/instance_124/Component_1242/Material2177": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_7/instance_125/Component_1042/Material2178": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_7/instance_125/Component_1042/Material2179": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_7/instance_126/Component_1062/Material2180": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_7/instance_127/Component_1052/Material2181": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_7/instance_128/Component_1422/Material2182": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_7/instance_128/Component_1422/Material2183": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_7/instance_128/Component_1422/Material2184": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_7/instance_129/Component_1072/Material2185": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_7/instance_129/Component_1072/Material2186": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_7/instance_130/Component_662/Material2187": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_7/instance_131/Component_672/Material2188": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_7/instance_132/Component_1442/Material2189": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_7/instance_132/Component_1442/Material2190": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_7/instance_132/Component_1442/Material2191": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_7/instance_133/Component_782/Material2192": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_7/instance_134/Component_1252/Material2193": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_7/instance_135/Component_852/Material2194": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_7/instance_136/Component_962/Material2195": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_7/instance_137/Component_842/Material2196": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_7/instance_137/Component_842/Material2197": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_7/instance_138/Component_1432/Material2198": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_7/instance_138/Component_1432/Material2199": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_7/instance_138/Component_1432/Material2200": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_139/Component_1412/Material2201": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_139/Component_1412/Material2202": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_139/Component_1412/Material2203": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_140/Component_1392/Material2204": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_140/Component_1392/Material2205": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_140/Component_1392/Material2206": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_141/Component_382/Material2207": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_141/Component_382/Material2208": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_141/Component_382/Material2209": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_142/Component_1402/Material2210": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_142/Component_1402/Material2211": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_142/Component_1402/Material2212": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_143/Component_1382/Material2213": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_143/Component_1382/Material2214": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_143/Component_1382/Material2215": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_144/Component_23/Material2216": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_145/Component_132/Material2217": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_146/Component_422/Material2218": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_147/Component_542/Material2219": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_147/Component_542/Material2220": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_148/Component_582/Material2221": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_148/Component_582/Material2222": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_148/Component_582/Material2223": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_149/Component_432/Material2224": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_150/Component_322/Material2225": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_151/Component_442/Material2226": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_152/Component_15/Material2227": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_153/Component_92/Material2228": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_154/Component_172/Material2229": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_154/Component_172/Material2230": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_155/Component_252/Material2231": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_156/Component_332/Material2232": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_157/Component_212/Material2233": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_158/Component_242/Material2234": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_159/Component_1362/Material2235": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_159/Component_1362/Material2236": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_8/instance_159/Component_1362/Material2237": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_9/Material2238": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_9/Material2239": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_9/Material2240": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_9/Material2241": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_9/Material2242": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_9/Material2243": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_9/Material2244": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_9/Material2245": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_9/Material2246": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_9/Material2247": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_9/Material2248": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_9/Material2249": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/group_9/Material2250": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_204/Component_1722/Material2321": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_205/Component_175/Material2322": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_205/Component_175/Material2323": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_205/Component_175/Material2324": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_206/Component_173/Material2325": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_207/Component_1732/Material2326": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_208/Component_63/Material2327": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_209/Component_176/Material2328": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_209/Component_176/Material2329": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_209/Component_176/Material2330": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_210/Component_1762/Material2331": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_210/Component_1762/Material2332": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_210/Component_1762/Material2333": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_211/Component_1752/Material2334": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_211/Component_1752/Material2335": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_211/Component_1752/Material2336": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_212/Component_177/Material2337": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_213/Component_178/Material2338": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_214/Component_179/Material2339": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_215/Component_180/Material2341": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_215/Component_180/Material2342": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_216/Component_181/Material2343": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_216/Component_181/Material2344": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_217/Component_183/Material2345": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_217/Component_183/Material2346": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_217/Component_183/Material2347": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_217/Component_183/Material2348": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_217/Component_183/Material2349": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_217/Component_183/Material2350": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_217/Component_183/Material2351": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_218/Component_1832/Material2352": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_218/Component_1832/Material2353": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_218/Component_1832/Material2354": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_218/Component_1832/Material2355": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_218/Component_1832/Material2356": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_218/Component_1832/Material2357": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_218/Component_1832/Material2358": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_219/Component_1833/Material2359": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_219/Component_1833/Material2360": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_219/Component_1833/Material2361": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_219/Component_1833/Material2362": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_219/Component_1833/Material2363": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_219/Component_1833/Material2364": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_219/Component_1833/Material2365": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_220/Component_1834/Material2366": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_220/Component_1834/Material2367": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_220/Component_1834/Material2368": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_220/Component_1834/Material2369": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_220/Component_1834/Material2370": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_220/Component_1834/Material2371": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_220/Component_1834/Material2372": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_221/Component_1835/Material2373": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_221/Component_1835/Material2374": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_221/Component_1835/Material2375": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_221/Component_1835/Material2376": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_221/Component_1835/Material2377": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_221/Component_1835/Material2378": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_221/Component_1835/Material2379": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_222/Component_1836/Material2380": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_222/Component_1836/Material2381": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_222/Component_1836/Material2382": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_222/Component_1836/Material2383": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_222/Component_1836/Material2384": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_222/Component_1836/Material2385": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_222/Component_1836/Material2386": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_223/Component_1837/Material2387": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_223/Component_1837/Material2388": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_223/Component_1837/Material2389": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_223/Component_1837/Material2390": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_223/Component_1837/Material2391": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_223/Component_1837/Material2392": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_223/Component_1837/Material2393": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_224/Component_1838/Material2394": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_224/Component_1838/Material2395": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_224/Component_1838/Material2396": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_224/Component_1838/Material2397": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_224/Component_1838/Material2398": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_224/Component_1838/Material2399": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_224/Component_1838/Material2400": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_225/Component_1839/Material2401": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_225/Component_1839/Material2402": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_225/Component_1839/Material2403": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_225/Component_1839/Material2404": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_225/Component_1839/Material2405": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_225/Component_1839/Material2406": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_225/Component_1839/Material2407": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_226/Component_18310/Material2408": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_226/Component_18310/Material2409": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_226/Component_18310/Material2410": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_226/Component_18310/Material2411": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_226/Component_18310/Material2412": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_226/Component_18310/Material2413": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_226/Component_18310/Material2414": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_227/Component_18311/Material2415": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_227/Component_18311/Material2416": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_227/Component_18311/Material2417": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_227/Component_18311/Material2418": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_227/Component_18311/Material2419": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_227/Component_18311/Material2420": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_227/Component_18311/Material2421": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_228/Component_18312/Material2422": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_228/Component_18312/Material2423": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_228/Component_18312/Material2424": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_228/Component_18312/Material2425": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_228/Component_18312/Material2426": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_228/Component_18312/Material2427": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_228/Component_18312/Material2428": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_229/Component_18313/Material2429": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_229/Component_18313/Material2430": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_229/Component_18313/Material2431": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_229/Component_18313/Material2432": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_229/Component_18313/Material2433": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_229/Component_18313/Material2434": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_229/Component_18313/Material2435": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_230/Component_18314/Material2436": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_230/Component_18314/Material2437": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_230/Component_18314/Material2438": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_230/Component_18314/Material2439": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_230/Component_18314/Material2440": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_230/Component_18314/Material2441": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_230/Component_18314/Material2442": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_231/Component_18315/Material2443": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_231/Component_18315/Material2444": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_231/Component_18315/Material2445": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_231/Component_18315/Material2446": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_231/Component_18315/Material2447": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_231/Component_18315/Material2448": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_231/Component_18315/Material2449": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_232/Component_18316/Material2450": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_232/Component_18316/Material2451": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_232/Component_18316/Material2452": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_232/Component_18316/Material2453": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_232/Component_18316/Material2454": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_232/Component_18316/Material2455": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_232/Component_18316/Material2456": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_233/Component_18317/Material2457": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_233/Component_18317/Material2458": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_233/Component_18317/Material2459": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_233/Component_18317/Material2460": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_233/Component_18317/Material2461": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_233/Component_18317/Material2462": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_233/Component_18317/Material2463": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_234/Component_18318/Material2464": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_234/Component_18318/Material2465": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_234/Component_18318/Material2466": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_234/Component_18318/Material2467": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_234/Component_18318/Material2468": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_234/Component_18318/Material2469": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_234/Component_18318/Material2470": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_235/Component_18319/Material2471": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_235/Component_18319/Material2472": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_235/Component_18319/Material2473": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_235/Component_18319/Material2474": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_235/Component_18319/Material2475": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_235/Component_18319/Material2476": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_235/Component_18319/Material2477": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_236/Component_18320/Material2478": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_236/Component_18320/Material2479": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_236/Component_18320/Material2480": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_236/Component_18320/Material2481": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_236/Component_18320/Material2482": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_236/Component_18320/Material2483": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_236/Component_18320/Material2484": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_237/Component_18321/Material2485": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_237/Component_18321/Material2486": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_237/Component_18321/Material2487": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_237/Component_18321/Material2488": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_237/Component_18321/Material2489": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_237/Component_18321/Material2490": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_237/Component_18321/Material2491": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_238/Component_18322/Material2492": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_238/Component_18322/Material2493": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_238/Component_18322/Material2494": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_238/Component_18322/Material2495": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_238/Component_18322/Material2496": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_238/Component_18322/Material2497": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_238/Component_18322/Material2498": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_239/Component_18323/Material2499": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_239/Component_18323/Material2500": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_239/Component_18323/Material2501": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_239/Component_18323/Material2502": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_239/Component_18323/Material2503": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_239/Component_18323/Material2504": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_239/Component_18323/Material2505": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_240/Component_18324/Material2506": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_240/Component_18324/Material2507": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_240/Component_18324/Material2508": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_240/Component_18324/Material2509": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_240/Component_18324/Material2510": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_240/Component_18324/Material2511": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_240/Component_18324/Material2512": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_241/Component_18325/Material2513": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_241/Component_18325/Material2514": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_241/Component_18325/Material2515": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_241/Component_18325/Material2516": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_241/Component_18325/Material2517": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_241/Component_18325/Material2518": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_241/Component_18325/Material2519": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_242/Component_18326/Material2520": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_242/Component_18326/Material2521": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_242/Component_18326/Material2522": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_242/Component_18326/Material2523": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_242/Component_18326/Material2524": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_242/Component_18326/Material2525": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_242/Component_18326/Material2526": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_243/Component_18327/Material2527": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_243/Component_18327/Material2528": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_243/Component_18327/Material2529": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_243/Component_18327/Material2530": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_243/Component_18327/Material2531": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_243/Component_18327/Material2532": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_243/Component_18327/Material2533": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_244/Component_18328/Material2534": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_244/Component_18328/Material2535": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_244/Component_18328/Material2536": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_244/Component_18328/Material2537": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_244/Component_18328/Material2538": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_244/Component_18328/Material2539": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_244/Component_18328/Material2540": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_245/Component_18329/Material2541": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_245/Component_18329/Material2542": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_245/Component_18329/Material2543": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_245/Component_18329/Material2544": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_245/Component_18329/Material2545": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_245/Component_18329/Material2546": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_245/Component_18329/Material2547": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_246/Component_18330/Material2548": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_246/Component_18330/Material2549": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_246/Component_18330/Material2550": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_246/Component_18330/Material2551": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_246/Component_18330/Material2552": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_246/Component_18330/Material2553": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_246/Component_18330/Material2554": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_247/Component_18331/Material2555": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_247/Component_18331/Material2556": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_247/Component_18331/Material2557": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_247/Component_18331/Material2558": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_247/Component_18331/Material2559": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_247/Component_18331/Material2560": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_247/Component_18331/Material2561": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_248/Component_18332/Material2562": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_248/Component_18332/Material2563": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_248/Component_18332/Material2564": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_248/Component_18332/Material2565": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_248/Component_18332/Material2566": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_248/Component_18332/Material2567": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_248/Component_18332/Material2568": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_249/Component_18333/Material2569": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_249/Component_18333/Material2570": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_249/Component_18333/Material2571": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_249/Component_18333/Material2572": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_249/Component_18333/Material2573": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_249/Component_18333/Material2574": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_249/Component_18333/Material2575": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_250/Component_18334/Material2576": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_250/Component_18334/Material2577": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_250/Component_18334/Material2578": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_250/Component_18334/Material2579": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_250/Component_18334/Material2580": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_250/Component_18334/Material2581": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_250/Component_18334/Material2582": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_251/Component_18335/Material2583": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_251/Component_18335/Material2584": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_251/Component_18335/Material2585": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_251/Component_18335/Material2586": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_251/Component_18335/Material2587": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_251/Component_18335/Material2588": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_251/Component_18335/Material2589": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_252/Component_18336/Material2590": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_252/Component_18336/Material2591": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_252/Component_18336/Material2592": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_252/Component_18336/Material2593": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_252/Component_18336/Material2594": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_252/Component_18336/Material2595": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_252/Component_18336/Material2596": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_253/Component_18337/Material2597": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_253/Component_18337/Material2598": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_253/Component_18337/Material2599": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_253/Component_18337/Material2600": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_253/Component_18337/Material2601": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_253/Component_18337/Material2602": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_253/Component_18337/Material2603": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_254/Component_18338/Material2604": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_254/Component_18338/Material2605": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_254/Component_18338/Material2606": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_254/Component_18338/Material2607": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_254/Component_18338/Material2608": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_254/Component_18338/Material2609": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_254/Component_18338/Material2610": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_255/Component_18339/Material2611": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_255/Component_18339/Material2612": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_255/Component_18339/Material2613": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_255/Component_18339/Material2614": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_255/Component_18339/Material2615": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_255/Component_18339/Material2616": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_255/Component_18339/Material2617": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_256/Component_18340/Material2618": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_256/Component_18340/Material2619": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_256/Component_18340/Material2620": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_256/Component_18340/Material2621": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_256/Component_18340/Material2622": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_256/Component_18340/Material2623": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_256/Component_18340/Material2624": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_257/Component_18341/Material2625": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_257/Component_18341/Material2626": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_257/Component_18341/Material2627": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_257/Component_18341/Material2628": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_257/Component_18341/Material2629": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_257/Component_18341/Material2630": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_257/Component_18341/Material2631": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_258/Component_18342/Material2632": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_258/Component_18342/Material2633": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_258/Component_18342/Material2634": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_258/Component_18342/Material2635": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_258/Component_18342/Material2636": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_258/Component_18342/Material2637": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_258/Component_18342/Material2638": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_259/Component_18343/Material2639": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_259/Component_18343/Material2640": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_259/Component_18343/Material2641": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_259/Component_18343/Material2642": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_259/Component_18343/Material2643": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_259/Component_18343/Material2644": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_259/Component_18343/Material2645": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_260/Component_18344/Material2646": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_260/Component_18344/Material2647": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_260/Component_18344/Material2648": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_260/Component_18344/Material2649": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_260/Component_18344/Material2650": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_260/Component_18344/Material2651": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_260/Component_18344/Material2652": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_261/Component_18345/Material2653": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_261/Component_18345/Material2654": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_261/Component_18345/Material2655": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_261/Component_18345/Material2656": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_261/Component_18345/Material2657": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_261/Component_18345/Material2658": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_261/Component_18345/Material2659": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_262/Component_18346/Material2660": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_262/Component_18346/Material2661": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_262/Component_18346/Material2662": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_262/Component_18346/Material2663": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_262/Component_18346/Material2664": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_262/Component_18346/Material2665": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_262/Component_18346/Material2666": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_263/Component_18347/Material2667": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_263/Component_18347/Material2668": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_263/Component_18347/Material2669": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_263/Component_18347/Material2670": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_263/Component_18347/Material2671": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_263/Component_18347/Material2672": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_263/Component_18347/Material2673": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_264/Component_18348/Material2674": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_264/Component_18348/Material2675": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_264/Component_18348/Material2676": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_264/Component_18348/Material2677": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_264/Component_18348/Material2678": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_264/Component_18348/Material2679": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_264/Component_18348/Material2680": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_265/Component_18349/Material2681": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_265/Component_18349/Material2682": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_265/Component_18349/Material2683": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_265/Component_18349/Material2684": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_265/Component_18349/Material2685": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_265/Component_18349/Material2686": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_265/Component_18349/Material2687": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_266/Component_18350/Material2688": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_266/Component_18350/Material2689": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_266/Component_18350/Material2690": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_266/Component_18350/Material2691": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_266/Component_18350/Material2692": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_266/Component_18350/Material2693": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_266/Component_18350/Material2694": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_267/Component_18351/Material2695": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_267/Component_18351/Material2696": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_267/Component_18351/Material2697": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_267/Component_18351/Material2698": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_267/Component_18351/Material2699": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_267/Component_18351/Material2700": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_267/Component_18351/Material2701": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_268/Component_18352/Material2702": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_268/Component_18352/Material2703": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_268/Component_18352/Material2704": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_268/Component_18352/Material2705": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_268/Component_18352/Material2706": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_268/Component_18352/Material2707": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_268/Component_18352/Material2708": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_269/Component_18353/Material2709": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_269/Component_18353/Material2710": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_269/Component_18353/Material2711": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_269/Component_18353/Material2712": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_269/Component_18353/Material2713": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_269/Component_18353/Material2714": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_269/Component_18353/Material2715": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_270/Component_18354/Material2716": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_270/Component_18354/Material2717": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_270/Component_18354/Material2718": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_270/Component_18354/Material2719": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_270/Component_18354/Material2720": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_270/Component_18354/Material2721": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_270/Component_18354/Material2722": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_271/Component_185/Material2723": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_271/Component_185/Material2724": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_272/Component_1852/Material2725": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_272/Component_1852/Material2726": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_273/Component_1853/Material2727": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_273/Component_1853/Material2728": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_274/Component_1854/Material2729": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_274/Component_1854/Material2730": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_275/Component_1855/Material2731": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_275/Component_1855/Material2732": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_276/Component_1856/Material2733": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_276/Component_1856/Material2734": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_277/Component_1857/Material2735": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_277/Component_1857/Material2736": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_278/Component_1858/Material2737": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_278/Component_1858/Material2738": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_279/Component_1859/Material2739": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_279/Component_1859/Material2740": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_280/Component_18510/Material2741": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_280/Component_18510/Material2742": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_281/Component_18511/Material2743": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_281/Component_18511/Material2744": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_282/Component_18512/Material2745": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_282/Component_18512/Material2746": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_283/Component_18513/Material2747": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_283/Component_18513/Material2748": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_284/Component_18514/Material2749": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_284/Component_18514/Material2750": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_285/Component_18515/Material2751": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_285/Component_18515/Material2752": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_286/Component_18516/Material2753": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_286/Component_18516/Material2754": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_287/Component_18517/Material2755": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_287/Component_18517/Material2756": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_288/Component_18518/Material2757": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_288/Component_18518/Material2758": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_289/Component_18519/Material2759": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_289/Component_18519/Material2760": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_290/Component_18520/Material2761": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_290/Component_18520/Material2762": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_291/Component_18521/Material2763": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_291/Component_18521/Material2764": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_292/Component_18522/Material2765": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_292/Component_18522/Material2766": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_293/Component_18523/Material2767": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_293/Component_18523/Material2768": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_294/Component_18524/Material2769": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_294/Component_18524/Material2770": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_295/Component_18525/Material2771": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_295/Component_18525/Material2772": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_296/Component_18526/Material2773": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_296/Component_18526/Material2774": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_297/Component_18527/Material2775": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_297/Component_18527/Material2776": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_298/Component_18528/Material2777": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_298/Component_18528/Material2778": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_299/Component_18529/Material2779": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_299/Component_18529/Material2780": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_300/Component_18530/Material2781": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_300/Component_18530/Material2782": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_301/Component_18531/Material2783": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_301/Component_18531/Material2784": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_302/Component_18532/Material2785": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_302/Component_18532/Material2786": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_303/Component_18533/Material2787": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_303/Component_18533/Material2788": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_304/Component_18534/Material2789": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_304/Component_18534/Material2790": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_305/Component_18535/Material2791": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_305/Component_18535/Material2792": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_306/Component_18536/Material2793": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_306/Component_18536/Material2794": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_307/Component_18537/Material2795": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_307/Component_18537/Material2796": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_308/Component_18538/Material2797": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_308/Component_18538/Material2798": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_309/Component_18539/Material2799": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_309/Component_18539/Material2800": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_310/Component_18540/Material2801": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_310/Component_18540/Material2802": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_311/Component_18541/Material2803": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_311/Component_18541/Material2804": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_312/Component_18542/Material2805": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_312/Component_18542/Material2806": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_313/Component_18355/Material2807": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_313/Component_18355/Material2808": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_313/Component_18355/Material2809": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_313/Component_18355/Material2810": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_313/Component_18355/Material2811": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_313/Component_18355/Material2812": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_313/Component_18355/Material2813": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_314/Component_18356/Material2814": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_314/Component_18356/Material2815": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_314/Component_18356/Material2816": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_314/Component_18356/Material2817": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_314/Component_18356/Material2818": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_314/Component_18356/Material2819": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_314/Component_18356/Material2820": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_315/Component_18357/Material2821": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_315/Component_18357/Material2822": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_315/Component_18357/Material2823": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_315/Component_18357/Material2824": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_315/Component_18357/Material2825": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_315/Component_18357/Material2826": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_315/Component_18357/Material2827": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_316/Component_18358/Material2828": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_316/Component_18358/Material2829": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_316/Component_18358/Material2830": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_316/Component_18358/Material2831": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_316/Component_18358/Material2832": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_316/Component_18358/Material2833": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_316/Component_18358/Material2834": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_317/Component_18543/Material2835": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_317/Component_18543/Material2836": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_318/Component/group_19/Material2837": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_318/Component/group_19/Material2838": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_318/Component/group_19/Material2839": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_318/Component/group_19/Material2840": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_318/Component/group_19/group_20/Material2841": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_318/Component/group_19/group_21/Material2842": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_318/Component/group_19/group_21/Material2843": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_318/Component/group_19/group_21/Material2844": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_318/Component/group_19/group_22/Material2845": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_318/Component/group_19/group_22/Material2846": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_318/Component/group_19/group_23/Material2847": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_318/Component/group_19/group_23/Material2848": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_319/Component2/group_192/Material2849": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_319/Component2/group_192/Material2850": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_319/Component2/group_192/Material2851": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_319/Component2/group_192/Material2852": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_319/Component2/group_192/group_202/Material2853": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_319/Component2/group_192/group_212/Material2854": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_319/Component2/group_192/group_212/Material2855": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_319/Component2/group_192/group_212/Material2856": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_319/Component2/group_192/group_222/Material2857": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_319/Component2/group_192/group_222/Material2858": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_319/Component2/group_192/group_232/Material2859": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_319/Component2/group_192/group_232/Material2860": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_320/Component_1383/Material2861": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_320/Component_1383/Material2862": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_320/Component_1383/Material2863": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_321/Component_18544/Material2864": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Collada visual scene group/SketchUp/instance_321/Component_18544/Material2865": {
+"generate/physics": true
+}
+}
+}
+gltf/naming_version=2
+gltf/embedded_image_handling=1
+gltf/texture_map_mode=1

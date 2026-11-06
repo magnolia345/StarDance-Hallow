@@ -1,0 +1,29 @@
+[gd_scene format=3 uid="uid://csguggwf7xwbu"]
+
+[ext_resource type="PackedScene" uid="uid://cuwsk5lq15oor" path="res://tools/bolt/bolt_cutters.glb" id="1_cuf5v"]
+
+[sub_resource type="PlaceholderMesh" id="PlaceholderMesh_kgqqw"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_1f7lj"]
+size = Vector3(2.6692505, 10.388062, 1.5206909)
+
+[node name="boltc" type="Node3D" unique_id=409718514]
+
+[node name="RigidBody3D2" type="RigidBody3D" parent="." unique_id=1676627951]
+axis_lock_linear_x = true
+axis_lock_linear_z = true
+axis_lock_angular_x = true
+axis_lock_angular_y = true
+axis_lock_angular_z = true
+can_sleep = false
+continuous_cd = true
+
+[node name="Sketchfab_Scene" parent="RigidBody3D2" unique_id=46118756 instance=ExtResource("1_cuf5v")]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="RigidBody3D2" unique_id=1060112424]
+transform = Transform3D(2, 0, 0, 0, 2, 0, 0, 0, 2, 0.020032376, 0.0003592223, -0.11)
+mesh = SubResource("PlaceholderMesh_kgqqw")
+
+[node name="CollisionShape3D2" type="CollisionShape3D" parent="RigidBody3D2" unique_id=675579632]
+transform = Transform3D(0.08, 0, 0, 0, 0.08, 0, 0, 0, 0.08, 0.0049017277, -0.083853744, 0.0077343658)
+shape = SubResource("BoxShape3D_1f7lj")

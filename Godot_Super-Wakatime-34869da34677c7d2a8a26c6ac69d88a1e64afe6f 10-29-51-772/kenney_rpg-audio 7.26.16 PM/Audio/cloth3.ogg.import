@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://m7msb1rpco8r"
+path="res://.godot/imported/cloth3.ogg-1a4dbdea2fece484b49e32df8aa5af08.oggvorbisstr"
+
+[deps]
+
+source_file="res://Godot_Super-Wakatime-34869da34677c7d2a8a26c6ac69d88a1e64afe6f 10-29-51-772/kenney_rpg-audio 7.26.16 PM/Audio/cloth3.ogg"
+dest_files=["res://.godot/imported/cloth3.ogg-1a4dbdea2fece484b49e32df8aa5af08.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

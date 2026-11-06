@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://d138sriygs4tu"]
+
+[ext_resource type="PackedScene" uid="uid://bwsf3ka3yl7nx" path="res://old_couch/old_couch.glb" id="1_jnrss"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_nnw4l"]
+size = Vector3(198.79828, 65.35458, 0.9848633)
+
+[node name="Old_Couch" type="Node3D" unique_id=414946247]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." unique_id=1735694127]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" unique_id=1100128136]
+transform = Transform3D(1, 0, 0, 0, 1.2034937, 0, 0, 0, 102.312004, -0.37869263, 39.511806, 0.774334)
+shape = SubResource("BoxShape3D_nnw4l")
+
+[node name="Sketchfab_Scene" parent="StaticBody3D" unique_id=410982530 instance=ExtResource("1_jnrss")]

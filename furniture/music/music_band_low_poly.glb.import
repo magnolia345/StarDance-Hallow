@@ -1,0 +1,381 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://45ctflcwpav8"
+path="res://.godot/imported/music_band_low_poly.glb-88702226144f3676e53605861d6e1a0e.scn"
+
+[deps]
+
+source_file="res://furniture/music/music_band_low_poly.glb"
+dest_files=["res://.godot/imported/music_band_low_poly.glb-88702226144f3676e53605861d6e1a0e.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/root_script=null
+mesh_library/use_node_names_as_mesh_names=false
+array_mesh/deduplicate_surfaces=true
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+nodes/use_name_suffixes=true
+nodes/use_node_type_suffixes=true
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+materials/extract=0
+materials/extract_format=0
+materials/extract_path=""
+_subresources={
+"nodes": {
+"PATH:Sketchfab_model/Root/Cube/Cube_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube/Cube_1": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_000/Cube_000_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_001/Cube_001_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_002/Cube_002_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_003/Cube_003_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_004/Cube_004_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_005/Cube_005_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_006/Cube_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_007/Cube_007_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_007/Cube_007_1": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_007/Cube_007_2": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_007/Cube_007_3": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_008/Cube_008_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_008/Cube_008_1": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_008/Cube_008_2": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_009/Cube_009_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_010/Cube_010_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_011/Cube_011_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_011/Cube_011_1": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_011/Cube_011_2": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_011/Cube_011_3": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_012/Cube_012_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_013/Cube_013_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_014/Cube_014_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_015/Cube_015_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_016/Cube_016_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_017/Cube_017_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_017/Cube_017_1": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_018/Cube_018_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_019/Cube_019_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_020/Cube_020_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_020/Cube_020_1": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_021/Cube_021_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_022/Cube_022_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_033/Cube_033_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_045/Cube_045_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_045/Cube_045_1": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cube_045/Cube_045_2": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder/Cylinder_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder/Cylinder_1": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder/Cylinder_2": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_001/Cylinder_001_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_001/Cylinder_001_1": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_001/Cylinder_001_2": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_002/Cylinder_002_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_002/Cylinder_002_1": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_002/Cylinder_002_2": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_003/Cylinder_003_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_003/Cylinder_003_1": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_003/Cylinder_003_2": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_004/Cylinder_004_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_004/Cylinder_004_1": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_004/Cylinder_004_2": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_005/Cylinder_005_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_005/Cylinder_005_1": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_006/Cylinder_006_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_007/Cylinder_007_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_007/Cylinder_007_1": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_007/Cylinder_007_2": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_007/Cylinder_007_3": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_008/Cylinder_008_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_008/Cylinder_008_1": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_009/Cylinder_009_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_010/Cylinder_010_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_010/Cylinder_010_1": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_010/Cylinder_010_2": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_011/Cylinder_011_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_012/Cylinder_012_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_013/Cylinder_013_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_013/Cylinder_013_1": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_014/Cylinder_014_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_015/Cylinder_015_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_015/Cylinder_015_1": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_016/Cylinder_016_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_017/Cylinder_017_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_018/Cylinder_018_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_019/Cylinder_019_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_020/Cylinder_020_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_020/Cylinder_020_1": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_021/Cylinder_021_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_022/Cylinder_022_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_023/Cylinder_023_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_024/Cylinder_024_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_025/Cylinder_025_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_026/Cylinder_026_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_027/Cylinder_027_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_028/Cylinder_028_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_029/Cylinder_029_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_030/Cylinder_030_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_031/Cylinder_031_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_031/Cylinder_031_1": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_032/Cylinder_032_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_032/Cylinder_032_1": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_032/Cylinder_032_2": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_033/Cylinder_033_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_034/Cylinder_034_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_035/Cylinder_035_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_036/Cylinder_036_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_037/Cylinder_037_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_038/Cylinder_038_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_039/Cylinder_039_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Cylinder_040/Cylinder_040_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Icosphere/Icosphere_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Icosphere_001/Icosphere_001_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Icosphere_002/Icosphere_002_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Icosphere_003/Icosphere_003_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Icosphere_004/Icosphere_004_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Icosphere_004/Icosphere_004_1": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Icosphere_004/Icosphere_004_2": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/Root/Icosphere_004/Icosphere_004_3": {
+"generate/physics": true
+}
+}
+}
+gltf/naming_version=2
+gltf/embedded_image_handling=1
+gltf/texture_map_mode=1

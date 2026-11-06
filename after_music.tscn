@@ -1,0 +1,4 @@
+[gd_scene format=3 uid="uid://bmhvk5kavsejv"]
+
+[node name="after_music" type="Node3D" unique_id=1088308656]
+transform = Transform3D(-0.56414014, 1.584106, -1.0827527, 1.8874161, 0.66137034, -0.015780779, 0.34555098, -1.0262537, -1.6814867, 0, 0, 0)

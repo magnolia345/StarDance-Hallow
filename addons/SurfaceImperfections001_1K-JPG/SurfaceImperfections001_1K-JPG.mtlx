@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<materialx version="1.39" fileprefix="./">
+  <open_pbr_surface type="surfaceshader" xpos="6.159420" name="SurfaceImperfections001_1K_JPG_OpenPbrSurface" ypos="-1.879310">
+    <input type="color3" nodename="SurfaceImperfections001_1K_JPG_Color" name="base_color" />
+    <input type="vector3" nodename="NormalMap" name="geometry_normal" />
+    <input type="float" nodename="SurfaceImperfections001_1K_JPG_Opacity" name="geometry_opacity" />
+  </open_pbr_surface>
+  <surfacematerial type="material" xpos="8.695652" name="SurfaceImperfections001_1K_JPG" ypos="0.000000">
+    <input type="surfaceshader" nodename="SurfaceImperfections001_1K_JPG_OpenPbrSurface" name="surfaceshader" />
+  </surfacematerial>
+  <tiledimage type="color3" xpos="3.623188" name="SurfaceImperfections001_1K_JPG_Color" ypos="-3.103448">
+    <input type="filename" value="SurfaceImperfections001_1K-JPG_Color.jpg" name="file" colorspace="srgb_texture" />
+    <input type="vector2" value="1.0, 1.0" name="uvtiling" />
+  </tiledimage>
+  <tiledimage type="vector3" xpos="1.086957" name="SurfaceImperfections001_1K_JPG_NormalGL" ypos="0.879310">
+    <input type="filename" value="SurfaceImperfections001_1K-JPG_NormalGL.jpg" name="file" />
+    <input type="vector2" value="1.0, 1.0" name="uvtiling" />
+  </tiledimage>
+  <normalmap type="vector3" xpos="3.623188" name="NormalMap" ypos="3.586207">
+    <input type="vector3" nodename="SurfaceImperfections001_1K_JPG_NormalGL" name="in" />
+    <input type="float" value="1.0" name="scale" />
+  </normalmap>
+  <tiledimage type="float" xpos="3.623188" name="SurfaceImperfections001_1K_JPG_Opacity" ypos="2.250000">
+    <input type="filename" value="SurfaceImperfections001_1K-JPG_Opacity.jpg" name="file" />
+    <input type="vector2" value="1.0, 1.0" name="uvtiling" />
+  </tiledimage>
+</materialx>

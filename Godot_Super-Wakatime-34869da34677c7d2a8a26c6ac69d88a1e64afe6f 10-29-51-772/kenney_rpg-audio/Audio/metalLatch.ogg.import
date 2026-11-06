@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://s0kkujtwbhtd"
+path="res://.godot/imported/metalLatch.ogg-b0e8a96b8f0a94720567022b996e4d7b.oggvorbisstr"
+
+[deps]
+
+source_file="res://Godot_Super-Wakatime-34869da34677c7d2a8a26c6ac69d88a1e64afe6f 10-29-51-772/kenney_rpg-audio/Audio/metalLatch.ogg"
+dest_files=["res://.godot/imported/metalLatch.ogg-b0e8a96b8f0a94720567022b996e4d7b.oggvorbisstr"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

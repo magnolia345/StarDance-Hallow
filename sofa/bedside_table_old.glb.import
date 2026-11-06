@@ -1,0 +1,72 @@
+[remap]
+
+importer="scene"
+importer_version=1
+type="PackedScene"
+uid="uid://ddbfk158m6sqj"
+path="res://.godot/imported/bedside_table_old.glb-764b03a91136fc9009b6d0adf87a2145.scn"
+
+[deps]
+
+source_file="res://sofa/bedside_table_old.glb"
+dest_files=["res://.godot/imported/bedside_table_old.glb-764b03a91136fc9009b6d0adf87a2145.scn"]
+
+[params]
+
+nodes/root_type=""
+nodes/root_name=""
+nodes/root_script=null
+mesh_library/use_node_names_as_mesh_names=false
+array_mesh/deduplicate_surfaces=true
+nodes/apply_root_scale=true
+nodes/root_scale=1.0
+nodes/import_as_skeleton_bones=false
+nodes/use_name_suffixes=true
+nodes/use_node_type_suffixes=true
+meshes/ensure_tangents=true
+meshes/generate_lods=true
+meshes/create_shadow_meshes=true
+meshes/light_baking=1
+meshes/lightmap_texel_size=0.2
+meshes/force_disable_compression=false
+skins/use_named_skins=true
+animation/import=true
+animation/fps=30
+animation/trimming=false
+animation/remove_immutable_tracks=true
+animation/import_rest_as_RESET=false
+import_script/path=""
+materials/extract=0
+materials/extract_format=0
+materials/extract_path=""
+_subresources={
+"nodes": {
+"PATH:Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/base/base_tumbochka_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door1a/Object_11/door1/door1_tumbochka_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door2a/Object_39/door2/door2_tumbochka_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door3a/Object_46/door3/door3_tumbochka_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/door4a/Object_53/door4/door4_tumbochka_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf1a/Object_18/shelf1/shelf1_tumbochka_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf2a/Object_25/shelf2/shelf2_tumbochka_0": {
+"generate/physics": true
+},
+"PATH:Sketchfab_model/c622084912d64f2d8822feb4243b8e95_fbx/RootNode/tumbochka/Object_4/shelf3a/Object_32/shelf3/shelf3_tumbochka_0": {
+"generate/physics": true
+}
+}
+}
+gltf/naming_version=2
+gltf/embedded_image_handling=1
+gltf/texture_map_mode=1

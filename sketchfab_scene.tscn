@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://d1vsrfc0lqgf7"]
+
+[ext_resource type="PackedScene" uid="uid://fc6g5k71tdlc" path="res://furniture/common/closet_/closet_low-poly.glb" id="1_dhub7"]
+[ext_resource type="Script" uid="uid://b74bkj4x7j2d2" path="res://furniture/common/closet_/BathroomCabinets.gd" id="2_2oyq3"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_nnw4l"]
+size = Vector3(1.2723389, 2.2404785, 0.7963257)
+
+[node name="Sketchfab_Scene" unique_id=948257176 instance=ExtResource("1_dhub7")]
+
+[node name="StaticBody3D" type="StaticBody3D" parent="." index="1" unique_id=1639903462]
+script = ExtResource("2_2oyq3")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="StaticBody3D" index="0" unique_id=1718796734]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.0005493164, 1.1224365, 0.006072998)
+shape = SubResource("BoxShape3D_nnw4l")
